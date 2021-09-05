@@ -1,0 +1,19 @@
+{
+	"values": [
+		"armor_stand",
+		"drowned",
+		"giant",
+		"husk",
+		"piglin",
+		"piglin_brute",
+		"pillager",
+		"skeleton",
+		"stray",
+		"vex",
+		"vindicator",
+		"wither_skeleton",
+		"zombie",
+		"zombie_villager",
+		"zombified_piglin"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"criteria": {
+		"punch_shulker": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "shulker"
+				}
+			}
+		}
+	}
+}

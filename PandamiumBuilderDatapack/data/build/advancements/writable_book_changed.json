@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"writable_book_changed": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"writable_book"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:advancements/writable_book_changed"
+	}
+}

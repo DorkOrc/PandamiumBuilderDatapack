@@ -1,0 +1,3 @@
+scoreboard players set @s raycast_select 1
+tellraw @s ["Changed selection to: ",{"text":"Raycast Cursor","color":"yellow"}]
+tellraw @s ["Options: ",{"text":"[Select Inside Blocks]","clickEvent":{"action":"run_command","value":"/trigger blingedit set -320"},"color":"gold"}," ",{"text":"[Select Before Blocks]","clickEvent":{"action":"run_command","value":"/trigger blingedit set -321"},"color":"gold"}]

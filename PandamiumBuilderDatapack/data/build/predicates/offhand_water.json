@@ -1,0 +1,15 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": { "equipment": { "offhand": { "items": [ "water_bucket" ] } } }
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": { "equipment": { "offhand": { "items": [ "potion", "splash_potion", "lingering_potion" ], "potion": "water" } } }
+		}
+	]
+}

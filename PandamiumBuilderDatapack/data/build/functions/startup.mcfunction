@@ -65,7 +65,7 @@ scoreboard players set <32> variable 32
 
 execute unless score <next_uid> variable = <next_uid> variable run scoreboard players set <next_uid> variable 2
 
-say Loaded §lPandamium Build Server Datapack§r by DorkOrc
+say Loaded Pandamium Builder Datapack by DorkOrc
 
 function build:tick_loop
 function build:main_loop

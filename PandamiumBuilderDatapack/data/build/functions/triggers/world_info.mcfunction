@@ -32,4 +32,7 @@ execute if score <server> variable matches 1 run tellraw @s [{"text":" Fake Bloc
 
 tellraw @s {"text":"\nOnly loaded entities are tracked!","color":"gray"}
 
+execute if score <server> variable matches 0 run tellraw @s [{"text":"\nDatapack Server Config: ","color":"green"},{"text":"Release Server","color":"aqua"}]
+execute if score <server> variable matches 1 run tellraw @s [{"text":"\nDatapack Server Config: ","color":"green"},{"text":"Snapshot Server","color":"aqua"}]
+
 tellraw @s {"text":"============================","color":"aqua"}

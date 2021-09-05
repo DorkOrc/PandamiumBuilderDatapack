@@ -1,5 +1,6 @@
 scoreboard objectives add variable dummy
 scoreboard objectives add uid dummy
+scoreboard objectives add builder_perms dummy
 
 # Triggers
 scoreboard objectives add set_block trigger
@@ -49,6 +50,12 @@ scoreboard objectives add in_dimension dummy
 
 # Teams
 team add builder
+team modify builder color aqua
+team modify builder prefix "Builder | "
+
+team add dev
+team modify dev color light_purple
+team modify dev prefix "Builder | "
 
 team add gray_color
 team modify gray_color color gray

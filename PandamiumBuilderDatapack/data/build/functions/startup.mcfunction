@@ -41,10 +41,6 @@ scoreboard objectives add invis_indicators dummy
 scoreboard objectives add glow_time dummy
 scoreboard objectives add is_spectator dummy
 
-scoreboard objectives add sidebar dummy
-scoreboard objectives setdisplay sidebar sidebar
-scoreboard objectives modify sidebar displayname {"text":"Build Server","color":"dark_aqua"}
-
 scoreboard objectives add leave_count custom:leave_game
 scoreboard objectives add in_dimension dummy
 

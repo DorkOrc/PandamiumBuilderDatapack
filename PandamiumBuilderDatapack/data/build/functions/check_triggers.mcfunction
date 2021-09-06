@@ -6,9 +6,9 @@ execute if score @s donator_area matches 1.. run function build:triggers/donator
 scoreboard players reset @s donator_area
 scoreboard players enable @s donator_area
 
-execute if score <server> variable matches 1 if score @s staff_area matches 1.. run function build:triggers/staff_area
+execute if score <server> persistent matches 1 if score @s staff_area matches 1.. run function build:triggers/staff_area
 scoreboard players reset @s staff_area
-execute if score <server> variable matches 1 run scoreboard players enable @s staff_area
+execute if score <server> persistent matches 1 run scoreboard players enable @s staff_area
 
 execute if score @s options matches 1.. run function build:triggers/options
 execute if score @s options matches ..-1 run function build:triggers/options

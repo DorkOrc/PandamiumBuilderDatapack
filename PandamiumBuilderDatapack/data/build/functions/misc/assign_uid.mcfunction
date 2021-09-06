@@ -1,2 +1,2 @@
-scoreboard players operation @s uid = <next_uid> variable
-scoreboard players add <next_uid> variable 1
+scoreboard players operation @s uid = <next_uid> persistent
+scoreboard players add <next_uid> persistent 1

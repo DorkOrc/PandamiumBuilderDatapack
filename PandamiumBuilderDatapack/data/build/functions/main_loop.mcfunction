@@ -1,4 +1,5 @@
 execute as @a unless score @s leave_count matches 0 run function build:on_join
+scoreboard players set @a[team=!builder,team=!dev] builder_perms 0
 
 execute at @e[tag=invisible] run particle dust 1 0 0 1 ~ ~ ~ 0 0 0 0 1 normal @a[scores={invis_indicators=1}]
 

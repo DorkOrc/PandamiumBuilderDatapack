@@ -15,7 +15,7 @@ execute unless score @s item_font matches -32..-1 unless score @s item_font matc
 execute if entity @s[gamemode=spectator] run scoreboard players set <can_run> variable 0
 
 #store starting name
-execute if score @s item_font matches ..-1 run data modify storage pandamium:font old_name set from entity @s SelectedItem.tag.display.Name
+execute if score @s item_font matches ..-1 run data modify storage build:temp old_name set from entity @s SelectedItem.tag.display.Name
 
 #modify held item custom name
 execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run tag @s add running_trigger
@@ -52,8 +52,8 @@ execute if score <can_run> variable matches 1 if score @s item_font matches -64 
 execute if score <can_run> variable matches 1 if score @s item_font matches -65 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"obfuscated":true}'}
 
 #check if name changed
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run data modify storage pandamium:font new_name set from block 0 0 0 Text1
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 store success score <different_name> variable run data modify storage pandamium:font old_name set from storage pandamium:font new_name
+execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run data modify storage build:temp new_name set from block 0 0 0 Text1
+execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 store success score <different_name> variable run data modify storage build:temp old_name set from storage build:temp new_name
 execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 if score <different_name> variable matches 0 run scoreboard players set <can_run> variable 0
 
 #transfer new_name

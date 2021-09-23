@@ -37,6 +37,7 @@ scoreboard objectives add spline trigger
 scoreboard objectives add night_vis_option dummy
 scoreboard objectives add sign_interaction dummy
 scoreboard objectives add invis_indicators dummy
+scoreboard objectives add permanent_socks dummy
 
 #
 scoreboard objectives add glow_time dummy

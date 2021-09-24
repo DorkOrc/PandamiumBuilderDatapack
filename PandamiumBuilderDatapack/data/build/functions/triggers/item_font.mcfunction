@@ -71,3 +71,5 @@ execute if score @s item_font matches ..-1 if score <can_run> variable matches 0
 execute if score @s item_font matches ..-1 if score <can_run> variable matches 0 unless score <displayed_error> variable matches 1 store success score <displayed_error> variable unless score <different_name> variable matches 1 run tellraw @s [{"text":"","color":"red"},{"text":"[Item Font]","color":"dark_red"}," Nothing changed!"]
 
 #
+
+tag @a remove running_trigger

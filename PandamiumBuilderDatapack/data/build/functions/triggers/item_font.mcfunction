@@ -57,7 +57,7 @@ execute if score <can_run> variable matches 1 if score @s item_font matches ..-1
 execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 if score <different_name> variable matches 0 run scoreboard players set <can_run> variable 0
 
 #transfer new_name
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run item modify entity @s weapon.mainhand pandamium:font/transfer_name
+execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run item modify entity @s weapon.mainhand build:item_font/transfer_name
 
 #display success
 execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run tellraw @s [{"text":"","color":"green"},{"text":"[Item Font]","color":"dark_green"}," Updated your mainhand item's display name: ",[{"text":"","color":"white","italic":true},{"nbt":"SelectedItem.tag.display.Name","entity":"@s","interpret":true}]]

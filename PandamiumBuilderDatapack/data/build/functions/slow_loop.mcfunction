@@ -2,7 +2,7 @@ tag @e[tag=invisible] remove invisible
 execute as @e[type=#build:lockables] if data entity @s {Invisible:1b} run tag @s add invisible
 
 tag @e[type=armor_stand,tag=pose.locked] remove pose.locked
-tag @e[type=#hostile,tag=!spawn_protected] add spawn_protected
+tag @e[tag=!spawn_protected] add spawn_protected
 
 execute as @e[type=#build:has_nbt/items] run data remove entity @s Items[]
 execute as @e[type=#build:make_invulnerable,tag=!made_invulnerable] run data merge entity @s {Invulnerable:1b}

@@ -66,10 +66,10 @@ scoreboard players reset @s item_font
 scoreboard players enable @s item_font
 
 # only enabled on the snapshot server (<server>=1)
-execute if score <server> persistent matches 1 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
-execute if score <server> persistent matches 1 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
+execute if score <server> global matches 1 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
+execute if score <server> global matches 1 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
 scoreboard players reset @s fake_block
-execute if score <server> persistent matches 1 run scoreboard players enable @s fake_block
+execute if score <server> global matches 1 run scoreboard players enable @s fake_block
 
 # BlingEdit
 

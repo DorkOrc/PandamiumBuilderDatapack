@@ -1,4 +1,4 @@
-scoreboard objectives add persistent dummy
+scoreboard objectives add global dummy
 scoreboard objectives add variable dummy
 scoreboard objectives add uid dummy
 scoreboard objectives add builder_perms dummy
@@ -66,7 +66,7 @@ team modify red_color color red
 
 #
 
-execute unless score <pack> persistent matches 1 run function build:update_pack_persistent
+execute unless score <pack> global matches 1 run function build:update_pack_config
 
 execute in overworld run forceload add 0 0 -1 -1
 execute in the_nether run forceload add 0 0 -1 -1
@@ -75,7 +75,7 @@ execute in pandamium:staff_world run forceload add 0 0 -1 -1
 scoreboard players set <16> variable 16
 scoreboard players set <32> variable 32
 
-execute unless score <next_uid> persistent = <next_uid> persistent run scoreboard players set <next_uid> persistent 2
+execute unless score <next_uid> global = <next_uid> global run scoreboard players set <next_uid> global 2
 
 say Loaded Pandamium Builder Datapack by DorkOrc
 

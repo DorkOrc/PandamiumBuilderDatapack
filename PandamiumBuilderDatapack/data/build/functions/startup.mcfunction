@@ -24,6 +24,7 @@ scoreboard objectives add restart trigger
 scoreboard objectives add lock_all trigger
 scoreboard objectives add unlock_nearest trigger
 scoreboard objectives add mini_block trigger
+scoreboard objectives add give_all_mob_heads trigger
 scoreboard objectives add item_font trigger
 scoreboard objectives add options trigger
 scoreboard objectives add world_info trigger

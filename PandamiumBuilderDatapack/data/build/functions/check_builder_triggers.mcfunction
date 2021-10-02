@@ -60,6 +60,10 @@ execute if score @s mini_block matches 1.. run function build:triggers/mini_bloc
 scoreboard players reset @s mini_block
 scoreboard players enable @s mini_block
 
+execute if score @s give_all_mob_heads matches 1.. run function build:misc/give_all_mob_heads
+scoreboard players reset @s give_all_mob_heads
+scoreboard players enable @s give_all_mob_heads
+
 execute if score @s item_font matches 1.. in pandamium:staff_world run function build:triggers/item_font
 execute if score @s item_font matches ..-1 in pandamium:staff_world run function build:triggers/item_font
 scoreboard players reset @s item_font

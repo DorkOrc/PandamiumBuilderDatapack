@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"feet": {
+				"tag": "build:item_to_block/exception_items"
+			}
+		}
+	}
+}

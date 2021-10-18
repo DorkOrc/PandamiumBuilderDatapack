@@ -1,4 +1,5 @@
 execute if score @s spawn matches 1.. run function build:triggers/spawn
+execute if score @s spawn matches ..-1 run function build:triggers/spawn
 scoreboard players reset @s spawn
 scoreboard players enable @s spawn
 

@@ -71,9 +71,10 @@ team modify red_color color red
 
 execute unless score <pack> global matches 1 run function build:update_pack_config
 
-execute in overworld run forceload add 0 0 -1 -1
-execute in the_nether run forceload add 0 0 -1 -1
-execute in pandamium:staff_world run forceload add 0 0 -1 -1
+execute in overworld run forceload add -1 -1 0 0
+execute in the_nether run forceload add -1 -1 0 0
+execute in pandamium:staff_world run forceload add -1 -1 0 0
+execute in build:event_world run forceload add -1 -1 0 0
 
 scoreboard players set <16> variable 16
 scoreboard players set <32> variable 32

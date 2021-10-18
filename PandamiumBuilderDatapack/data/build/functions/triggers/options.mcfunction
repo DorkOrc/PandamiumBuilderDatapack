@@ -20,6 +20,9 @@ execute if score @s options matches 1.. if entity @s[scores={builder_perms=1..}]
 execute if score @s options matches 1.. if entity @s[scores={builder_perms=2..}] if score <server> global matches 0 run tellraw @s [{"text":"Datapack Server Config: ","color":"light_purple","hoverEvent":{"action":"show_text","value":[{"text":"Datapack Server Config","color":"light_purple"},{"text":"\nChanging this requires a reload.\n/reload","color":"gray"}]},"clickEvent":{"action":"run_command","value":"/trigger options set -128"}},{"text":"Release","color":"yellow","bold":true}]
 execute if score @s options matches 1.. if entity @s[scores={builder_perms=2..}] if score <server> global matches 1 run tellraw @s [{"text":"Datapack Server Config: ","color":"light_purple","hoverEvent":{"action":"show_text","value":[{"text":"Datapack Server Config","color":"light_purple"},{"text":"\nChanging this requires a reload.\n/reload","color":"gray"}]},"clickEvent":{"action":"run_command","value":"/trigger options set -128"}},{"text":"Snapshot","color":"yellow","bold":true}]
 
+execute if score @s options matches 1.. if entity @s[scores={builder_perms=2..}] if score <enable_event_dimension> global matches 0 run tellraw @s [{"text":"Enable Event Dimension: ","color":"light_purple","hoverEvent":{"action":"show_text","value":[{"text":"Enable Event Dimension","color":"light_purple"}]},"clickEvent":{"action":"run_command","value":"/trigger options set -130"}},{"text":"False","color":"yellow","bold":true}]
+execute if score @s options matches 1.. if entity @s[scores={builder_perms=2..}] if score <enable_event_dimension> global matches 1 run tellraw @s [{"text":"Enable Event Dimension: ","color":"light_purple","hoverEvent":{"action":"show_text","value":[{"text":"Enable Event Dimension","color":"light_purple"}]},"clickEvent":{"action":"run_command","value":"/trigger options set -130"}},{"text":"True","color":"yellow","bold":true}]
+
 execute if score @s options matches 1.. run tellraw @s {"text":"==============================","color":"aqua"}
 
 # Toggle Options
@@ -51,6 +54,10 @@ execute if score @s options matches -129 store success score <server> global unl
 execute if score @s options matches -129 if score <server> global matches 0 run tellraw @s [{"text":"","color":"green"},{"text":"[Options]","color":"dark_green"}," Changed ",{"text":"Datapack Server Config","bold":true,"color":"yellow"}," to ",{"text":"Release","color":"aqua"},"!"]
 execute if score @s options matches -129 if score <server> global matches 1 run tellraw @s [{"text":"","color":"green"},{"text":"[Options]","color":"dark_green"}," Changed ",{"text":"Datapack Server Config","bold":true,"color":"yellow"}," to ",{"text":"Snapshot","color":"aqua"},"!"]
 execute if score @s options matches -129 run tellraw @s [{"text":"Run /reload","color":"gray"}]
+
+execute if score @s options matches -130 store success score <enable_event_dimension> global unless score <enable_event_dimension> global matches 1
+execute if score @s options matches -130 if score <enable_event_dimension> global matches 0 run tellraw @s [{"text":"","color":"green"},{"text":"[Options]","color":"dark_green"},{"text":" Disabled ","color":"aqua"},{"text":"Enable Event Dimension","bold":true,"color":"yellow"},"!"]
+execute if score @s options matches -130 if score <enable_event_dimension> global matches 1 run tellraw @s [{"text":"","color":"green"},{"text":"[Options]","color":"dark_green"},{"text":" Enabled ","color":"aqua"},{"text":"Enable Event Dimension","bold":true,"color":"yellow"},"!"]
 
 # Error Messages
 execute if score @s options matches ..-1 unless score @s options matches -1 unless entity @s[scores={builder_perms=1..,options=-66..-64}] unless entity @s[scores={builder_perms=2..,options=-129..-128}] run tellraw @s [{"text":"[Options]","color":"dark_red"},{"text":" This is not a valid option!","color":"red"}]

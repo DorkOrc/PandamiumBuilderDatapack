@@ -60,4 +60,4 @@ execute if score @s options matches -130 if score <enable_event_dimension> globa
 execute if score @s options matches -130 if score <enable_event_dimension> global matches 1 run tellraw @s [{"text":"","color":"green"},{"text":"[Options]","color":"dark_green"},{"text":" Enabled ","color":"aqua"},{"text":"Enable Event Dimension","bold":true,"color":"yellow"},"!"]
 
 # Error Messages
-execute if score @s options matches ..-1 unless score @s options matches -1 unless entity @s[scores={builder_perms=1..,options=-66..-64}] unless entity @s[scores={builder_perms=2..,options=-129..-128}] run tellraw @s [{"text":"[Options]","color":"dark_red"},{"text":" This is not a valid option!","color":"red"}]
+execute if score @s options matches ..-1 unless score @s options matches -1 unless entity @s[scores={builder_perms=1..,options=-66..-64}] unless entity @s[scores={builder_perms=2..,options=-130..-128}] run tellraw @s [{"text":"[Options]","color":"dark_red"},{"text":" This is not a valid option!","color":"red"}]

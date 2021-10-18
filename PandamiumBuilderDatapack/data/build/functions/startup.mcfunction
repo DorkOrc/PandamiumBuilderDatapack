@@ -10,6 +10,7 @@ scoreboard objectives add set_block.target dummy
 scoreboard objectives add spawn trigger
 scoreboard objectives add donator_area trigger
 scoreboard objectives add staff_area trigger
+scoreboard objectives add event_overworld trigger
 
 scoreboard objectives add get_sign trigger
 scoreboard objectives add replace_sign trigger

@@ -28,6 +28,8 @@ scoreboard objectives add give_all_mob_heads trigger
 scoreboard objectives add item_font trigger
 scoreboard objectives add options trigger
 scoreboard objectives add world_info trigger
+scoreboard objectives add save_mob trigger
+scoreboard objectives add save_mob.spawn trigger
 
 scoreboard objectives add wand trigger
 scoreboard objectives add blingedit trigger

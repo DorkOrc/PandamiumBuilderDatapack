@@ -69,6 +69,16 @@ execute if score @s item_font matches ..-1 in pandamium:staff_world run function
 scoreboard players reset @s item_font
 scoreboard players enable @s item_font
 
+execute if score @s save_mob matches 1.. at @s run function build:triggers/save_mob/store
+execute if score @s save_mob matches ..-1 at @s run function build:triggers/save_mob/store
+scoreboard players reset @s save_mob
+scoreboard players enable @s save_mob
+
+execute if score @s save_mob.spawn matches 1.. at @s run function build:triggers/save_mob/spawn
+execute if score @s save_mob.spawn matches ..-1 at @s run function build:triggers/save_mob/spawn
+scoreboard players reset @s save_mob.spawn
+scoreboard players enable @s save_mob.spawn
+
 # only enabled on the snapshot server (<server>=1)
 execute if score <server> global matches 1 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
 execute if score <server> global matches 1 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest

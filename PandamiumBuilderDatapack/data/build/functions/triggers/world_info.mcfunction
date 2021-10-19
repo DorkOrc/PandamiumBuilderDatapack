@@ -10,25 +10,23 @@ execute store result score <nether_armor_stand_count> variable in the_nether if 
 execute store result score <nether_item_frame_count> variable in the_nether if entity @e[type=#item_frames,x=0]
 execute store result score <nether_fake_block_count> variable in the_nether if entity @e[type=marker,x=0,tag=map_specific.fake_block]
 
+execute store result score <event_overworld_entity_count> variable in build:event_world if entity @e[type=!player,x=0]
+execute store result score <event_overworld_icne_entity_count> variable in build:event_world if entity @e[type=!player,x=0,type=!#pandamium:mob_limit_excluded]
+execute store result score <event_overworld_armor_stand_count> variable in build:event_world if entity @e[type=armor_stand,x=0]
+execute store result score <event_overworld_item_frame_count> variable in build:event_world if entity @e[type=#item_frames,x=0]
+execute store result score <event_overworld_fake_block_count> variable in build:event_world if entity @e[type=marker,x=0,tag=map_specific.fake_block]
+
 tellraw @s [{"text":"======== ","color":"aqua"},{"text":"World Info","bold":true}," ========"]
 
-tellraw @s [{"text":"Overworld:","bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Entities: ","color":"green"},{"score":{"name":"<overworld_entity_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-execute if score <server> global matches 1 run tellraw @s [{"text":" Entities (ICNE): ","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Entities which are not excluded from the entity-limit (snapshot server only)","color":"green"}}},{"score":{"name":"<overworld_icne_entity_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Armour Stands: ","color":"green"},{"score":{"name":"<overworld_armor_stand_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Item Frames: ","color":"green"},{"score":{"name":"<overworld_item_frame_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-execute unless score <server> global matches 1 run tellraw @s [{"text":" Entities (ICNE): ","color":"#B7B7B7","hoverEvent":{"action":"show_text","value":{"text":"Entities which are not excluded from the entity-limit (snapshot server only)","color":"#B7B7B7"}}},{"score":{"name":"<overworld_icne_entity_count>","objective":"variable"},"bold":true,"color":"#C9C9C9"}]
-execute unless score <server> global matches 1 run tellraw @s [{"text":" Fake Blocks: ","color":"#B7B7B7"},{"text":"0","bold":true,"color":"#C9C9C9"}]
-execute if score <server> global matches 1 run tellraw @s [{"text":" Fake Blocks: ","color":"green"},{"score":{"name":"<overworld_fake_block_count>","objective":"variable"},"bold":true,"color":"aqua"}]
+# The Overworld
+execute unless score @s in_dimension matches 3 run function build:misc/world_info/overworld
+execute if score @s in_dimension matches 3 run function build:misc/world_info/event_world
 
-tellraw @s [{"text":"\nNether:","bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Entities: ","color":"green"},{"score":{"name":"<nether_entity_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-execute if score <server> global matches 1 run tellraw @s [{"text":" Entities (ICNE): ","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Entities which are not excluded from the entity-limit (snapshot server only)","color":"green"}}},{"score":{"name":"<nether_icne_entity_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Armour Stands: ","color":"green"},{"score":{"name":"<nether_armor_stand_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-tellraw @s [{"text":" Item Frames: ","color":"green"},{"score":{"name":"<nether_item_frame_count>","objective":"variable"},"bold":true,"color":"aqua"}]
-execute unless score <server> global matches 1 run tellraw @s [{"text":" Entities (ICNE): ","color":"#B7B7B7","hoverEvent":{"action":"show_text","value":{"text":"Entities which are not excluded from the entity-limit (snapshot server only)","color":"#B7B7B7"}}},{"score":{"name":"<nether_icne_entity_count>","objective":"variable"},"bold":true,"color":"#C9C9C9"}]
-execute unless score <server> global matches 1 run tellraw @s [{"text":" Fake Blocks: ","color":"#B7B7B7"},{"text":"0","bold":true,"color":"#C9C9C9"}]
-execute if score <server> global matches 1 run tellraw @s [{"text":" Fake Blocks: ","color":"green"},{"score":{"name":"<nether_fake_block_count>","objective":"variable"},"bold":true,"color":"aqua"}]
+tellraw @s ""
+function build:misc/world_info/the_nether
+
+
+#
 
 tellraw @s {"text":"\nOnly loaded entities are tracked!","color":"gray"}
 

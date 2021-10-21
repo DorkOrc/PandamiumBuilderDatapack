@@ -10,7 +10,7 @@ execute if score <server> global matches 1 if score @s staff_area matches 1.. ru
 scoreboard players reset @s staff_area
 execute if score <server> global matches 1 run scoreboard players enable @s staff_area
 
-execute if score <enable_event_dimension> global matches 1 if score @s event_overworld matches 1.. run function build:triggers/event_overworld
+execute if score <enable_event_dimension> global matches 1 if score @s event_overworld matches 1.. at @s run function build:triggers/event_overworld
 scoreboard players reset @s event_overworld
 execute if score <enable_event_dimension> global matches 1 run scoreboard players enable @s event_overworld
 

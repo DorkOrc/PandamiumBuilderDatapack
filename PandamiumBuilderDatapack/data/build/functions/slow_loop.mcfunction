@@ -5,7 +5,7 @@ tag @e[type=armor_stand,tag=pose.locked] remove pose.locked
 tag @e[tag=!spawn_protected] add spawn_protected
 
 execute as @e[type=#build:has_nbt/items] run data remove entity @s Items[]
-execute as @e[type=#build:make_invulnerable,tag=!made_invulnerable] run data merge entity @s {Invulnerable:1b}
+execute as @e[type=#build:make_invulnerable,tag=!made_invulnerable] run data merge entity @s {Invulnerable:1b,PersistenceRequired:1b,Tags:['spawn_protected']}
 tag @e[type=#build:make_invulnerable,tag=!made_invulnerable] add made_invulnerable
 
 scoreboard players remove @e[scores={glow_time=1..}] glow_time 20

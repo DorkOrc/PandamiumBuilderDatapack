@@ -57,6 +57,7 @@ scoreboard players reset @s unlock_nearest
 scoreboard players enable @s unlock_nearest
 
 execute if score @s mini_block matches 1.. run function build:triggers/mini_block
+execute if score @s mini_block matches ..-1 run function build:triggers/mini_block
 scoreboard players reset @s mini_block
 scoreboard players enable @s mini_block
 

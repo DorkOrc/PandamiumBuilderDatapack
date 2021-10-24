@@ -1,2 +1,2 @@
-execute at @s run tp ~ -100 ~
+execute at @s run tp ~ -1000 ~
 kill

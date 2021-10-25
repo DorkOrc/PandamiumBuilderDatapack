@@ -3,7 +3,7 @@
 particle wax_on -15.0 138 13.0 1.2 1.2 1.2 0.1 5
 
 # Sauna
-particle campfire_cosy_smoke -40 128 -6 2 0.5 2 0.01 1
+particle campfire_cosy_smoke -40 128 -6 2 1.0 2 0.01 1
 
 # Nether Portal
 particle crimson_spore -7.0 145.5 29.5 3 3 3 0.1 8

@@ -53,15 +53,19 @@ scoreboard objectives add in_dimension dummy
 # Teams
 team add builder
 team modify builder color aqua
-team modify builder prefix {"text":"Builder | ","hoverEvent":{"action":"show_text","value":"Builder"}}
-
-team add dev
-team modify dev color light_purple
-team modify dev prefix {"text":"Builder | ","hoverEvent":{"action":"show_text","value":"Datapack Developer and Builder"}}
+team modify builder prefix "Builder | "
 
 team add op_builder
 team modify op_builder color gold
-team modify op_builder prefix {"text":"Builder | ","hoverEvent":{"action":"show_text","value":"Opped Builder"}}
+team modify op_builder prefix "Builder | "
+
+team add dev
+team modify dev color light_purple
+team modify dev prefix "Dev | "
+
+team add owner
+team modify owner color dark_red
+team modify owner prefix "Owner | "
 
 team add gray_color
 team modify gray_color color gray

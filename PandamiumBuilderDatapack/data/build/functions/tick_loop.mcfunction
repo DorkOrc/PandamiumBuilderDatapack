@@ -1,3 +1,6 @@
+execute as @a unless score @s leave_count matches 0 run function build:on_join
+scoreboard players set @a[team=!builder,team=!op_builder,team=!owner,team=!dev] builder_perms 0
+
 gamemode spectator @a[scores={builder_perms=0}]
 
 execute as @a[scores={builder_perms=1..}] run function build:check_builder_triggers

@@ -74,6 +74,10 @@ team modify red_color color red
 
 #
 
+scoreboard players reset * leave_count
+
+#
+
 execute unless score <pack> global matches 1 run function build:update_pack_config
 
 execute in overworld run forceload add -1 -1 0 0

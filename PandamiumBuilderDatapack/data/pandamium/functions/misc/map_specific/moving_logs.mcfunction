@@ -14,8 +14,8 @@ execute if score <log_timer> variable matches 12 run fill -19 -33 132 -19 -33 12
 execute if score <log_timer> variable matches 13 run fill -19 -33 133 -19 -33 130 spruce_log[axis=z]
 execute if score <log_timer> variable matches 14 run fill -19 -33 134 -19 -33 131 spruce_log[axis=z]
 
-execute if score <log_timer> variable matches 2..7 as @a[x=-19,y=-33,z=125,dx=0,dy=0,dz=9] at @s run tp ~ ~ ~-1
-execute if score <log_timer> variable matches 9..14 as @a[x=-19,y=-33,z=125,dx=0,dy=0,dz=9] at @s run tp ~ ~ ~-1
+execute if score <log_timer> variable matches 2..7 as @a[x=-19,y=-34,z=125,dx=0,dy=0,dz=9] at @s run tp ~ ~ ~-1
+execute if score <log_timer> variable matches 9..14 as @a[x=-19,y=-34,z=125,dx=0,dy=0,dz=9] at @s run tp ~ ~ ~-1
 
 scoreboard players add <log_timer> variable 1
 execute unless score <log_timer> variable matches 1..14 run scoreboard players set <log_timer> variable 1

@@ -13,3 +13,5 @@ particle dust 0.5 0 0 1 -51 49.5 42 0.25 0.25 0.25 0 1
 # TARDIS
 tp @a[x=-46.0625,y=176,z=48.9375,dx=0.125,dy=2,dz=0.125] -86.5 44 30.4375 180 0
 tp @a[x=-87.0625,y=44,z=30.9375,dx=0.125,dy=2,dz=0.125] -44.655 176 48.55 -137.2 21
+
+execute if entity @a[x=-18.5,y=-32,z=130,distance=..64] run function pandamium:misc/map_specific/moving_logs

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "light_weighted_pressure_plate",
+        "state": {
+          "power": "0"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pandamium:misc/map_specific/parkour/detect_checkpoint_pressure_plate"
+  }
+}

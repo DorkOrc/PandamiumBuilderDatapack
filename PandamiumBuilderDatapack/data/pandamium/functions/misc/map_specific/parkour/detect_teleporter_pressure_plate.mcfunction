@@ -1,0 +1,12 @@
+data remove storage pandamium:temp NBT
+data modify storage pandamium:temp NBT set from entity @e[type=marker,tag=parkour.checkpoint,distance=..1,limit=1]
+
+execute store result score <tp_x> variable run data get storage pandamium:temp NBT.data.Destination.X
+execute store result score <tp_y> variable run data get storage pandamium:temp NBT.data.Destination.Y
+execute store result score <tp_z> variable run data get storage pandamium:temp NBT.data.Destination.Z
+scoreboard players set <tp_d> variable 0
+
+execute if score @s parkour_checkpoint matches 0.. if data storage pandamium:temp NBT.data.Destination run function build:misc/teleport/to_scores/main
+execute unless data storage pandamium:temp NBT.data.Destination run tellraw @s {"text":"no destination stored","color":"red"}
+
+advancement revoke @s only pandamium:parkour/teleporter_pressure_plate

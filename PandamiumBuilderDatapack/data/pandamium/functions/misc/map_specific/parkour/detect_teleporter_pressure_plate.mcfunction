@@ -1,5 +1,5 @@
 data remove storage pandamium:temp NBT
-data modify storage pandamium:temp NBT set from entity @e[type=marker,tag=parkour.checkpoint,distance=..1,limit=1]
+data modify storage pandamium:temp NBT set from entity @e[type=marker,tag=parkour.teleporter,distance=..1,limit=1]
 
 execute store result score <tp_x> variable run data get storage pandamium:temp NBT.data.Destination.X
 execute store result score <tp_y> variable run data get storage pandamium:temp NBT.data.Destination.Y

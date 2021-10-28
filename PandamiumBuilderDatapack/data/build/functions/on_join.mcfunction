@@ -10,4 +10,6 @@ scoreboard players set @s[team=op_builder] builder_perms 1
 scoreboard players set @s[team=dev] builder_perms 2
 scoreboard players set @s[team=owner] builder_perms 2
 
+function pandamium:on_join
+
 scoreboard players set @s leave_count 0

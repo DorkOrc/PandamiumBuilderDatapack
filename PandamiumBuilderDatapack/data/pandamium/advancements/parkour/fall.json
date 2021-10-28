@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "fall_from_height",
+      "conditions": {
+        "distance": {
+          "absolute": {
+            "min": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pandamium:misc/map_specific/parkour/detect_fall"
+  }
+}

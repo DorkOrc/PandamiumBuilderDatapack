@@ -1,0 +1,1 @@
+execute if score @s parkour matches 1.. run function pandamium:triggers/parkour

@@ -148,8 +148,6 @@ scoreboard players set <32> variable 32
 
 execute unless score <next_uid> global = <next_uid> global run scoreboard players set <next_uid> global 2
 
-say Loaded Pandamium Builder Datapack by DorkOrc
-
 function build:tick_loop
 function build:main_loop
 function build:slow_loop

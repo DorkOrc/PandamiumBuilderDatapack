@@ -318,5 +318,3 @@ scoreboard objectives remove right_click
 scoreboard objectives add right_click used:carrot_on_a_stick
 bossbar add progress "Progress"
 bossbar set progress max 100
-
-say Loaded BlingEdit v1.0.6 by SethBling (modified by DorkOrc)

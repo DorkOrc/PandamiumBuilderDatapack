@@ -1,5 +1,5 @@
 scoreboard players set @s parkour_checkpoint 0
-playsound entity.player.levelup player @s ~ ~ ~ 1 2
+execute at @s run playsound entity.player.levelup player @s ~ ~ ~ 1 2
 
 scoreboard players enable @s parkour
 scoreboard players enable @s parkour.end

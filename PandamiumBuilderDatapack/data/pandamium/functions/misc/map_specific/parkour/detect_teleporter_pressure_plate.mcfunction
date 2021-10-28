@@ -7,6 +7,6 @@ execute store result score <tp_z> variable run data get storage pandamium:temp N
 scoreboard players set <tp_d> variable 0
 
 execute if score @s parkour_checkpoint matches 0.. if data storage pandamium:temp NBT.data.Destination run function build:misc/teleport/to_scores/main
-execute unless data storage pandamium:temp NBT.data.Destination run tellraw @s {"text":"no destination stored","color":"red"}
+execute if data storage pandamium:temp NBT unless data storage pandamium:temp NBT.data.Destination run tellraw @s {"text":"no destination stored","color":"red"}
 
 advancement revoke @s only pandamium:parkour/teleporter_pressure_plate

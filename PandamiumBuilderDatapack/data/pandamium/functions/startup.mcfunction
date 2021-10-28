@@ -10,7 +10,7 @@ execute if score <server> global matches 1 run function pandamium:misc/map_speci
 
 
 scoreboard objectives add parkour trigger
-scoreboard players reset * parkour
+scoreboard objectives add parkour.end trigger
 
 scoreboard objectives add parkour_ticks dummy
 scoreboard objectives add parkour_checkpoint dummy

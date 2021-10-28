@@ -1,8 +1,39 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "fall_from_height",
+      "trigger": "minecraft:fall_from_height",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:ladder"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "stepping_on": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:ladder"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
         "distance": {
           "absolute": {
             "min": 8

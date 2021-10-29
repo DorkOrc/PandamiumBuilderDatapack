@@ -41,10 +41,36 @@
           }
         ]
       }
+    },
+    "jump_boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:jump_boost": {
+            "duration": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "speed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "duration": {
+              "min": 1
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
     [
+      "speed",
+      "jump_boost",
       "illegal_teleport",
       "illegal_movement",
       "consume_chorus_fruit"

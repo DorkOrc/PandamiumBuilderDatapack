@@ -1,48 +1,52 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:fall_from_height",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": [
-                    "minecraft:ladder"
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "stepping_on": {
-                  "block": {
-                    "blocks": [
-                      "minecraft:ladder"
-                    ]
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "distance": {
-          "absolute": {
-            "min": 8
-          }
-        }
-      }
-    }
-  },
-  "rewards": {
-    "function": "pandamium:misc/map_specific/parkour/detect_fall"
-  }
+	"criteria": {
+		"requirement": {
+			"trigger": "fall_from_height",
+			"conditions": {
+				"player": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"ladder",
+										"slime_block",
+										"honey_block"
+									]
+								}
+							}
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"stepping_on": {
+									"block": {
+										"blocks": [
+											"ladder",
+											"slime_block",
+											"honey_block"
+										]
+									}
+								}
+							}
+						}
+					}
+				],
+				"distance": {
+					"absolute": {
+						"min": 8
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "pandamium:misc/map_specific/parkour/detect_fall"
+	}
 }

@@ -1,6 +1,23 @@
 {
 	"criteria": {
-		"requirement": {
+		"in_spawn": {
+			"trigger": "location",
+			"conditions": {
+				"location": {
+					"position": {
+						"x": {
+							"min": -512,
+							"max": 512
+						},
+						"z": {
+							"min": -512,
+							"max": 512
+						}
+					}
+				}
+			}
+		},
+		"fall": {
 			"trigger": "fall_from_height",
 			"conditions": {
 				"player": [

@@ -1,14 +1,5 @@
 {
 	"criteria": {
-		"enter_pressure_plate": {
-			"trigger": "enter_block",
-			"conditions": {
-				"block": "light_weighted_pressure_plate",
-				"state": {
-					"power": "0"
-				}
-			}
-		},
 		"in_spawn": {
 			"trigger": "location",
 			"conditions": {
@@ -23,6 +14,15 @@
 							"max": 512
 						}
 					}
+				}
+			}
+		},
+		"enter_pressure_plate": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "light_weighted_pressure_plate",
+				"state": {
+					"power": "0"
 				}
 			}
 		}

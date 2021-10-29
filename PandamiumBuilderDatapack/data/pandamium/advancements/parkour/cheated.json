@@ -65,10 +65,23 @@
           }
         }
       }
+    },
+    "slow_falling": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slow_falling": {
+            "duration": {
+              "min": 1
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
     [
+      "slow_falling",
       "speed",
       "jump_boost",
       "illegal_teleport",

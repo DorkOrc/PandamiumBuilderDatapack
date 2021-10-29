@@ -10,7 +10,7 @@
 				}
 			}
 		},
-		"illegal_movement": {
+		"use_elytra": {
 			"trigger": "tick",
 			"conditions": {
 				"player": [
@@ -26,7 +26,7 @@
 				]
 			}
 		},
-		"illegal_teleport": {
+		"use_ender_pearl": {
 			"trigger": "tick",
 			"conditions": {
 				"player": [

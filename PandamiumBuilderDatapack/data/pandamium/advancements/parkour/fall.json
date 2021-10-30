@@ -63,9 +63,20 @@
 			}
 		},
 		"void_fall": {
-			"trigger": "enter_block",
+			"trigger": "fall_from_height",
 			"conditions": {
-				"block": "void_air"
+				"player": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"void_air"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	},

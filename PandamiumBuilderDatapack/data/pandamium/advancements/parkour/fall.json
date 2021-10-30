@@ -61,8 +61,23 @@
 					}
 				}
 			}
+		},
+		"void_fall": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "void_air"
+			}
 		}
 	},
+	"requirements": [
+		[
+			"fall",
+			"void_fall"
+		],
+		[
+			"in_spawn"
+		]
+	],
 	"rewards": {
 		"function": "pandamium:misc/map_specific/parkour/detect_fall"
 	}

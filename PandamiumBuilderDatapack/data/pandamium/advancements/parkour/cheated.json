@@ -101,9 +101,12 @@
 			"slow_falling",
 			"speed",
 			"jump_boost",
-			"illegal_teleport",
-			"illegal_movement",
+			"use_ender_pearl",
+			"use_elytra",
 			"consume_chorus_fruit"
+		],
+		[
+			"in_spawn"
 		]
 	],
 	"rewards": {

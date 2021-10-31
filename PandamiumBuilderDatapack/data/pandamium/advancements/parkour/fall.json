@@ -61,18 +61,11 @@
 					}
 				}
 			}
-		},
-		"void_fall": {
-			"trigger": "enter_block",
-			"conditions": {
-				"block": "void_air"
-			}
 		}
 	},
 	"requirements": [
 		[
-			"fall",
-			"void_fall"
+			"fall"
 		],
 		[
 			"in_spawn"

@@ -8,14 +8,14 @@ scoreboard players reset @s parkour_ticks
 
 #
 
-scoreboard players operation <parkour_hours> variable = @s parkour_ticks
+scoreboard players operation <parkour_hours> variable = @s parkour_best_time
 scoreboard players operation <parkour_hours> variable /= <ticks_per_hour> variable
 
-scoreboard players operation <parkour_minutes> variable = @s parkour_ticks
+scoreboard players operation <parkour_minutes> variable = @s parkour_best_time
 scoreboard players operation <parkour_minutes> variable /= <ticks_per_minute> variable
 scoreboard players operation <parkour_minutes> variable %= <60> variable
 
-scoreboard players operation <parkour_seconds> variable = @s parkour_ticks
+scoreboard players operation <parkour_seconds> variable = @s parkour_best_time
 scoreboard players operation <parkour_seconds> variable /= <ticks_per_second> variable
 scoreboard players operation <parkour_seconds> variable %= <60> variable
 
@@ -31,4 +31,4 @@ execute if score <parkour_hours> variable matches 1.. if score <parkour_minutes>
 
 tellraw @s ""
 
-
+function pandamium:misc/teleport/spawn

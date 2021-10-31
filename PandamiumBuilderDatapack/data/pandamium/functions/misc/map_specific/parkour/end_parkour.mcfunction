@@ -6,3 +6,5 @@ scoreboard players reset @s parkour_ticks
 
 title @s actionbar ""
 tellraw @s [{"text":"[Parkour]","color":"dark_red"},{"text":" Parkour ended!","color":"red"}]
+
+function pandamium:misc/teleport/spawn

@@ -29,6 +29,6 @@ execute if score <parkour_hours> variable matches 1.. if score <parkour_minutes>
 execute if score <parkour_hours> variable matches 1.. if score <parkour_minutes> variable matches 10..59 if score <parkour_seconds> variable matches 0..9 run tellraw @s [{"text":"[Parkour]","color":"aqua"},[{"text":" You","color":"dark_aqua"},{"text":" finished","color":"aqua"}," the parkour with a time of ",{"score":{"name":"<parkour_hours>","objective":"variable"},"color":"aqua"},":",{"score":{"name":"<parkour_minutes>","objective":"variable"},"color":"aqua"},":",[{"text":"0","color":"aqua"},{"score":{"name":"<parkour_seconds>","objective":"variable"}}],"!"]]
 execute if score <parkour_hours> variable matches 1.. if score <parkour_minutes> variable matches 10..59 if score <parkour_seconds> variable matches 10..59 run tellraw @s [{"text":"[Parkour]","color":"aqua"},[{"text":" You","color":"dark_aqua"},{"text":" finished","color":"aqua"}," the parkour with a time of ",{"score":{"name":"<parkour_hours>","objective":"variable"},"color":"aqua"},":",{"score":{"name":"<parkour_minutes>","objective":"variable"},"color":"aqua"},":",{"score":{"name":"<parkour_seconds>","objective":"variable"},"color":"aqua"},"!"]]
 
-tellraw @s ""
+title @s actionbar ""
 
 function pandamium:misc/teleport/spawn

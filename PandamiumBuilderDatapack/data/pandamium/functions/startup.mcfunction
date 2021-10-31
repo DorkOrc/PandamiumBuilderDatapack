@@ -14,7 +14,6 @@ scoreboard objectives add parkour.end trigger
 
 scoreboard objectives add parkour_ticks dummy
 scoreboard objectives add parkour_checkpoint dummy
-scoreboard objectives add parkour.fall_cooldown dummy
 scoreboard objectives add parkour.used_ender_pearl used:ender_pearl
 scoreboard objectives add parkour.aviate custom:aviate_one_cm
 scoreboard objectives add id dummy

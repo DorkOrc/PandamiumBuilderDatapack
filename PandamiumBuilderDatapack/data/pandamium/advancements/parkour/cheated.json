@@ -110,6 +110,6 @@
 		]
 	],
 	"rewards": {
-		"function": "pandamium:misc/map_specific/parkour/detect_cheat"
+		"function": "pandamium:misc/map_specific/parkour/advancements/cheated"
 	}
 }

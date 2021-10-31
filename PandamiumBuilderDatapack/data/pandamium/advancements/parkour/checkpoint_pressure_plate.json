@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "pandamium:misc/map_specific/parkour/detect_checkpoint_pressure_plate"
+		"function": "pandamium:misc/map_specific/parkour/advancements/checkpoint_pressure_plate"
 	}
 }

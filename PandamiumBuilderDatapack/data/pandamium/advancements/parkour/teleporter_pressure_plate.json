@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "pandamium:misc/map_specific/parkour/detect_teleporter_pressure_plate"
+		"function": "pandamium:misc/map_specific/parkour/advancements/teleporter_pressure_plate"
 	}
 }

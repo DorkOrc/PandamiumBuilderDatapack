@@ -61,11 +61,50 @@
 					}
 				}
 			}
+		},
+		"void_fall": {
+			"trigger": "fall_from_height",
+			"conditions": {
+				"player": [
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "location_check",
+								"offsetY": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"void_air"
+										]
+									}
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"block": {
+										"blocks": [
+											"void_air"
+										]
+									}
+								}
+							}
+						]
+					}
+				],
+				"distance": {
+					"absolute": {
+						"max": 8
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
 		[
-			"fall"
+			"fall",
+			"void_fall"
 		],
 		[
 			"in_spawn"

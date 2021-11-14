@@ -1,17 +1,17 @@
 # RTP
-particle glow -15.0 138 13.0 2 2 2 0.1 3
+particle glow 18 91 -18 2 2 2 0.1 3
 
 # Sauna
-particle campfire_cosy_smoke -40 128 -6 2 1.0 2 0.01 3
+particle campfire_cosy_smoke -40 128 -6 2 1.0 2 .01 3
 
 # Nether Portal
-particle crimson_spore -7.0 145.5 29.5 3 3 3 0.1 8
+particle crimson_spore -7.0 145.5 29.5 3 3 3 .1 8
 
 # Barrier in TARDIS
-particle dust 0.5 0 0 1 -51 49.5 42 0.25 0.25 0.25 0 1
+particle dust 0.5 0 0 1 -51 49.5 42 .25 .25 .25 0 1
 
 # TARDIS
-tp @a[x=-46.0625,y=176,z=48.9375,dx=0.125,dy=2,dz=0.125] -86.5 44 30.4375 180 0
-tp @a[x=-87.0625,y=44,z=30.9375,dx=0.125,dy=2,dz=0.125] -44.655 176 48.55 -137.2 21
+tp @a[x=-46.0625,y=176,z=48.9375,dx=.125,dy=2,dz=.125] -86.5 44 30.4375 180 0
+tp @a[x=-87.0625,y=44,z=30.9375,dx=.125,dy=2,dz=.125] -44.655 176 48.55 -137.2 21
 
 execute if entity @a[x=-18.5,y=-32,z=130,distance=..64] run function pandamium:misc/map_specific/moving_logs

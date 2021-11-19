@@ -5,7 +5,7 @@ particle snowflake 0 100 0 10 10 10 0 1
 particle glow 18 91 -18 2 2 2 0.1 3
 
 # Windtunnel
-particle snowflake ~ ~30 ~ 3 15 3 0 10
+particle snowflake 0 120 27 3 15 3 0 10
 effect give @a[x=-7,y=90,z=23,dx=14,dy=55,dz=11,x_rotation=-90..0] levitation 1 10 true
 effect give @a[x=-7,y=90,z=23,dx=14,dy=55,dz=11,x_rotation=0..90] slow_falling 1 0 true
 

@@ -2,7 +2,7 @@
 particle snowflake 0 100 0 10 10 10 0 4
 
 # RTP
-particle glow 18 91 -18 2 2 2 0.1 3
+particle glow 17 91 -10 1.5 1.5 1.5 0.1 4
 
 # Windtunnel
 particle snowflake 0 120 27 3 15 3 0 20

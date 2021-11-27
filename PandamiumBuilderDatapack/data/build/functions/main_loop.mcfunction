@@ -6,6 +6,6 @@ effect give @a[scores={night_vis_option=2},gamemode=spectator] night_vision 1000
 execute as @a store success score @s is_spectator if entity @s[gamemode=spectator]
 
 item replace entity @a[scores={permanent_socks=1},nbt=!{Inventory:[{Slot:100b}]}] armor.feet with leather_boots{display:{color:3837017,Name:'{"text":"Nugget\'s Socks"}'}}
-item replace entity @a[scores={permanent_elytra=1},nbt=!{Inventory:[{Slot:100b}]}] armor.chest with elytra
+item replace entity @a[scores={permanent_elytra=1},nbt=!{Inventory:[{Slot:102b}]}] armor.chest with elytra
 
 schedule function build:main_loop 5t

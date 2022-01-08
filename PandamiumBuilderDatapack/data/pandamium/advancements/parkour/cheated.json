@@ -1,22 +1,5 @@
 {
 	"criteria": {
-		"in_spawn": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"position": {
-						"x": {
-							"min": -512,
-							"max": 512
-						},
-						"z": {
-							"min": -512,
-							"max": 512
-						}
-					}
-				}
-			}
-		},
 		"consume_chorus_fruit": {
 			"trigger": "consume_item",
 			"conditions": {
@@ -35,7 +18,7 @@
 						"condition": "entity_scores",
 						"entity": "this",
 						"scores": {
-							"parkour.aviate": {
+							"detect.aviate": {
 								"min": 1
 							}
 						}
@@ -51,7 +34,7 @@
 						"condition": "entity_scores",
 						"entity": "this",
 						"scores": {
-							"parkour.used_ender_pearl": {
+							"detect.used.ender_pearl": {
 								"min": 1
 							}
 						}
@@ -94,22 +77,83 @@
 					}
 				}
 			}
+		},
+		"levitation": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"levitation": {
+						"duration": {
+							"min": 1
+						}
+					}
+				}
+			}
+		},
+		"left_spawn": {
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"position": {
+									"x": {
+										"min": -512,
+										"max": 512
+									},
+									"z": {
+										"min": -512,
+										"max": 512
+									}
+								},
+								"dimension": "overworld"
+							}
+						}
+					}
+				]
+			}
+		},
+		"switch_gamemode": {
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"player": {
+									"gamemode": "survival"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"ride_entity": {
+			"trigger": "started_riding"
 		}
 	},
 	"requirements": [
 		[
+			"ride_entity",
+			"switch_gamemode",
+			"left_spawn",
+			"levitation",
 			"slow_falling",
 			"speed",
 			"jump_boost",
 			"use_ender_pearl",
 			"use_elytra",
 			"consume_chorus_fruit"
-		],
-		[
-			"in_spawn"
 		]
 	],
 	"rewards": {
-		"function": "pandamium:misc/map_specific/parkour/advancements/cheated"
+		"function": "pandamium:misc/map_specific/parkour/detect/cheated"
 	}
 }

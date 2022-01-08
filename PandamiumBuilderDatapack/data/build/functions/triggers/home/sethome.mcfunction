@@ -20,7 +20,7 @@ execute if score @s sethome matches 8 run tellraw @s [{"text":"","color":"red"},
 execute if score @s sethome matches 9 run tellraw @s [{"text":"","color":"red"},{"text":"[Home]","color":"dark_red"}," Do you want to replace ",{"text":"Home 9","bold":true},"? ",{"text":"[✔]","bold":true,"color":"dark_green","hoverEvent":{"action":"show_text","value":{"text":"Set Home 9","color":"dark_green"}},"clickEvent":{"action":"run_command","value":"/trigger sethome set -9"}}]
 execute if score @s sethome matches 10 run tellraw @s [{"text":"","color":"red"},{"text":"[Home]","color":"dark_red"}," Do you want to replace ",{"text":"Home 10","bold":true},"? ",{"text":"[✔]","bold":true,"color":"dark_green","hoverEvent":{"action":"show_text","value":{"text":"Set Home 10","color":"dark_green"}},"clickEvent":{"action":"run_command","value":"/trigger sethome set -10"}}]
 
+execute unless score @s sethome matches -10..10 run tellraw @s [{"text":"[Home]","color":"dark_red"},{"text":" This is not a valid home ID! You need to set a number between 1 and 10.","color":"red"}]
 execute if score @s sethome matches -10..-1 run function build:home/set_check_perms
 
-execute unless score @s sethome matches -10..10 run tellraw @s [{"text":"[Home]","color":"dark_red"},{"text":" This is not a valid home ID! You need to set a number between 1 and 10.","color":"red"}]
 

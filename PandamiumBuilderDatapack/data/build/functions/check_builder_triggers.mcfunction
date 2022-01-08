@@ -17,8 +17,7 @@ execute if score @s replace_sign matches 1.. at @s run function build:triggers/r
 scoreboard players reset @s replace_sign
 scoreboard players enable @s replace_sign
 
-execute if score @s entity_data matches 1.. at @s run function build:triggers/entity_data/run
-execute if score @s entity_data matches ..-1 at @s run function build:triggers/entity_data/run
+execute if score @s entity_data = @s entity_data unless score @s entity_data matches 0 at @s run function build:triggers/entity_data/run
 scoreboard players reset @s entity_data
 scoreboard players enable @s entity_data
 
@@ -30,8 +29,7 @@ execute if score @s toggle_gamemode matches 1.. run function build:triggers/togg
 scoreboard players reset @s toggle_gamemode
 scoreboard players enable @s toggle_gamemode
 
-execute if score @s pose matches 1.. at @s run function build:triggers/pose
-execute if score @s pose matches ..-1 at @s run function build:triggers/pose
+execute if score @s pose = @s pose unless score @s pose matches 0 at @s run function build:triggers/pose
 scoreboard players reset @s pose
 scoreboard players enable @s pose
 
@@ -43,8 +41,7 @@ execute if score @s get_head matches 1.. in pandamium:staff_world run function b
 scoreboard players reset @s get_head
 scoreboard players enable @s get_head
 
-execute if score @s restart matches 1.. run function build:triggers/restart
-execute if score @s restart matches ..-1 run function build:triggers/restart
+execute if score @s restart = @s restart unless score @s restart matches 0 run function build:triggers/restart
 scoreboard players reset @s restart
 scoreboard players enable @s restart
 
@@ -56,50 +53,44 @@ execute if score @s unlock_nearest matches 1.. at @s run function build:triggers
 scoreboard players reset @s unlock_nearest
 scoreboard players enable @s unlock_nearest
 
-execute if score @s mini_block matches 1.. run function build:triggers/mini_block
-execute if score @s mini_block matches ..-1 run function build:triggers/mini_block
-scoreboard players reset @s mini_block
-scoreboard players enable @s mini_block
+execute if score @s mini_blocks = @s mini_blocks unless score @s mini_blocks matches 0 run function build:triggers/mini_blocks
+scoreboard players reset @s mini_blocks
+scoreboard players enable @s mini_blocks
 
 execute if score @s give_all_mob_heads matches 1.. run function build:misc/give_all_mob_heads
 scoreboard players reset @s give_all_mob_heads
 scoreboard players enable @s give_all_mob_heads
 
-execute if score @s item_font matches 1.. in pandamium:staff_world run function build:triggers/item_font
-execute if score @s item_font matches ..-1 in pandamium:staff_world run function build:triggers/item_font
+execute if score @s item_font = @s item_font unless score @s item_font matches 0 in pandamium:staff_world run function build:triggers/item_font
 scoreboard players reset @s item_font
 scoreboard players enable @s item_font
 
-execute if score @s save_mob matches 1.. at @s run function build:triggers/save_mob/store
-execute if score @s save_mob matches ..-1 at @s run function build:triggers/save_mob/store
+execute if score @s save_mob = @s save_mob unless score @s save_mob matches 0 at @s run function build:triggers/save_mob/store
 scoreboard players reset @s save_mob
 scoreboard players enable @s save_mob
 
-execute if score @s save_mob.spawn matches 1.. at @s run function build:triggers/save_mob/spawn
-execute if score @s save_mob.spawn matches ..-1 at @s run function build:triggers/save_mob/spawn
+execute if score @s save_mob.spawn = @s save_mob.spawn unless score @s save_mob.spawn matches 0 at @s run function build:triggers/save_mob/spawn
 scoreboard players reset @s save_mob.spawn
 scoreboard players enable @s save_mob.spawn
 
+
 # HOMES
-execute if score @s home matches 1.. at @s run function build:triggers/home/home
-execute if score @s home matches ..-1 at @s run function build:triggers/home/home
+execute if score @s home = @s home unless score @s home matches 0 at @s run function build:triggers/home/home
 scoreboard players reset @s home
 scoreboard players enable @s home
 
-execute if score @s sethome matches 1.. at @s run function build:triggers/home/sethome
-execute if score @s sethome matches ..-1 at @s run function build:triggers/home/sethome
+execute if score @s sethome = @s sethome unless score @s sethome matches 0 at @s run function build:triggers/home/sethome
 scoreboard players reset @s sethome
 scoreboard players enable @s sethome
 
-execute if score @s delhome matches 1.. at @s run function build:triggers/home/delhome
-execute if score @s delhome matches ..-1 at @s run function build:triggers/home/delhome
+execute if score @s delhome = @s delhome unless score @s delhome matches 0 at @s run function build:triggers/home/delhome
 scoreboard players reset @s delhome
 scoreboard players enable @s delhome
 
-execute if score @s homes matches 1.. at @s run function build:triggers/home/homes
-execute if score @s homes matches ..-1 at @s run function build:triggers/home/homes
+execute if score @s homes = @s homes unless score @s homes matches 0 at @s run function build:triggers/home/homes
 scoreboard players reset @s homes
 scoreboard players enable @s homes
+
 
 # only enabled on the snapshot server (<server>=1)
 execute if score <server> global matches 1 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block

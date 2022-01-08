@@ -111,6 +111,6 @@
 		]
 	],
 	"rewards": {
-		"function": "pandamium:misc/map_specific/parkour/advancements/fall"
+		"function": "pandamium:misc/map_specific/parkour/detect/fall"
 	}
 }

@@ -24,7 +24,7 @@ scoreboard objectives add fake_block trigger
 scoreboard objectives add restart trigger
 scoreboard objectives add lock_all trigger
 scoreboard objectives add unlock_nearest trigger
-scoreboard objectives add mini_block trigger
+scoreboard objectives add mini_blocks trigger
 scoreboard objectives add give_all_mob_heads trigger
 scoreboard objectives add item_font trigger
 scoreboard objectives add options trigger
@@ -95,6 +95,45 @@ scoreboard objectives add home_10_z dummy
 scoreboard objectives add home_10_d dummy
 
 
+# Reset triggers
+scoreboard players reset set_block trigger
+
+scoreboard players reset spawn trigger
+scoreboard players reset donator_area trigger
+scoreboard players reset staff_area trigger
+scoreboard players reset event_overworld trigger
+
+scoreboard players reset get_sign trigger
+scoreboard players reset replace_sign trigger
+scoreboard players reset entity_data trigger
+scoreboard players reset switch_time trigger
+scoreboard players reset toggle_gamemode trigger
+scoreboard players reset pose trigger
+scoreboard players reset hat trigger
+scoreboard players reset get_head trigger
+scoreboard players reset fake_block trigger
+scoreboard players reset restart trigger
+scoreboard players reset lock_all trigger
+scoreboard players reset unlock_nearest trigger
+scoreboard players reset mini_blocks trigger
+scoreboard players reset give_all_mob_heads trigger
+scoreboard players reset item_font trigger
+scoreboard players reset options trigger
+scoreboard players reset world_info trigger
+scoreboard players reset save_mob trigger
+scoreboard players reset save_mob.spawn trigger
+
+scoreboard players reset home trigger
+scoreboard players reset sethome trigger
+scoreboard players reset delhome trigger
+scoreboard players reset homes trigger
+
+scoreboard players reset wand trigger
+scoreboard players reset blingedit trigger
+scoreboard players reset dropfill trigger
+scoreboard players reset spline trigger
+
+
 # Options
 scoreboard objectives add night_vis_option dummy
 scoreboard objectives add sign_interaction dummy
@@ -144,8 +183,10 @@ execute in the_nether run forceload add -1 -1 0 0
 execute in pandamium:staff_world run forceload add -1 -1 0 0
 execute in build:event_world run forceload add -1 -1 0 0
 
+scoreboard players set <-1> variable -1
 scoreboard players set <16> variable 16
 scoreboard players set <32> variable 32
+scoreboard players set <100> variable 100
 
 execute unless score <next_uid> global = <next_uid> global run scoreboard players set <next_uid> global 2
 

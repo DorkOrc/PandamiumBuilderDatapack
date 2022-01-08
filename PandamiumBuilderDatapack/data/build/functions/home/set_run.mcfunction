@@ -14,7 +14,6 @@ execute if score @s sethome matches -8 run function build:home/save/save_8
 execute if score @s sethome matches -9 run function build:home/save/save_9
 execute if score @s sethome matches -10 run function build:home/save/save_10
 
-scoreboard players set <-1> variable -1
 scoreboard players operation @s sethome *= <-1> variable
 
 execute if score <home_d> variable matches -1 run tellraw @s [{"text":"","color":"green"},{"text":"[Home]","color":"dark_green"}," Set ",[{"text":"Home ","color":"aqua"},{"score":{"name":"@s","objective":"sethome"}}]," at ",{"score":{"name":"<home_x>","objective":"variable"},"color":"aqua"}," ",{"score":{"name":"<home_y>","objective":"variable"},"color":"aqua"}," ",{"score":{"name":"<home_z>","objective":"variable"},"color":"aqua"}," in the ",{"text":"Nether","color":"aqua"},"!"]

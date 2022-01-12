@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"item": "air"
+		},
+		"title": "",
+		"description": "",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"player_interacted_with_entity": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"item": {
+					"tag": "custom_nether_portals:ignition"
+				},
+				"player": [
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:release/overworld"
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:release/the_nether"
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:snapshot/overworld"
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:snapshot/the_nether"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "custom_nether_portals:use_ignition"
+	}
+}

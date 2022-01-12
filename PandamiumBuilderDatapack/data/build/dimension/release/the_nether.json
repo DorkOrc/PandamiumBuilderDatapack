@@ -1,5 +1,5 @@
 {
-	"type": "build:void",
+	"type": "build:void_nether",
 	"generator": {
 		"type": "flat",
 		"seed": -1148089079,

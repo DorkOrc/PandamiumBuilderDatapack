@@ -4,7 +4,7 @@ execute if predicate blingedit:wand_offhand run scoreboard players set <is_holdi
 
 #
 
-execute if score @s set_block matches 1.. if score <is_holding_wand> variable matches 1 at @s align xz run tp @s ~0.5 ~ ~0.5
+execute if score @s set_block matches 1.. if score <is_holding_wand> variable matches 1 at @s align xz run tp ~0.5 ~ ~0.5
 execute if score @s set_block matches 1.. at @s run function build:triggers/set_block/check_can_set_block
 scoreboard players reset @s set_block
 scoreboard players enable @s set_block
@@ -21,9 +21,9 @@ execute if score @s entity_data = @s entity_data unless score @s entity_data mat
 scoreboard players reset @s entity_data
 scoreboard players enable @s entity_data
 
-execute if score @s switch_time matches 1.. run function build:triggers/switch_time
-scoreboard players reset @s switch_time
-scoreboard players enable @s switch_time
+execute if score @s time matches 1.. run function build:triggers/time
+scoreboard players reset @s time
+scoreboard players enable @s time
 
 execute if score @s toggle_gamemode matches 1.. run function build:triggers/toggle_gamemode
 scoreboard players reset @s toggle_gamemode
@@ -93,10 +93,10 @@ scoreboard players enable @s homes
 
 
 # only enabled on the snapshot server (<server>=1)
-execute if score <server> global matches 1 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
-execute if score <server> global matches 1 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
+execute if score @s in_dimensions matches 100..199 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
+execute if score @s in_dimensions matches 100..199 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
 scoreboard players reset @s fake_block
-execute if score <server> global matches 1 run scoreboard players enable @s fake_block
+execute if score @s in_dimensions matches 100..199 run scoreboard players enable @s fake_block
 
 # BlingEdit
 execute if score @s wand matches 1.. at @s run function build:triggers/blingedit/wand

@@ -6,8 +6,7 @@ scoreboard objectives add variable dummy
 scoreboard objectives add global dummy
 execute store success score <server> global if score <server> global matches 1
 
-execute if score <server> global matches 0 run schedule clear pandamium:misc/map_specific/slow_loop
-execute if score <server> global matches 1 run function pandamium:misc/map_specific/slow_loop
+function pandamium:misc/map_specific/slow_loop
 
 
 scoreboard objectives add parkour trigger

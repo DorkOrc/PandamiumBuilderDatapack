@@ -1,3 +1,5 @@
+scoreboard players set <teleport.has_teleported> variable 1
+
 data modify storage build:teleport Pos set value [0.,0.,0.]
 
 execute store result storage build:teleport Pos[0] double 1 run scoreboard players get <tp_x> variable

@@ -1,0 +1,36 @@
+{
+	"criteria": {
+		"placed_disabled_block": {
+			"trigger": "placed_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:release/overworld"
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"dimension": "build:release/the_nether"
+								}
+							}
+						]
+					}
+				],
+				"location": {
+					"block": {
+						"tag": "build:disabled_blocks/release"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:misc/disabled_blocks/release"
+	}
+}

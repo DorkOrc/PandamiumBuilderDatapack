@@ -3,6 +3,10 @@ scoreboard objectives add variable dummy
 scoreboard objectives add uid dummy
 scoreboard objectives add builder_perms dummy
 
+#
+
+scoreboard objectives add nether_portal_cooldown dummy
+
 # Triggers
 scoreboard objectives add set_block trigger
 scoreboard objectives add set_block.target dummy
@@ -10,12 +14,12 @@ scoreboard objectives add set_block.target dummy
 scoreboard objectives add spawn trigger
 scoreboard objectives add donator_area trigger
 scoreboard objectives add staff_area trigger
-scoreboard objectives add event_overworld trigger
+scoreboard objectives add switch_world trigger
 
 scoreboard objectives add get_sign trigger
 scoreboard objectives add replace_sign trigger
 scoreboard objectives add entity_data trigger
-scoreboard objectives add switch_time trigger
+scoreboard objectives add time trigger
 scoreboard objectives add toggle_gamemode trigger
 scoreboard objectives add pose trigger
 scoreboard objectives add hat trigger
@@ -101,12 +105,12 @@ scoreboard players reset set_block trigger
 scoreboard players reset spawn trigger
 scoreboard players reset donator_area trigger
 scoreboard players reset staff_area trigger
-scoreboard players reset event_overworld trigger
+scoreboard players reset switch_world trigger
 
 scoreboard players reset get_sign trigger
 scoreboard players reset replace_sign trigger
 scoreboard players reset entity_data trigger
-scoreboard players reset switch_time trigger
+scoreboard players reset time trigger
 scoreboard players reset toggle_gamemode trigger
 scoreboard players reset pose trigger
 scoreboard players reset hat trigger
@@ -145,7 +149,7 @@ scoreboard objectives add permanent_elytra dummy
 scoreboard objectives add glow_time dummy
 scoreboard objectives add is_spectator dummy
 
-scoreboard objectives add leave_count custom:leave_game
+scoreboard objectives add detect.leave custom:leave_game
 scoreboard objectives add in_dimension dummy
 
 # Teams
@@ -172,16 +176,21 @@ team modify red_color color red
 
 #
 
-scoreboard players reset * leave_count
+scoreboard players reset * detect.leave
 
 #
 
-execute unless score <pack> global matches 1 run function build:update_pack_config
-
-execute in overworld run forceload add -1 -1 0 0
 execute in the_nether run forceload add -1 -1 0 0
+execute in overworld run forceload add -1 -1 0 0
+execute in the_end run forceload add -1 -1 0 0
 execute in pandamium:staff_world run forceload add -1 -1 0 0
+
+execute in build:release/overworld run forceload add -1 -1 0 0
+execute in build:release/the_nether run forceload add -1 -1 0 0
+execute in build:snapshot/overworld run forceload add -1 -1 0 0
+execute in build:snapshot/the_nether run forceload add -1 -1 0 0
 execute in build:event_world run forceload add -1 -1 0 0
+
 
 scoreboard players set <-1> variable -1
 scoreboard players set <16> variable 16

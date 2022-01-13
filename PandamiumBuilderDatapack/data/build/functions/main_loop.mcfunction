@@ -8,4 +8,6 @@ execute as @a store success score @s is_spectator if entity @s[gamemode=spectato
 item replace entity @a[scores={permanent_socks=1},nbt=!{Inventory:[{Slot:100b}]}] armor.feet with leather_boots{display:{color:3837017,Name:'{"text":"Nugget\'s Socks"}'}}
 item replace entity @a[scores={permanent_elytra=1},nbt=!{Inventory:[{Slot:102b}]}] armor.chest with elytra
 
+scoreboard players remove @a[scores={nether_portal_cooldown=1..}] nether_portal_cooldown 5
+
 schedule function build:main_loop 5t

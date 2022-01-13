@@ -1,10 +1,10 @@
 {
 	"criteria": {
-		"requirement": {
+		"changed_dimension": {
 			"trigger": "changed_dimension"
 		}
 	},
 	"rewards": {
-		"function": "build:misc/update_dimensions"
+		"function": "build:dimensions/update_all"
 	}
 }

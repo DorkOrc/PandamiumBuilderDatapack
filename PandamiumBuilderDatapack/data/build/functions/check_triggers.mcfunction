@@ -6,19 +6,19 @@ execute if score @s donator_area matches 1.. run function build:triggers/donator
 scoreboard players reset @s donator_area
 scoreboard players enable @s donator_area
 
-execute if score <server> global matches 1 if score @s staff_area matches 1.. run function build:triggers/staff_area
+execute if score @s in_dimension matches 0..99 if score @s staff_area matches 1.. run function build:triggers/staff_area
 scoreboard players reset @s staff_area
-execute if score <server> global matches 1 run scoreboard players enable @s staff_area
+execute if score @s in_dimension matches 0..99 run scoreboard players enable @s staff_area
 
-execute if score <enable_event_dimension> global matches 1 if score @s event_overworld matches 1.. at @s run function build:triggers/event_overworld
-scoreboard players reset @s event_overworld
-execute if score <enable_event_dimension> global matches 1 run scoreboard players enable @s event_overworld
+execute if score @s switch_world = @s switch_world unless score @s switch_world matches 0 at @s run function build:triggers/switch_world
+scoreboard players reset @s switch_world
+scoreboard players enable @s switch_world
 
 execute if score @s options matches 1.. run function build:triggers/options
 execute if score @s options matches ..-1 run function build:triggers/options
 scoreboard players reset @s options
 scoreboard players enable @s options
 
-execute if score @s world_info matches 1.. run function build:triggers/world_info
+execute if score @s world_info matches 1.. at @s run function build:triggers/world_info
 scoreboard players reset @s world_info
 scoreboard players enable @s world_info

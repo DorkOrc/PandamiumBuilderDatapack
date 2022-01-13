@@ -14,6 +14,6 @@ execute as @e[scores={glow_time=1..},type=#build:lockables] run data merge entit
 execute as @e[scores={glow_time=..0},type=#build:lockables] run data merge entity @s {Glowing:0b}
 scoreboard players reset @e[scores={glow_time=..0}] glow_time
 
-execute as @e[type=marker,tag=parkour.checkpoint] store result score @s id run data get entity @s data.CheckpointID
+execute in build:snapshot/overworld as @e[type=marker,tag=parkour.checkpoint,x=0] store result score @s id run data get entity @s data.CheckpointID
 
 schedule function build:slow_loop 20t

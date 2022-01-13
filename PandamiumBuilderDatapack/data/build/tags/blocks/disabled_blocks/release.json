@@ -1,0 +1,9 @@
+{
+	"values": [
+		{"id": "#build:snapshot_blocks","required":false},
+
+		"command_block",
+		"repeating_command_block",
+		"chain_command_block"
+	]
+}

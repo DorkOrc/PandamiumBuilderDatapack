@@ -92,11 +92,12 @@ scoreboard players reset @s homes
 scoreboard players enable @s homes
 
 
-# only enabled on the snapshot server (<server>=1)
-execute if score @s in_dimensions matches 100..199 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
-execute if score @s in_dimensions matches 100..199 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
+# only enabled on the snapshot server
+execute if score @s in_dimension matches 100..199 if score @s fake_block matches 1.. at @s run function build:triggers/fake_block/check_can_fake_block
+execute if score @s in_dimension matches 100..199 if score @s fake_block matches -1 at @s run function build:triggers/fake_block/kill_nearest
 scoreboard players reset @s fake_block
-execute if score @s in_dimensions matches 100..199 run scoreboard players enable @s fake_block
+execute if score @s in_dimension matches 100..199 run scoreboard players enable @s fake_block
+
 
 # BlingEdit
 execute if score @s wand matches 1.. at @s run function build:triggers/blingedit/wand

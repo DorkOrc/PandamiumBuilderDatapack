@@ -1,6 +1,8 @@
 {
 	"values": [
-		"minecraft:obsidian",
-		"minecraft:crying_obsidian"
+		"obsidian",
+		"crying_obsidian",
+		"blue_ice",
+		"packed_ice"
 	]
 }

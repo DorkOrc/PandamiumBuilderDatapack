@@ -1,10 +1,12 @@
 scoreboard players operation <in_dimension> variable = @s in_dimension
 
-execute if score <in_dimension> variable matches 0 at @s in build:release/the_nether run tp ~ ~ ~
-execute if score <in_dimension> variable matches 1 at @s in build:release/overworld run tp ~ ~ ~
+scoreboard players set <tp_d> variable -1
+execute if score <in_dimension> variable matches 0 run scoreboard players set <tp_d> variable 1
+execute if score <in_dimension> variable matches 1 run scoreboard players set <tp_d> variable 0
+execute if score <in_dimension> variable matches 100 run scoreboard players set <tp_d> variable 101
+execute if score <in_dimension> variable matches 101 run scoreboard players set <tp_d> variable 100
 
-execute if score <in_dimension> variable matches 100 at @s in build:snapshot/the_nether run tp ~ ~ ~
-execute if score <in_dimension> variable matches 101 at @s in build:snapshot/overworld run tp ~ ~ ~
+function build:misc/teleport/to_scores/spawn
 
 scoreboard players set @s nether_portal_cooldown 80
 

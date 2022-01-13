@@ -1,8 +1,8 @@
 # Section -1: Blocked dimensions
 # -100 = overworld
-# -101 = the_nether
-# -102 = the_end
-# -103 = pandamium:staff_world
+# -99 = the_nether
+# -98 = the_end
+# -97 = pandamium:staff_world
 
 # Section 0: Release server
 # 0 = build:release/overworld
@@ -19,9 +19,9 @@ scoreboard players set @a in_dimension -1
 
 # Blocked Dimensions
 execute in overworld run scoreboard players set @a[x=0] in_dimension -100
-execute in the_nether run scoreboard players set @a[x=0] in_dimension -101
-execute in the_end run scoreboard players set @a[x=0] in_dimension -102
-execute in pandamium:staff_world run scoreboard players set @a[x=0] in_dimension -103
+execute in the_nether run scoreboard players set @a[x=0] in_dimension -99
+execute in the_end run scoreboard players set @a[x=0] in_dimension -98
+execute in pandamium:staff_world run scoreboard players set @a[x=0] in_dimension -97
 
 # Valid Dimensions
 execute in build:release/overworld run scoreboard players set @a[x=0] in_dimension 0

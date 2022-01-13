@@ -8,10 +8,12 @@ execute if score @s switch_world matches 1.. unless score <enable_event_world> g
 # Teleport
 
 scoreboard players set <has_teleported> variable 0
-execute if score @s switch_world matches -1 store success score <has_teleported> variable unless score <in_dimension> variable matches 0 in build:release/overworld run tp @s 0 65 0 0 0
-execute if score @s switch_world matches -1 store success score <has_teleported> variable if score <in_dimension> variable matches 0 in build:release/the_nether run tp @s 1.0 79 2.0 0 0
-execute if score @s switch_world matches -2 store success score <has_teleported> variable unless score <in_dimension> variable matches 100 in build:snapshot/overworld run tp @s 0 92 0 180 0
-execute if score @s switch_world matches -2 store success score <has_teleported> variable if score <in_dimension> variable matches 100 in build:snapshot/the_nether run tp @s 0 67 -2 180 0
+execute if score @s switch_world matches -1 unless score <in_dimension> variable matches 0 run scoreboard players set <tp_d> variable 0
+execute if score @s switch_world matches -1 if score <in_dimension> variable matches 0 run scoreboard players set <tp_d> variable 1
+execute if score @s switch_world matches -2 unless score <in_dimension> variable matches 100 run scoreboard players set <tp_d> variable 100
+execute if score @s switch_world matches -2 if score <in_dimension> variable matches 100 run scoreboard players set <tp_d> variable 101
+execute if score @s switch_world matches -2..-1 run function build:misc/teleport/to_scores/spawn
+
 
 execute if score @s switch_world matches -3 store success score <is_flying> variable if entity @s[gamemode=creative,nbt={abilities:{flying:1b}}]
 execute if score @s switch_world matches -3 if score <is_flying> variable matches 1 run gamemode spectator

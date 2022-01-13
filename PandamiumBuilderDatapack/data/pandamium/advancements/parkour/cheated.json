@@ -109,7 +109,7 @@
 										"max": 512
 									}
 								},
-								"dimension": "overworld"
+								"dimension": "build:snapshot/overworld"
 							}
 						}
 					}

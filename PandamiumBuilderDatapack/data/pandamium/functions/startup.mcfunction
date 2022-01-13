@@ -34,4 +34,8 @@ scoreboard players set <60> variable 60
 
 #
 
+execute as @e[type=marker,tag=parkour.checkpoint,x=-512,y=-64,z=-512,dx=1024,dy=384,dz=1024] store result score @s id run data get entity @s data.CheckpointID
+
+#
+
 function pandamium:main_loop

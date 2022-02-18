@@ -9,14 +9,6 @@ execute store success score <server> global if score <server> global matches 1
 function pandamium:misc/map_specific/slow_loop
 
 
-scoreboard objectives add parkour trigger
-scoreboard objectives add parkour_end trigger
-
-scoreboard objectives add parkour_ticks dummy
-scoreboard objectives add parkour_checkpoint dummy
-scoreboard objectives add parkour_best_time dummy
-scoreboard objectives add parkour_leaderboard dummy {"text":"Parkour Times","color":"blue","bold":true}
-scoreboard objectives add parkour_leaderboard.blacklist dummy
 
 scoreboard objectives add detect.used.ender_pearl used:ender_pearl
 scoreboard objectives add detect.aviate custom:aviate_one_cm

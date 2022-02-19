@@ -22,3 +22,6 @@ tp @a[x=-87.0625,y=44,z=30.9375,dx=.125,dy=2,dz=.125,gamemode=!spectator] -17.5 
 
 # Moving Log
 execute if entity @a[x=-18.5,y=-32,z=130,distance=..64,gamemode=!spectator] run function pandamium:misc/map_specific/moving_log
+
+# Monstrosity Parkour Entrance
+particle dust 0 0 1 1 -33 45 -109 1.5 1.5 1.5 1 1

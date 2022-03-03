@@ -11,7 +11,7 @@
 	"ambient_light": 0,
 	"logical_height": 128,
 	"effects": "the_nether",
-	"infiniburn": "infiniburn_overworld",
+	"infiniburn": "#infiniburn_nether",
 	"min_y": 0,
 	"height": 256
 }

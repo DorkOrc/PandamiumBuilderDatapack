@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 8,
-		"description": "Pandamium Builder Datapack\nand BlingEdit (modified)"
+		"description": "Pandamium Builder Datapack\nand BlingEdit (modified)",
+		"pack_format": 10
 	}
 }

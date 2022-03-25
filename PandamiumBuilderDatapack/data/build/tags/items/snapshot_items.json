@@ -1,9 +1,14 @@
 {
 	"values": [
+		"acacia_chest_boat",
+		"birch_chest_boat",
+		"dark_oak_chest_boat",
 		"frog_spawn_egg",
 		"frogspawn",
+		"jungle_chest_boat",
 		"mangrove_boat",
 		"mangrove_button",
+		"mangrove_chest_boat",
 		"mangrove_door",
 		"mangrove_fence",
 		"mangrove_fence_gate",
@@ -25,16 +30,19 @@
 		"mud_bricks",
 		"muddy_mangrove_roots",
 		"ochre_froglight",
+		"oak_chest_boat",
 		"packed_mud",
 		"pearlescent_froglight",
 		"sculk",
 		"sculk_catalyst",
 		"sculk_shrieker",
 		"sculk_vein",
+		"spruce_chest_boat",
 		"stripped_mangrove_log",
 		"stripped_mangrove_wood",
 		"tadpole_bucket",
 		"tadpole_spawn_egg",
 		"verdant_froglight"
+		"warden_spawn_egg"
 	]
 }

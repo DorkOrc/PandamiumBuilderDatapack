@@ -1,8 +1,10 @@
 {
 	"values": [
 		"acacia_chest_boat",
+		"allay_spawn_egg",
 		"birch_chest_boat",
 		"dark_oak_chest_boat",
+		"echo_shard",
 		"frog_spawn_egg",
 		"frogspawn",
 		"jungle_chest_boat",
@@ -33,6 +35,7 @@
 		"oak_chest_boat",
 		"packed_mud",
 		"pearlescent_froglight",
+		"recovery_compass",
 		"sculk",
 		"sculk_catalyst",
 		"sculk_shrieker",
@@ -42,7 +45,7 @@
 		"stripped_mangrove_wood",
 		"tadpole_bucket",
 		"tadpole_spawn_egg",
-		"verdant_froglight"
+		"verdant_froglight",
 		"warden_spawn_egg"
 	]
 }

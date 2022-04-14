@@ -1,5 +1,6 @@
 {
 	"values": [
+		"allay",
 		"axolotl",
 		"bat",
 		"bee",
@@ -19,6 +20,7 @@
 		"ender_dragon",
 		"evoker",
 		"fox",
+		"frog",
 		"ghast",
 		"giant",
 		"glow_squid",
@@ -64,6 +66,7 @@
 		"villager",
 		"vindicator",
 		"wandering_trader",
+		"warden",
 		"witch",
 		"wither",
 		"wither_skeleton",

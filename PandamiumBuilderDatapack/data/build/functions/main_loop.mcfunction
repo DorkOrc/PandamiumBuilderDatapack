@@ -10,10 +10,7 @@ item replace entity @a[scores={permanent_elytra=1},nbt=!{Inventory:[{Slot:102b}]
 
 scoreboard players remove @a[scores={nether_portal_cooldown=1..}] nether_portal_cooldown 5
 
-execute in build:release/overworld run tp @e[type=#build:snapshot_entities,x=0] 0 -1000 0
-execute in build:release/the_nether run tp @e[type=#build:snapshot_entities,x=0] 0 -1000 0
-execute as @e[type=boat] if data entity @s {Type:"mangrove"} run kill
-execute in build:release/overworld run clear @a[x=0] #build:snapshot_items
-execute in build:release/the_nether run clear @a[x=0] #build:snapshot_items
+execute in build:release/overworld run function build:misc/manage_release_worlds/main
+execute in build:release/the_nether run function build:misc/manage_release_worlds/main
 
 schedule function build:main_loop 5t

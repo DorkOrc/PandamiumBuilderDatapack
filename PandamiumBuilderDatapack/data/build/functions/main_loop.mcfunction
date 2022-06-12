@@ -13,4 +13,6 @@ scoreboard players remove @a[scores={nether_portal_cooldown=1..}] nether_portal_
 execute in build:release/overworld run function build:misc/manage_release_worlds/main
 execute in build:release/the_nether run function build:misc/manage_release_worlds/main
 
+execute in build:release/overworld run function build:misc/release_map_specific_loop
+
 schedule function build:main_loop 5t

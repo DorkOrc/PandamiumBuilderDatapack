@@ -8,6 +8,7 @@ execute in build:release/overworld run spawnpoint @s 0 65 0 0
 scoreboard players set @s builder_perms 0
 scoreboard players set @s[team=builder] builder_perms 1
 scoreboard players set @s[team=op_builder] builder_perms 1
+scoreboard players set @s[team=head_builder] builder_perms 1
 scoreboard players set @s[team=dev] builder_perms 2
 scoreboard players set @s[team=owner] builder_perms 2
 

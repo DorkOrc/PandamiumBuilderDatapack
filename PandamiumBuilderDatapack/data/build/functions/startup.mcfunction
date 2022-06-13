@@ -161,6 +161,10 @@ team add op_builder
 team modify op_builder color gold
 team modify op_builder prefix "Builder | "
 
+team add head_builder
+team modify head_builder color dark_aqua
+team modify head_builder prefix "Head Builder | "
+
 team add dev
 team modify dev color light_purple
 team modify dev prefix "Dev | "

@@ -14,3 +14,4 @@ execute in build:snapshot/overworld run scoreboard players set @a[x=0] in_dimens
 execute in build:snapshot/the_nether run scoreboard players set @a[x=0] in_dimension 101
 
 execute in build:event_world run scoreboard players set @a[x=0] in_dimension 200
+execute in build:blueprint_world run scoreboard players set @a[x=0] in_dimension 201

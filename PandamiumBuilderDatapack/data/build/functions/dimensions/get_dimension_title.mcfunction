@@ -14,3 +14,4 @@ execute if score <dim> variable matches 100 run data merge storage build:temp {D
 execute if score <dim> variable matches 101 run data merge storage build:temp {Dimension:'The Nether (Snapshot)'}
 
 execute if score <dim> variable matches 200 run data merge storage build:temp {Dimension:'The Overworld (Event)'}
+execute if score <dim> variable matches 201 run data merge storage build:temp {Dimension:'The §1BLUEPRINT§r Overworld'}

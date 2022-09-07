@@ -1,0 +1,13 @@
+{
+  "values": [
+    "chest",
+    "trapped_chest",
+    "ender_chest",
+    "ladder",
+    "#fences",
+    "#anvil",
+    "composter",
+    "cauldron",
+    "hopper"
+  ]
+}

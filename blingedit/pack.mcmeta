@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"description": [
+			"GUI for performing Minecraft world editing operations.",
+			"\nby Sethbling (updated to 1.19.3 by DorkOrc)"
+		]
+		"pack_format": 10
+	}
+}

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:player] if score @s disp_plugins matches 1.. run tellraw @s ["",{"text":"[DropFill]","clickEvent":{"action":"run_command","value":"/function blingedit_dropfill:run"},"color":"aqua"}]

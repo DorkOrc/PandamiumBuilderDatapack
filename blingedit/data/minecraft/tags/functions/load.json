@@ -1,5 +1,8 @@
 {
     "values": [
-        "blingedit:reset"
+        "blingedit:reset",
+        "blingedit_dropfill:reset",
+        "blingedit_spline:reset",
+        "blingedit_vegetate:reset"
     ]
 }

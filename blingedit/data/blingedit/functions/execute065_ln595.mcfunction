@@ -14,6 +14,6 @@ scoreboard players operation Global fil_scratch8 *= Global fil_scratch9
 execute store result entity @s Pos[0] double 0.001 run scoreboard players get Global fil_scratch6
 execute store result entity @s Pos[1] double 0.001 run scoreboard players get Global fil_scratch7
 execute store result entity @s Pos[2] double 0.001 run scoreboard players get Global fil_scratch8
-execute at @s run clone ~ ~ ~ ~ ~ ~ 0 1 0
+execute at @s run clone ~ ~ ~ ~ ~ ~ 29999998 65 25189000
 scoreboard players add Global replaced_blocks 1
-clone 0 1 0 0 1 0 ~ ~ ~
+clone 29999998 65 25189000 29999998 65 25189000 ~ ~ ~

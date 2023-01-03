@@ -1,4 +1,4 @@
-clone ~ ~ ~ ~ ~ ~ 0 1 0
+clone ~ ~ ~ ~ ~ ~ 29999998 65 25189000
 execute as @s run function blingedit:get_minmax
 execute if score Global has_box matches 1.. run function blingedit:execute209_ln1654
 setblock ~ ~ ~ air

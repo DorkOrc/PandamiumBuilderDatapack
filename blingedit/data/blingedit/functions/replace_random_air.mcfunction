@@ -1,3 +1,3 @@
-setblock 0 2 0 air
+setblock 29999998 66 25189000 air
 function blingedit:perform_random_replace
 gamerule sendCommandFeedback false

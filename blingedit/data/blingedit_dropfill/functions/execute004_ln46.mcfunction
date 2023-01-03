@@ -1,2 +1,2 @@
-clone ~ ~ ~ ~ ~ ~ 0 1 0 masked
-clone 0 1 0 0 1 0 ~ ~ ~ masked
+clone ~ ~ ~ ~ ~ ~ 29999998 65 25189000 masked
+clone 29999998 65 25189000 29999998 65 25189000 ~ ~ ~ masked

@@ -1,3 +1,8 @@
+execute in overworld run forceload add 29999998 25189000
+execute in the_nether run forceload add 29999998 25189000
+execute in the_end run forceload add 29999998 25189000
+# FUTURE: add [changed_dimension] forceload checks for other dimensions
+
 scoreboard objectives add ry1 dummy
 scoreboard objectives add ry2 dummy
 scoreboard objectives add _id dummy

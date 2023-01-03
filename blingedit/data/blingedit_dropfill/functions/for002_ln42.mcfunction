@@ -1,4 +1,4 @@
-setblock 0 1 0 air
+setblock 29999998 65 25189000 air
 scoreboard players operation Global y = Global box_ymax
 scoreboard players operation Global run_scratch2 = Global box_ymin
 scoreboard players set Global run_scratch3 -1

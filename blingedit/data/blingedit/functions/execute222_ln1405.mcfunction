@@ -4,10 +4,12 @@ execute unless score @s cursor_inside matches 0.. run scoreboard players set @s 
 execute unless score @s edit matches 1.. run scoreboard players set @s edit 0
 scoreboard players operation Global mai_scratch1 = @s edit
 scoreboard players operation @s prev_edit = Global mai_scratch1
+
 scoreboard players set @s edit 0
-scoreboard players set @s[nbt={"SelectedItem":{tag:{display:{Name:"{\"text\":\"BlingEdit\"}"}}}}] edit 1
-scoreboard players set @s carrot_on_stick 0
-scoreboard players set @s[nbt={"SelectedItem":{id:"minecraft:carrot_on_a_stick"}}] carrot_on_stick 1
+scoreboard players set @s offhand 0
+execute if predicate blingedit:mainhand/blingedit_wand run scoreboard players set @s edit 1
+execute unless score @s edit matches 1 if predicate blingedit:offhand/blingedit_wand store success score @s offhand run scoreboard players set @s edit 1
+
 scoreboard players set Global click 0
 execute at @s positioned ~ ~1.6 ~ positioned ^ ^ ^1.5 positioned ~ ~-0.6 ~ run function blingedit:execute157_ln1423
 execute if score @s right_click matches 1.. run scoreboard players set Global click 1

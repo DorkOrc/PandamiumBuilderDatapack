@@ -166,7 +166,7 @@ scoreboard objectives add _move_by_2 dummy
 scoreboard objectives add _offset_2 dummy
 scoreboard objectives add cursor_range dummy
 scoreboard objectives add _look_2 dummy
-scoreboard objectives add carrot_on_stick dummy
+scoreboard objectives add offhand dummy
 scoreboard objectives add dest_dz dummy
 scoreboard objectives add _delta_0 dummy
 scoreboard objectives add p_xmax dummy

@@ -1,4 +1,4 @@
-replaceitem entity @s weapon.mainhand diamond_sword
-replaceitem entity @s weapon.offhand shield
-replaceitem entity @s armor.head player_head{SkullOwner:"SethBling"}
+item replace entity @s weapon.mainhand with diamond_sword
+item replace entity @s weapon.offhand with shield
+item replace entity @s armor.head with player_head{SkullOwner:"SethBling"}
 team join source

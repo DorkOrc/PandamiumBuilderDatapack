@@ -1,2 +1,2 @@
-replaceitem entity @s weapon.offhand diamond_sword
-replaceitem entity @s weapon.mainhand shield
+item replace entity @s weapon.offhand with diamond_sword
+item replace entity @s weapon.mainhand with shield

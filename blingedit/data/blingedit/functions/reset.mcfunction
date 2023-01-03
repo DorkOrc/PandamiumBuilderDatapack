@@ -3,6 +3,21 @@ execute in the_nether run forceload add 29999998 25189000
 execute in the_end run forceload add 29999998 25189000
 # FUTURE: add [changed_dimension] forceload checks for other dimensions
 
+# blingedit.right_click (used:warped_fungus_on_a_stick)
+# blingedit.global
+# blingedit.constant
+
+scoreboard objectives remove right_click
+scoreboard objectives add right_click used:carrot_on_a_stick
+
+scoreboard objectives add Constant dummy
+scoreboard players set minus Constant -1
+scoreboard players set c2 Constant 2
+scoreboard players set c100 Constant 100
+scoreboard players set c1000 Constant 1000
+scoreboard players set c360 Constant 360
+scoreboard objectives add con_scratch0 dummy
+
 scoreboard objectives add ry1 dummy
 scoreboard objectives add ry2 dummy
 scoreboard objectives add _id dummy
@@ -229,13 +244,6 @@ scoreboard objectives add flipped_z dummy
 scoreboard objectives add feedback dummy
 scoreboard objectives add zmax dummy
 scoreboard objectives add _movement_0 dummy
-scoreboard objectives add Constant dummy
-scoreboard players set minus Constant -1
-scoreboard players set c2 Constant 2
-scoreboard players set c100 Constant 100
-scoreboard players set c1000 Constant 1000
-scoreboard players set c360 Constant 360
-scoreboard objectives add con_scratch0 dummy
 scoreboard objectives add fil_scratch9 dummy
 scoreboard objectives add fil_scratch8 dummy
 scoreboard objectives add fil_scratch7 dummy
@@ -302,24 +310,30 @@ scoreboard objectives add per3_scratch3 dummy
 scoreboard objectives add per3_scratch2 dummy
 scoreboard objectives add per3_scratch1 dummy
 scoreboard objectives add per3_scratch0 dummy
+
 team add source
 team modify source color red
 team modify source collisionRule never
+
 team add no_collision
 team modify no_collision collisionRule never
+
 team add moving
 team modify moving color yellow
 team modify moving collisionRule never
+
 team add highlight
 team modify highlight color blue
 team modify highlight collisionRule never
+
 team add dest
 team modify dest color green
 team modify dest collisionRule never
+
 execute store result score Global feedback run gamerule sendCommandFeedback
 gamerule maxCommandChainLength 1000000000
-scoreboard objectives remove right_click
-scoreboard objectives add right_click minecraft.used:minecraft.carrot_on_a_stick
+
 bossbar add progress "Progress"
 bossbar set progress max 100
-say Loaded BlingEdit v1.0.6 by SethBling
+
+say Loaded "BlingEdit v1.0.6 by SethBling" BRANCH (branch by DorkOrc)

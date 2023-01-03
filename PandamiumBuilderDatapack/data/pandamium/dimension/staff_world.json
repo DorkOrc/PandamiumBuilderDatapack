@@ -1,20 +1,16 @@
 {
 	"type": "pandamium:staff_world",
 	"generator": {
-		"type": "flat",
-		"seed": -1148089079,
+		"type": "minecraft:flat",
 		"settings": {
-			"biome": "the_void",
+			"biome": "minecraft:the_void",
 			"features": false,
 			"layers": [
 				{
-					"block": "air",
+					"block": "minecraft:air",
 					"height": 1
 				}
-			],
-			"structures": {
-				"structures": {}
-			}
+			]
 		}
 	}
 }

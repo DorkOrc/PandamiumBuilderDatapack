@@ -13,12 +13,12 @@ scoreboard players operation Global run_scratch2 *= Global dz
 scoreboard players operation Global dist += Global run_scratch2
 scoreboard players set Global weight 10000
 scoreboard players operation Global run_scratch2 = Global dist
-scoreboard players operation Global run_scratch2 *= c10 Constant
+scoreboard players operation Global run_scratch2 *= $10 blingedit.constant
 scoreboard players add Global run_scratch2 1
 scoreboard players operation Global weight /= Global run_scratch2
 scoreboard players operation Global run_scratch2 = Global weight
 scoreboard players operation Global run_scratch3 = @s height
-scoreboard players operation Global run_scratch3 *= c10 Constant
+scoreboard players operation Global run_scratch3 *= $10 blingedit.constant
 scoreboard players add Global run_scratch3 5
 scoreboard players operation Global run_scratch2 *= Global run_scratch3
 scoreboard players operation Global weighted_y += Global run_scratch2

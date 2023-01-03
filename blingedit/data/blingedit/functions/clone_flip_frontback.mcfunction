@@ -1,10 +1,10 @@
 execute store result score @s ry run data get entity @s Rotation[0] 1
 scoreboard players operation Global ry = @s ry
-scoreboard players operation Global ry %= c360 Constant
+scoreboard players operation Global ry %= $360 blingedit.constant
 scoreboard players add Global ry 360
 scoreboard players operation Global clo4_scratch0 = @s clone_rotation
 scoreboard players operation Global ry += Global clo4_scratch0
-scoreboard players operation Global ry %= c360 Constant
+scoreboard players operation Global ry %= $360 blingedit.constant
 execute if score Global ry matches ..44 run function blingedit:execute040_ln388
 execute if score Global ry matches 45.. if score Global ry matches ..134 run function blingedit:execute041_ln392
 execute if score Global ry matches 135.. if score Global ry matches ..224 run function blingedit:execute042_ln396

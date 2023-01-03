@@ -2,7 +2,7 @@ scoreboard players operation Global percent = Global dx
 scoreboard players operation Global percent -= Global start_dx
 scoreboard players operation Global per2_scratch2 = Global end_dx
 scoreboard players operation Global per2_scratch2 -= Global start_dx
-scoreboard players operation Global per2_scratch2 /= c100 Constant
+scoreboard players operation Global per2_scratch2 /= $100 blingedit.constant
 scoreboard players operation Global percent /= Global per2_scratch2
 execute store result bossbar progress value run scoreboard players get Global percent
 scoreboard players operation Global dy = Global start_dy

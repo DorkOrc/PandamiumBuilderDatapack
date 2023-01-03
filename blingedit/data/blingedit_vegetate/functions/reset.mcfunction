@@ -1,3 +1,7 @@
+scoreboard objectives add blingedit.constant dummy
+scoreboard players set $5 blingedit.constant 5
+scoreboard players set $2 blingedit.constant 2
+
 scoreboard objectives add box_zmax dummy
 scoreboard objectives add z dummy
 scoreboard objectives add plugin_can_run dummy
@@ -11,9 +15,6 @@ scoreboard objectives add box_ymin dummy
 scoreboard objectives add box_xmin dummy
 scoreboard objectives add veg dummy
 scoreboard objectives add disp_plugins dummy
-scoreboard objectives add Constant dummy
-scoreboard players set c5 Constant 5
-scoreboard players set c2 Constant 2
 scoreboard objectives add run_scratch6 dummy
 scoreboard objectives add run_scratch5 dummy
 scoreboard objectives add run_scratch4 dummy

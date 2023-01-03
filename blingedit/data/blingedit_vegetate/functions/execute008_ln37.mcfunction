@@ -1,10 +1,10 @@
 scoreboard players set Global run_scratch3 0
 scoreboard players operation Global run_scratch3 += @e[type=minecraft:armor_stand,limit=1,sort=random,scores={RVblingedit_vege=..1}] RVblingedit_vege
-scoreboard players operation Global run_scratch3 *= c2 Constant
+scoreboard players operation Global run_scratch3 *= $2 blingedit.constant
 scoreboard players operation Global run_scratch3 += @e[type=minecraft:armor_stand,limit=1,sort=random,scores={RVblingedit_vege=..1}] RVblingedit_vege
-scoreboard players operation Global run_scratch3 *= c2 Constant
+scoreboard players operation Global run_scratch3 *= $2 blingedit.constant
 scoreboard players operation Global run_scratch3 += @e[type=minecraft:armor_stand,limit=1,sort=random,scores={RVblingedit_vege=..1}] RVblingedit_vege
-scoreboard players operation Global run_scratch3 *= c5 Constant
+scoreboard players operation Global run_scratch3 *= $5 blingedit.constant
 scoreboard players operation Global run_scratch3 += @e[type=minecraft:armor_stand,limit=1,sort=random,scores={RVblingedit_vege=..4}] RVblingedit_vege
 scoreboard players operation Global veg = Global run_scratch3
 execute if score Global veg matches 3.. if score Global veg matches ..8 run setblock ~ ~ ~ grass

@@ -7,8 +7,8 @@ scoreboard players operation Global player = @s _id
 execute store result score @s ry run data get entity @s Rotation[0] 1
 scoreboard players operation Global ry = @s ry
 scoreboard players add Global ry 90
-scoreboard players operation Global ry %= c360 Constant
+scoreboard players operation Global ry %= $360 blingedit.constant
 scoreboard players add Global ry 360
-scoreboard players operation Global ry %= c360 Constant
+scoreboard players operation Global ry %= $360 blingedit.constant
 function blingedit:move_dir
 gamerule sendCommandFeedback false

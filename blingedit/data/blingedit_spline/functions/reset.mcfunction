@@ -1,3 +1,7 @@
+scoreboard objectives add blingedit.constant dummy
+scoreboard players set $10 blingedit.constant 10
+scoreboard players set $100 blingedit.constant 100
+
 scoreboard objectives add first dummy
 scoreboard objectives add z dummy
 scoreboard objectives add x dummy
@@ -24,9 +28,6 @@ scoreboard objectives add height dummy
 scoreboard objectives add weight dummy
 scoreboard objectives add dist dummy
 scoreboard objectives add disp_plugins dummy
-scoreboard objectives add Constant dummy
-scoreboard players set c10 Constant 10
-scoreboard players set c100 Constant 100
 scoreboard objectives add run_scratch4 dummy
 scoreboard objectives add run_scratch3 dummy
 scoreboard objectives add run_scratch2 dummy

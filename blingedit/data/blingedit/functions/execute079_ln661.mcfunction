@@ -22,10 +22,10 @@ scoreboard players operation Global clo7_scratch0 %= Global clo7_scratch3
 scoreboard players operation Global clo7_scratch1 %= Global clo7_scratch3
 scoreboard players operation Global clo7_scratch2 %= Global clo7_scratch3
 scoreboard players set Global clo7_scratch3 1000
-scoreboard players operation Global clo7_scratch3 /= c2 Constant
+scoreboard players operation Global clo7_scratch3 /= $2 blingedit.constant
 scoreboard players set Global clo7_scratch4 0
 scoreboard players set Global clo7_scratch5 1000
-scoreboard players operation Global clo7_scratch5 /= c2 Constant
+scoreboard players operation Global clo7_scratch5 /= $2 blingedit.constant
 scoreboard players operation Global clo7_scratch0 += Global clo7_scratch3
 scoreboard players operation Global clo7_scratch1 += Global clo7_scratch4
 scoreboard players operation Global clo7_scratch2 += Global clo7_scratch5

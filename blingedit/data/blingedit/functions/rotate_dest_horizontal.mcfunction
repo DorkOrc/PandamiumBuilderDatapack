@@ -18,7 +18,7 @@ scoreboard players operation Global sy -= Global _dest_min_1
 scoreboard players operation Global sz -= Global _dest_min_2
 scoreboard players operation Global mod = Global cx
 scoreboard players operation Global mod += Global cz
-scoreboard players operation Global mod %= c1000 Constant
+scoreboard players operation Global mod %= $1000 blingedit.constant
 scoreboard players set Global x_offset 0
 scoreboard players set Global z_offset 0
 execute unless score Global mod matches 0..0 run function blingedit:execute049_ln464

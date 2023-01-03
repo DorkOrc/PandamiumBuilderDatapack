@@ -3,21 +3,28 @@ execute in the_nether run forceload add 29999998 25189000
 execute in the_end run forceload add 29999998 25189000
 # FUTURE: add [changed_dimension] forceload checks for other dimensions
 
-# blingedit.right_click (used:warped_fungus_on_a_stick)
+#================================
+
+# blingedit.right_click (used:carrot_on_a_stick)
 # blingedit.global
 # blingedit.constant
+# blingedit.scratch
+
+#================================
+
+scoreboard objectives add blingedit.constant dummy
+scoreboard players set $-1 blingedit.constant -1
+scoreboard players set $2 blingedit.constant 2
+scoreboard players set $100 blingedit.constant 100
+scoreboard players set $1000 blingedit.constant 1000
+scoreboard players set $360 blingedit.constant 360
+
+#================================
 
 scoreboard objectives remove right_click
 scoreboard objectives add right_click used:carrot_on_a_stick
 
-scoreboard objectives add Constant dummy
-scoreboard players set minus Constant -1
-scoreboard players set c2 Constant 2
-scoreboard players set c100 Constant 100
-scoreboard players set c1000 Constant 1000
-scoreboard players set c360 Constant 360
 scoreboard objectives add con_scratch0 dummy
-
 scoreboard objectives add ry1 dummy
 scoreboard objectives add ry2 dummy
 scoreboard objectives add _id dummy

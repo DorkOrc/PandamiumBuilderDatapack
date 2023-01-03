@@ -2,7 +2,7 @@ scoreboard players set Global skip 0
 scoreboard players operation Global sum = Global ex
 scoreboard players operation Global sum += Global ey
 scoreboard players operation Global sum += Global ez
-execute if score Global sum matches ..-1 run scoreboard players operation Global sum *= minus Constant
+execute if score Global sum matches ..-1 run scoreboard players operation Global sum *= $-1 blingedit.constant
 scoreboard players set Global skip 0
 execute if score Global ex matches -1..-1 if score Global ey matches -1..-1 if score Global ez matches -1..-1 run scoreboard players set Global skip 1
 execute if score Global ex matches 1..1 if score Global ey matches 1..1 if score Global ez matches 1..1 run scoreboard players set Global skip 1

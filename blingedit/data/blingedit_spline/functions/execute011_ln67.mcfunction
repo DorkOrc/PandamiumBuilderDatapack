@@ -11,7 +11,7 @@ execute store result entity @s Pos[1] double 1.0 run scoreboard players get @s y
 execute at @s run clone ~ ~ ~ ~ ~ ~ 29999998 65 25189000
 scoreboard players operation Global run_scratch2 = Global weighted_y
 scoreboard players operation Global run_scratch2 /= Global total_weight
-scoreboard players operation Global run_scratch2 /= c10 Constant
+scoreboard players operation Global run_scratch2 /= $10 blingedit.constant
 execute store result entity @s Pos[0] double 1.0 run scoreboard players get Global x
 execute store result entity @s Pos[1] double 1.0 run scoreboard players get Global run_scratch2
 execute store result entity @s Pos[2] double 1.0 run scoreboard players get Global z

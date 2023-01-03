@@ -1,6 +1,6 @@
 scoreboard players operation Global percent = Global x
 scoreboard players operation Global percent -= Global xmin
-scoreboard players operation Global percent *= c100 Constant
+scoreboard players operation Global percent *= $100 blingedit.constant
 scoreboard players operation Global per3_scratch2 = Global xmax
 scoreboard players operation Global per3_scratch2 -= Global xmin
 scoreboard players operation Global percent /= Global per3_scratch2

@@ -147,7 +147,6 @@ scoreboard objectives add end_dx dummy
 scoreboard objectives add _delta_1 dummy
 scoreboard objectives add step dummy
 scoreboard objectives add edit_ymax dummy
-scoreboard objectives add found_player dummy
 scoreboard objectives add prev_edit dummy
 scoreboard objectives add edit_ymin dummy
 scoreboard objectives add handled dummy

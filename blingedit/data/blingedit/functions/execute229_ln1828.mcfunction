@@ -1,2 +1,2 @@
-execute as @s at @s run tp @s ~ -100 ~
-kill @s
+tp 0 -20000000 0
+kill

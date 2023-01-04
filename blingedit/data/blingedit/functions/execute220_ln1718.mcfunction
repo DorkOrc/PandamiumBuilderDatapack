@@ -11,7 +11,7 @@ scoreboard players operation Global mai_scratch1 = Global _unique
 scoreboard players operation @s pick2 = Global mai_scratch1
 scoreboard players operation Global _id = @s pick2
 execute as @e if score @s _id = Global _id run function blingedit:execute214_ln1727
-scoreboard players operation Global mai_scratch1 = @e[type=minecraft:player,limit=1,scores={mai_scratch0=1..}] pick2
+scoreboard players operation Global mai_scratch1 = @a[scores={mai_scratch0=1..},limit=1] pick2
 scoreboard players operation @s moving = Global mai_scratch1
 scoreboard players set Global ex -1
 scoreboard players set Global mai_scratch1 1

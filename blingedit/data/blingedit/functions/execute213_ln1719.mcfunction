@@ -5,4 +5,4 @@ scoreboard players set Global mai_scratch1 1000
 scoreboard players operation Global x /= Global mai_scratch1
 scoreboard players operation Global y /= Global mai_scratch1
 scoreboard players operation Global z /= Global mai_scratch1
-tellraw @e[type=minecraft:player,limit=1,scores={mai_scratch0=1..}] ["",{"text":"1st corner at "},{"score":{"name":"Global","objective":"x"},"color":"red"},{"text":", ","color":"red"},{"score":{"name":"Global","objective":"y"},"color":"red"},{"text":", ","color":"red"},{"score":{"name":"Global","objective":"z"},"color":"red"}]
+tellraw @a[scores={mai_scratch0=1..},limit=1] ["",{"text":"1st corner at "},{"score":{"name":"Global","objective":"x"},"color":"red"},{"text":", ","color":"red"},{"score":{"name":"Global","objective":"y"},"color":"red"},{"text":", ","color":"red"},{"score":{"name":"Global","objective":"z"},"color":"red"}]

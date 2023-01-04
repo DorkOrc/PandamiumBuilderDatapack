@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:player] if score @s disp_plugins matches 1.. run tellraw @s ["",{"text":"[Vegetate]","clickEvent":{"action":"run_command","value":"/function blingedit_vegetate:run"},"color":"aqua"}]
+tellraw @a[scores={disp_plugins=1..}] ["",{"text":"[Vegetate]","clickEvent":{"action":"run_command","value":"/function blingedit_vegetate:run"},"color":"aqua"}]

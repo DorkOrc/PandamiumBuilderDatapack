@@ -21,4 +21,4 @@ scoreboard players operation Global mai_scratch3 %= Global mai_scratch4
 scoreboard players operation Global _movement_0 -= Global mai_scratch1
 scoreboard players operation Global _movement_1 -= Global mai_scratch2
 scoreboard players operation Global _movement_2 -= Global mai_scratch3
-execute as @e[type=minecraft:magma_cube,tag=Corner] if score @s player = @e[type=minecraft:player,limit=1,scores={mai_scratch0=1..}] _id if score @s type matches 2..2 run function blingedit:execute200_ln1627
+execute as @e[type=minecraft:magma_cube,tag=Corner] if score @s player = @a[scores={mai_scratch0=1..},limit=1] _id if score @s type matches 2..2 run function blingedit:execute200_ln1627

@@ -10,6 +10,13 @@ scoreboard players set @s offhand 0
 execute if predicate blingedit:mainhand/blingedit_wand run scoreboard players set @s edit 1
 execute unless score @s edit matches 1 if predicate blingedit:offhand/blingedit_wand store success score @s offhand run scoreboard players set @s edit 1
 
+#execute at @s positioned ~ ~1.801 ~ unless entity @s[dx=0] run scoreboard players set @s eye_height_type 0
+# 1.62
+#execute at @s positioned ~ ~1.501 ~ unless entity @s[dx=0] run scoreboard players set @s eye_height_type 1
+# 1.27
+#execute at @s positioned ~ ~0.601 ~ unless entity @s[dx=0] run scoreboard players set @s eye_height_type 2
+# 0.4
+
 scoreboard players set Global click 0
 execute at @s positioned ~ ~1.6 ~ positioned ^ ^ ^1.5 positioned ~ ~-0.6 ~ run function blingedit:execute157_ln1423
 execute if score @s right_click matches 1.. run scoreboard players set Global click 1

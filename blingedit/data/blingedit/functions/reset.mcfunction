@@ -260,9 +260,7 @@ scoreboard objectives add fil_scratch3 dummy
 scoreboard objectives add fil_scratch2 dummy
 scoreboard objectives add fil_scratch1 dummy
 scoreboard objectives add fil_scratch0 dummy
-scoreboard objectives add col_scratch0 dummy
 scoreboard objectives add rot_scratch0 dummy
-scoreboard objectives add cre_scratch0 dummy
 scoreboard objectives add get2_scratch2 dummy
 scoreboard objectives add get2_scratch1 dummy
 scoreboard objectives add get2_scratch0 dummy

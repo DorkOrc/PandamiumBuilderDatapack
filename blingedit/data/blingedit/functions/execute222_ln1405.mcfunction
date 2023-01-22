@@ -18,7 +18,6 @@ execute unless score @s edit matches 1 if predicate blingedit:offhand/blingedit_
 # 0.4
 
 scoreboard players set Global click 0
-execute at @s positioned ~ ~1.6 ~ positioned ^ ^ ^1.5 positioned ~ ~-0.6 ~ run function blingedit:execute157_ln1423
 execute if score @s right_click matches 1.. run scoreboard players set Global click 1
 scoreboard players set @s disp_plugins 0
 execute if score @s prime_plugins matches 1.. run function blingedit:execute158_ln1439

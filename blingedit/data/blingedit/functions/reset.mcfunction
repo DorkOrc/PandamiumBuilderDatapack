@@ -5,7 +5,6 @@ execute in the_end run forceload add 29999998 25189000
 
 #================================
 
-# blingedit.right_click (used:carrot_on_a_stick)
 # blingedit.global
 # blingedit.constant
 # blingedit.scratch
@@ -21,8 +20,14 @@ scoreboard players set $360 blingedit.constant 360
 
 #================================
 
-scoreboard objectives remove right_click
-scoreboard objectives add right_click used:carrot_on_a_stick
+scoreboard objectives add blingedit.cursor_type dummy
+scoreboard objectives add blingedit.cursor_range dummy
+scoreboard objectives add blingedit.do_grid_particles dummy
+scoreboard objectives add blingedit.grid_particles_timer dummy
+
+scoreboard objectives add blingedit.use.warped_fungus_on_a_stick used:warped_fungus_on_a_stick
+
+#================================
 
 scoreboard objectives add con_scratch0 dummy
 scoreboard objectives add ry1 dummy
@@ -61,7 +66,6 @@ scoreboard objectives add _min_1 dummy
 scoreboard objectives add _min_0 dummy
 scoreboard objectives add _rand_max_1 dummy
 scoreboard objectives add _min_2 dummy
-scoreboard objectives add grid_display dummy
 scoreboard objectives add start_dz dummy
 scoreboard objectives add rx2 dummy
 scoreboard objectives add rx1 dummy
@@ -158,12 +162,10 @@ scoreboard objectives add _size_1 dummy
 scoreboard objectives add _size_0 dummy
 scoreboard objectives add _move_by_1 dummy
 scoreboard objectives add _size_2 dummy
-scoreboard objectives add raycast_select dummy
 scoreboard objectives add _move_by_0 dummy
 scoreboard objectives add random_replace dummy
 scoreboard objectives add _move_by_2 dummy
 scoreboard objectives add _offset_2 dummy
-scoreboard objectives add cursor_range dummy
 scoreboard objectives add _look_2 dummy
 scoreboard objectives add offhand dummy
 scoreboard objectives add dest_dz dummy
@@ -172,7 +174,6 @@ scoreboard objectives add p_xmax dummy
 scoreboard objectives add p_xmin dummy
 scoreboard objectives add state dummy
 scoreboard objectives add _delta_2 dummy
-scoreboard objectives add particles dummy
 scoreboard objectives add rz dummy
 scoreboard objectives add ry dummy
 scoreboard objectives add rx dummy
@@ -192,7 +193,6 @@ scoreboard objectives add can_do dummy
 scoreboard objectives add dest_ymax dummy
 scoreboard objectives add clone_rotation dummy
 scoreboard objectives add p_ymax dummy
-scoreboard objectives add cursor_current dummy
 scoreboard objectives add dest_ymin dummy
 scoreboard objectives add disp_plugins dummy
 scoreboard objectives add size_y dummy

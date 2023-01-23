@@ -27,6 +27,9 @@ scoreboard objectives add blingedit.grid_particles_timer dummy
 
 scoreboard objectives add blingedit.use.warped_fungus_on_a_stick used:warped_fungus_on_a_stick
 
+scoreboard objectives add blingedit.clone_display_source_id dummy
+scoreboard objectives add blingedit.clone_display_dest_id dummy
+
 #================================
 
 scoreboard objectives add con_scratch0 dummy
@@ -75,7 +78,6 @@ scoreboard objectives add pick2 dummy
 scoreboard objectives add pick1 dummy
 scoreboard objectives add _max_0 dummy
 scoreboard objectives add edit_xmin dummy
-scoreboard objectives add to_display dummy
 scoreboard objectives add left_handed dummy
 scoreboard objectives add okay_rotation dummy
 scoreboard objectives add xmin dummy
@@ -106,7 +108,6 @@ scoreboard objectives add _dpos_1 dummy
 scoreboard objectives add _dest_max_2 dummy
 scoreboard objectives add x1 dummy
 scoreboard objectives add x2 dummy
-scoreboard objectives add from_display dummy
 scoreboard objectives add clone_in_place dummy
 scoreboard objectives add box_ymax dummy
 scoreboard objectives add _dest_min_2 dummy

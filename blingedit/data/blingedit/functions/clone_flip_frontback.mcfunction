@@ -12,6 +12,6 @@ execute if score Global ry matches 225.. if score Global ry matches ..314 run fu
 execute if score Global ry matches 315.. run function blingedit:execute044_ln404
 execute if score Global flip_x matches 1.. run function blingedit:execute045_ln409
 execute if score Global flip_z matches 1.. run function blingedit:execute046_ln414
-scoreboard players operation Global _id = @s to_display
-execute as @e if score @s _id = Global _id as @s run function blingedit:clone_flip_horizontal
+scoreboard players operation Global _id = @s blingedit.clone_display_dest_id
+execute as @e[type=minecraft:armor_stand,tag=CloneDisplay] if score @s _id = Global _id as @s run function blingedit:clone_flip_horizontal
 gamerule sendCommandFeedback false

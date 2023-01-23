@@ -5,14 +5,12 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:warped_fungus_on_a_stick",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"text": "BlingEdit",
-								"bold": true,
-								"italic": false
+								"text": "BlingEdit"
 							}
 						},
 						{

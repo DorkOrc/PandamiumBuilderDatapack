@@ -1,3 +1,3 @@
-tag @s add blingedit.cursor_current
+scoreboard players set @a cursor_current 0
+scoreboard players set @s cursor_current 1
 execute at @s run function blingedit:execute012_ln143
-tag @s remove blingedit.cursor_current

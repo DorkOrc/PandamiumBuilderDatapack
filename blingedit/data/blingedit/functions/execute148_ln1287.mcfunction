@@ -1,7 +1,16 @@
-execute store result entity @s Pos[0] double 0.001 store result score Global x run scoreboard players get Global p_xmin
-execute if score Global x <= Global p_xmax positioned as @s run function blingedit:for145_ln1289
-execute store result entity @s Pos[2] double 0.001 store result score Global z run scoreboard players get Global p_zmin
-execute if score Global z <= Global p_zmax positioned as @s run function blingedit:for146_ln1307
-execute store result entity @s Pos[1] double 0.001 store result score Global y run scoreboard players get Global p_ymin
-execute if score Global y <= Global p_ymax positioned as @s run function blingedit:for147_ln1325
-kill
+scoreboard players operation Global x = Global p_xmin
+scoreboard players operation Global dra_scratch0 = Global p_xmax
+scoreboard players set Global dra_scratch1 200
+execute if score Global dra_scratch1 matches ..-1 if score Global x >= Global dra_scratch0 run function blingedit:for145_ln1289
+execute if score Global dra_scratch1 matches 1.. if score Global x <= Global dra_scratch0 run function blingedit:for145_ln1289
+scoreboard players operation Global z = Global p_zmin
+scoreboard players operation Global dra_scratch0 = Global p_zmax
+scoreboard players set Global dra_scratch1 200
+execute if score Global dra_scratch1 matches ..-1 if score Global z >= Global dra_scratch0 run function blingedit:for146_ln1307
+execute if score Global dra_scratch1 matches 1.. if score Global z <= Global dra_scratch0 run function blingedit:for146_ln1307
+scoreboard players operation Global y = Global p_ymin
+scoreboard players operation Global dra_scratch0 = Global p_ymax
+scoreboard players set Global dra_scratch1 200
+execute if score Global dra_scratch1 matches ..-1 if score Global y >= Global dra_scratch0 run function blingedit:for147_ln1325
+execute if score Global dra_scratch1 matches 1.. if score Global y <= Global dra_scratch0 run function blingedit:for147_ln1325
+kill @s

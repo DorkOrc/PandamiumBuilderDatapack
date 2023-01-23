@@ -1,2 +1,2 @@
-scoreboard players add @s grid_display 1
-execute if score @s grid_display matches 10.. run function blingedit:execute166_ln1485
+scoreboard players add @s blingedit.grid_particles_timer 1
+execute if score @s blingedit.grid_particles_timer matches 10.. run function blingedit:execute166_ln1485

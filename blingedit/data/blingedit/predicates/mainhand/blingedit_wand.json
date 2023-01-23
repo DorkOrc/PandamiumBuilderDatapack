@@ -5,7 +5,7 @@
 		"equipment": {
 			"mainhand": {
 				"items": [
-					"minecraft:carrot_on_a_stick"
+					"minecraft:warped_fungus_on_a_stick"
 				],
 				"nbt": "{blingedit:{wand:1b}}"
 			}

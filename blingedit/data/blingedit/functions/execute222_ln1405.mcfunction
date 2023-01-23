@@ -1,4 +1,4 @@
-execute unless score @s cursor_range matches 0.. run scoreboard players set @s cursor_range 5
+execute unless score @s blingedit.cursor_range matches 0.. run scoreboard players set @s blingedit.cursor_range 5
 execute unless score @s cursor_inside matches 0.. run scoreboard players set @s cursor_inside 1
 # Make sure there's a value in edit
 execute unless score @s edit matches 1.. run scoreboard players set @s edit 0
@@ -18,13 +18,13 @@ execute unless score @s edit matches 1 if predicate blingedit:offhand/blingedit_
 # 0.4
 
 scoreboard players set Global click 0
-execute if score @s right_click matches 1.. run scoreboard players set Global click 1
+execute if score @s blingedit.use.warped_fungus_on_a_stick matches 1.. run scoreboard players set Global click 1
 scoreboard players set @s disp_plugins 0
 execute if score @s prime_plugins matches 1.. run function blingedit:execute158_ln1439
 execute if score @s edit matches 1.. unless score @s prev_edit matches 1.. run function blingedit:execute163_ln1445
 execute if score @s prev_edit matches 1.. unless score @s edit matches 1.. run function blingedit:execute164_ln1469
 execute as @s run function blingedit:get_minmax
-execute if score Global has_box matches 1.. if score @s particles matches 1.. run function blingedit:execute167_ln1483
+execute if score Global has_box matches 1.. if score @s blingedit.do_grid_particles matches 1 run function blingedit:execute167_ln1483
 execute if score @s state matches 1..1 run function blingedit:execute171_ln1502
 execute as @s run function blingedit:get_minmax
 execute if score Global has_box matches 1.. run function blingedit:execute172_ln1519

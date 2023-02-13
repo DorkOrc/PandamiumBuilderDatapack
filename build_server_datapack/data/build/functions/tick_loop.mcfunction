@@ -1,11 +1,11 @@
-execute as @a unless score @s detect.leave matches 0 run function build:on_join
+execute as @a unless score @s id matches 2.. run function build:first_join
+execute as @a[scores={detect.leave=1..}] run function build:on_join
 
 gamemode spectator @a[scores={builder_perms=0}]
 
-execute as @a[scores={builder_perms=1..}] run function build:check_builder_triggers
-execute as @a run function build:check_triggers
-
-execute as @a[gamemode=spectator,scores={builder_perms=0}] at @s anchored eyes run particle dust 1 0 0 1 ^ ^ ^ 0 0 0 0 1 force @a[distance=.01..16]
-execute as @a[gamemode=spectator,scores={builder_perms=1..}] at @s anchored eyes run particle dust 0 1 1 1 ^ ^ ^ 0 0 0 0 1 force @a[distance=.01..16]
-
 schedule function build:tick_loop 1t
+
+scoreboard players set @a[gamemode=survival] gamemode_last_tick 0
+scoreboard players set @a[gamemode=creative] gamemode_last_tick 1
+scoreboard players set @a[gamemode=adventure] gamemode_last_tick 2
+scoreboard players set @a[gamemode=spectator] gamemode_last_tick 3

@@ -1,9 +1,11 @@
 scoreboard objectives add global dummy
-scoreboard objectives add variable dummy
+scoreboard objectives add scratch dummy
+scoreboard objectives add io dummy
 scoreboard objectives add constant dummy
 
+# Lowest ID should be 2
 scoreboard objectives add id dummy
-execute unless score $next_id global matches 2.. run scoreboard players set <next_uid> global 2
+execute unless score $next_id global matches 2.. run scoreboard players set $next_id global 2
 
 scoreboard objectives add builder_perms dummy
 scoreboard objectives add in_dimension dummy
@@ -14,7 +16,6 @@ scoreboard objectives add opt.show_invisible_entities dummy
 
 # detect
 scoreboard objectives add detect.leave custom:leave_game
-scoreboard players reset * detect.leave
 
 
 # Triggers
@@ -47,25 +48,10 @@ scoreboard players reset * detect.leave
 #
 
 # Teams
-team add builder
-team modify builder color aqua
-team modify builder prefix "Builder | "
-team modify builder collisionRule never
-
-team add builder_op
-team modify builder_op color aqua
-team modify builder_op prefix "Builder | "
-team modify builder_op collisionRule never
-
-team add builder_dev
-team modify builder_dev color light_purple
-team modify builder_dev prefix "Builder | "
-team modify builder_dev collisionRule never
-
-team add gray_color
-team modify gray_color color gray
-team add red_color
-team modify red_color color red
+team add color.gray
+team modify color.gray color gray
+team add color.red
+team modify color.red color red
 
 #
 
@@ -96,13 +82,13 @@ worldborder set 1023
 execute in the_nether run forceload add -1 -1 0 0
 execute in overworld run forceload add -1 -1 0 0
 execute in the_end run forceload add -1 -1 0 0
-execute in pandamium:staff_world run forceload add -1 -1 0 0
 
 execute in build:release/overworld run forceload add -1 -1 0 0
 execute in build:release/the_nether run forceload add -1 -1 0 0
 execute in build:snapshot/overworld run forceload add -1 -1 0 0
 execute in build:snapshot/the_nether run forceload add -1 -1 0 0
 execute in build:event_world run forceload add -1 -1 0 0
+execute in build:blueprint_world run forceload add -1 -1 0 0
 
 
 scoreboard players set $-1 constant -1

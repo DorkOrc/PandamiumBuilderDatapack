@@ -1,0 +1,60 @@
+================
+FUNCTION FOLDERS
+================
+folder "build:utils":
+	Each function's name describes exactly what it does. 
+	Hence, there are no "build:utils/.../main" or "build:utils/.../main" functions
+	e.g. "build:utils/raycast" is prefered over "build:utils/raycast/main"
+	If necessary, the function may have a respective "impl" function in the "build:impl" folder which houses its extra code, 
+	leaving the "build:utils" function to just manage the function's inputs and outputs.
+
+folder "build:impl":
+	Anything this folder should be called using "build:impl/FUNCTION_ORIGIN/main", or "build:impl/FUNCTION_ORIGIN/tick"
+	where FUNCTION describes what you are calling, 
+	and "main" is always prefered unless the function is ran by function "build:tick"
+	If a function needs an input or has an output, it should generally have an overhead function in folder "build:utils"
+
+================
+SCOREBOARDS
+================
+objective "global"
+	Stores non-volatile variables, such as counters, timers, or booleans.
+	There is no name in-pack naming convention here as it is expected that the whole pack is aware of variables stored here.
+
+	# or variables which needs to persist across several MAIN functions where it is impossible to know if the value was overwritten.
+
+objective "scratch"
+	Stores VOLATILE variables such as temporary data, and calculations.
+	It should not be expected that these variables persist after a MAIN function is called, so an in-pack structure is used:
+		${root_function_path}.{variable_name}
+		e.g. $impl.schedule.source
+			which is used by 
+		
+		the "root" function can either be the function itself, or the MAIN function which calls it.
+
+objective "constant"
+	These variables will never be changed in run-time and are always declared in the "build:load" function
+
+objective "io"
+	Stores VOLATILE variables which may be assigned values immediately before a function, predicate, or loot table is called, 
+	and may be fetched after a function is called, if the function returned anything.
+
+	The variable will be used by the function, predicate, or loot table ran as input data, 
+	and a function may return data via an "io" variable, too.
+	
+	An in-pack structure is used:
+		${root_function_path}.{variable_name}.{in|out}
+		or $predicates.{variable_name}
+		or $loot_tables.{variable_name}
+		
+		e.g. $predicates.id
+		e.g. $impl.raycast.hit_target.out (bool)
+		e.g. $loot_tables.max_rolls
+	
+
+objective "id"
+	assigned when a player joins for the first time, and is always one more than the previous player who joined for the first time
+
+	The minimum id should be 2 so that, if a `/trigger` needs to have a user's id as an input, 
+	running `/trigger trigger_name` (which will be 1 if the function is properly reset) will not incorrectly target a player with ID 1
+

@@ -1,13 +1,13 @@
 {
 	"type": "build:void",
 	"generator": {
-		"type": "flat",
+		"type": "minecraft:flat",
 		"settings": {
-			"biome": "the_void",
+			"biome": "minecraft:the_void",
 			"features": false,
 			"layers": [
 				{
-					"block": "air",
+					"block": "minecraft:air",
 					"height": 1
 				}
 			]

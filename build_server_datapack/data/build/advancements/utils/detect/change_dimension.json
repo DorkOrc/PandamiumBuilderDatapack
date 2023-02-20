@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "build:dimensions/update_all"
+		"function": "build:utils/detect/change_dimension"
 	}
 }

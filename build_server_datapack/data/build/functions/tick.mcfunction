@@ -4,6 +4,8 @@ execute as @a[scores={detect.leave=1..}] run function build:players/on_join
 gamemode spectator @a[team=]
 gamemode spectator @a[scores={builder_perms=0}]
 
+function build:map_specific/tick
+
 function build:impl/triggers/tick
 function build:impl/schedule/tick
 

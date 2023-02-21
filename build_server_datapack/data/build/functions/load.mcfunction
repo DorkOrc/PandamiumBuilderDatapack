@@ -7,15 +7,16 @@ scoreboard objectives add constant dummy
 scoreboard objectives add id dummy
 execute unless score $next_id global matches 2.. run scoreboard players set $next_id global 2
 
+# Player Info
 scoreboard objectives add builder_perms dummy
-
 scoreboard objectives add in_dimension dummy
 scoreboard objectives add gamemode_last_tick dummy
 
+# Options
 scoreboard objectives add opt.night_vision_mode dummy
 scoreboard objectives add opt.show_invisible_entities dummy
 
-# detect
+# Detect
 scoreboard objectives add detect.leave custom:leave_game
 
 
@@ -23,20 +24,15 @@ scoreboard objectives add detect.leave custom:leave_game
 scoreboard objectives add spawn trigger
 scoreboard objectives add toggle_spectator_mode trigger
 scoreboard objectives add world trigger
-
-
 #scoreboard objectives add set_block trigger
 #scoreboard objectives add set_block.target dummy
-
 #scoreboard objectives add donator_area trigger
 #scoreboard objectives add staff_area trigger
 #scoreboard objectives add switch_world trigger
-
 #scoreboard objectives add get_sign trigger
 #scoreboard objectives add replace_sign trigger
 #scoreboard objectives add entity_data trigger
 #scoreboard objectives add time trigger
-#scoreboard objectives add toggle_gamemode trigger
 #scoreboard objectives add pose trigger
 #scoreboard objectives add hat trigger
 #scoreboard objectives add get_head trigger
@@ -50,6 +46,11 @@ scoreboard objectives add world trigger
 #scoreboard objectives add options trigger
 #scoreboard objectives add world_info trigger
 
+# Editor
+scoreboard objectives add editor.holding_wand_last_tick dummy
+scoreboard objectives add editor.entity_owner_id dummy
+
+# Misc
 execute unless data storage build:global schedule[0] run data modify storage build:global schedule set value []
 
 # Teams
@@ -113,9 +114,4 @@ scoreboard players set $32 constant 32
 scoreboard players set $100 constant 100
 
 function build:tick_loop
-function build:map_specific/tick_loop
-
-function build:main_loop
-function build:map_specific/main_loop
-
 function build:slow_loop

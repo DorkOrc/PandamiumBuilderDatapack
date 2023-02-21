@@ -1,3 +1,4 @@
+function build:map_specific/slow_loop
 
 effect give @a[scores={opt.night_vision_mode=1}] night_vision 1000000 0 true
 effect clear @a[scores={opt.night_vision_mode=2,is_spectator=1},gamemode=!spectator] night_vision

@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "build:utils/detect/change_dimension"
+		"function": "build:impl/detect/change_dimension/main"
 	}
 }

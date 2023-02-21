@@ -1,0 +1,30 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "#build:mobs",
+				"effects": {
+					"minecraft:invisibility": {}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "#build:always_invisible"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "#build:has_nbt/invisible",
+				"nbt": "{Invisible:1b}"
+			}
+		}
+	]
+}

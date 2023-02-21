@@ -8,6 +8,7 @@ scoreboard objectives add id dummy
 execute unless score $next_id global matches 2.. run scoreboard players set $next_id global 2
 
 scoreboard objectives add builder_perms dummy
+
 scoreboard objectives add in_dimension dummy
 scoreboard objectives add gamemode_last_tick dummy
 
@@ -19,10 +20,14 @@ scoreboard objectives add detect.leave custom:leave_game
 
 
 # Triggers
+scoreboard objectives add spawn trigger
+scoreboard objectives add toggle_spectator_mode trigger
+scoreboard objectives add world trigger
+
+
 #scoreboard objectives add set_block trigger
 #scoreboard objectives add set_block.target dummy
 
-#scoreboard objectives add spawn trigger
 #scoreboard objectives add donator_area trigger
 #scoreboard objectives add staff_area trigger
 #scoreboard objectives add switch_world trigger
@@ -45,9 +50,20 @@ scoreboard objectives add detect.leave custom:leave_game
 #scoreboard objectives add options trigger
 #scoreboard objectives add world_info trigger
 
-#
+execute unless data storage build:global schedule[0] run data modify storage build:global schedule set value []
 
 # Teams
+
+team add builder
+team modify builder color dark_aqua
+team modify builder collisionRule never
+team modify builder seeFriendlyInvisibles false
+
+team add builder_admin
+team modify builder_admin color dark_aqua
+team modify builder_admin collisionRule never
+team modify builder_admin seeFriendlyInvisibles false
+
 team add color.gray
 team modify color.gray color gray
 team add color.red

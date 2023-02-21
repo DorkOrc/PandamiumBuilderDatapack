@@ -1,0 +1,10 @@
+tellraw @s [{"text":"======== ","color":"aqua"},{"text":"Worlds","bold":true}," ========"]
+
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -1"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:release/overworld","bold":true}]}}," ","build:release/overworld"]
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -2"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:release/the_nether","bold":true}]}}," ","build:release/the_nether"]
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -3"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:snapshot/overworld","bold":true}]}}," ","build:snapshot/overworld"]
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -4"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:snapshot/the_nether","bold":true}]}}," ","build:snapshot/the_nether"]
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -5"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:event_world","bold":true}]}}," ","build:event_world"]
+tellraw @s [{"text":"","color":"green"},{"text":"[→]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger world set -6"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to teleport to dimension ","color":"blue"},{"text":"build:blueprint_world","bold":true}]}}," ","build:blueprint_world"]
+
+tellraw @s {"text":"============================","color":"aqua"}

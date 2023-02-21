@@ -1,1 +1,1 @@
-execute in build:release/the_nether run tp @s 0 64 0
+execute in build:release/the_nether run tp @s 1.0 79.00 3.0

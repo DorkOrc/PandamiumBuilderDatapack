@@ -1,1 +1,1 @@
-execute in build:release/overworld run tp @s 0 64 0
+execute in build:release/overworld run tp @s 0 65 0

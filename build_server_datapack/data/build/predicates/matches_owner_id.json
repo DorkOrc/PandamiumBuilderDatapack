@@ -2,12 +2,12 @@
 	"condition": "minecraft:entity_scores",
 	"entity": "this",
 	"scores": {
-		"id": {
+		"owner_id": {
 			"min": {
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "$matches_id.id"
+					"name": "$matches_owner_id.id"
 				},
 				"score": "predicate.in"
 			},
@@ -15,7 +15,7 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "$matches_id.id"
+					"name": "$matches_owner_id.id"
 				},
 				"score": "predicate.in"
 			}

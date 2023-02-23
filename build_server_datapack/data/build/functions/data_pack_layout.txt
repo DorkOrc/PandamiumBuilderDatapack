@@ -26,30 +26,22 @@ objective "global"
 objective "scratch"
 	Stores VOLATILE variables such as temporary data, and calculations.
 	It should not be expected that these variables persist after a MAIN function is called, so an in-pack structure is used:
-		${root_function_path}.{variable_name}
+		${function_root_path}.{variable_name}
 		e.g. $impl.schedule.source
-			which is used by 
+			which is used by any children of the "impl/schedule" folder
 		
 		the "root" function can either be the function itself, or the MAIN function which calls it.
+		
 
 objective "constant"
 	These variables will never be changed in run-time and are always declared in the "build:load" function
 
-objective "io"
+objectives ["io"]
 	Stores VOLATILE variables which may be assigned values immediately before a function, predicate, or loot table is called, 
-	and may be fetched after a function is called, if the function returned anything.
-
+	and may be fetched immediately after a function is called, if the function returned anything.
 	The variable will be used by the function, predicate, or loot table ran as input data, 
 	and a function may return data via an "io" variable, too.
-	
-	An in-pack structure is used:
-		${root_function_path}.{variable_name}.{in|out}
-		or $predicates.{variable_name}
-		or $loot_tables.{variable_name}
-		
-		e.g. $predicates.id
-		e.g. $impl.raycast.hit_target.out (bool)
-		e.g. $loot_tables.max_rolls
+	No structure is used as the variable should be immediately used by the function/predicate/loot table
 	
 
 objective "id"

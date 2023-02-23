@@ -1,7 +1,10 @@
 scoreboard objectives add global dummy
 scoreboard objectives add scratch dummy
-scoreboard objectives add io dummy
 scoreboard objectives add constant dummy
+
+scoreboard objectives add function.in dummy
+scoreboard objectives add function.out dummy
+scoreboard objectives add predicate.in dummy
 
 # Lowest ID should be 2
 scoreboard objectives add id dummy
@@ -48,7 +51,7 @@ scoreboard objectives add world trigger
 
 # Editor
 scoreboard objectives add editor.holding_wand_last_tick dummy
-scoreboard objectives add editor.entity_owner_id dummy
+scoreboard objectives add owner_id dummy
 
 # Misc
 execute unless data storage build:global schedule[0] run data modify storage build:global schedule set value []

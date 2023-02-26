@@ -1,2 +1,3 @@
+say start
 scoreboard players operation $impl.editor.start.id scratch = @s id
-execute positioned ~ ~-20 ~ summon slime run function build:impl/editor/start/as_cursor
+execute at @s positioned ~ ~-5 ~ summon block_display run function build:impl/editor/start/create_cursor

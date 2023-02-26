@@ -1,3 +1,5 @@
+execute if data storage build:global schedule[0] run function build:impl/schedule/tick
+
 execute as @a unless score @s id matches 2.. run function build:players/first_join
 execute as @a[scores={detect.leave=1..}] run function build:players/on_join
 
@@ -7,7 +9,7 @@ gamemode spectator @a[scores={builder_perms=0}]
 function build:map_specific/tick
 
 function build:impl/triggers/tick
-execute if data storage build:global schedule[0] run function build:impl/schedule/tick
+function build:impl/editor/tick
 
 execute at @e[predicate=build:is_invisible] run particle dust 1 1 1 1 ~ ~ ~ 0 0 0 0 1 normal @a[scores={opt.show_invisible_entities=1..}]
 

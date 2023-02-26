@@ -1,5 +1,4 @@
-execute store success score $impl.editor.using.main scratch if score @s editor.clicked matches 1..
-scoreboard players reset @s editor.clicked
+execute if score @s editor.click matches 1.. run function build:impl/editor/using/click/main
+scoreboard players reset @s editor.click
 
-scoreboard players operation $matches_owner_id.id predicate.in = @s id
-execute at @s as @e[type=slime,tag=editor.cursor,predicate=build:matches_owner_id] run function build:impl/editor/using/as_cursor
+function build:impl/editor/using/cursor/main

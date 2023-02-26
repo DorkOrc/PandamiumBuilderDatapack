@@ -1,2 +1,5 @@
-scoreboard players operation $matches_owner_id.id predicate.in = @s id
-execute as @e[tag=editor,predicate=build:matches_owner_id] run function build:utils/kill
+say stop
+scoreboard players operation $id io = @s id
+kill @e[tag=editor,predicate=build:matches_owner_id]
+
+scoreboard players reset @s editor.holding_wand_ticks

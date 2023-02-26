@@ -2,9 +2,7 @@ scoreboard objectives add global dummy
 scoreboard objectives add scratch dummy
 scoreboard objectives add constant dummy
 
-scoreboard objectives add function.in dummy
-scoreboard objectives add function.out dummy
-scoreboard objectives add predicate.in dummy
+scoreboard objectives add io dummy
 
 # Lowest ID should be 2
 scoreboard objectives add id dummy
@@ -50,7 +48,8 @@ scoreboard objectives add world trigger
 #scoreboard objectives add world_info trigger
 
 # Editor
-scoreboard objectives add editor.holding_wand_last_tick dummy
+scoreboard objectives add editor.holding_wand_ticks dummy
+scoreboard objectives add editor.click used:carrot_on_a_stick
 scoreboard objectives add owner_id dummy
 
 # Misc

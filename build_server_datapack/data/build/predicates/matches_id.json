@@ -7,17 +7,17 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "$matches_id.id"
+					"name": "$id"
 				},
-				"score": "predicate.in"
+				"score": "io"
 			},
 			"max": {
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "$matches_id.id"
+					"name": "$id"
 				},
-				"score": "predicate.in"
+				"score": "io"
 			}
 		}
 	}

@@ -4,6 +4,6 @@ execute if dimension minecraft:the_nether run function build:impl/detect/change_
 execute at @s unless predicate build:in_dimension/whitelisted run function build:impl/detect/change_dimension/resolve_non_whitelisted_dimension
 
 execute at @s run function build:utils/get/dimension_id
-scoreboard players operation @s in_dimension = $utils.get.dimension_id function.out
+scoreboard players operation @s in_dimension = $dimension_id io
 
 advancement revoke @s only build:utils/detect/change_dimension

@@ -5,4 +5,4 @@ execute if score @s in_dimension matches 111 in build:snapshot/overworld run tp 
 execute if score @s in_dimension matches 120 in build:release/event_world run tp @s ~ ~ ~
 execute if score @s in_dimension matches 121 in build:release/blueprint_world run tp @s ~ ~ ~
 
-function build:utils/schedule/teleport_to_origin_in_0_ticks
+function build:utils/schedule/teleport_to_origin_in_1_tick

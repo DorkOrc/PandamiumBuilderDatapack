@@ -15,4 +15,7 @@ execute in build:release/the_nether run function build:misc/manage_release_world
 
 execute in build:release/overworld run function build:misc/release_map_specific_loop
 
+execute as @e[type=marker,tag=place_red_mushroom] at @s run function build:misc/place_red_mushroom
+execute as @e[type=marker,tag=place_brown_mushroom] at @s run function build:misc/place_brown_mushroom
+
 schedule function build:main_loop 5t

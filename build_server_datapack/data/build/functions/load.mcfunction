@@ -48,9 +48,17 @@ scoreboard objectives add world trigger
 #scoreboard objectives add world_info trigger
 
 # Editor
+scoreboard objectives add owner_id dummy
 scoreboard objectives add editor.holding_wand_ticks dummy
 scoreboard objectives add editor.click used:carrot_on_a_stick
-scoreboard objectives add owner_id dummy
+scoreboard objectives add editor.state dummy
+scoreboard objectives add editor.position_1.x dummy
+scoreboard objectives add editor.position_1.y dummy
+scoreboard objectives add editor.position_1.z dummy
+scoreboard objectives add editor.position_2.x dummy
+scoreboard objectives add editor.position_2.y dummy
+scoreboard objectives add editor.position_2.z dummy
+
 
 # Misc
 execute unless data storage build:global schedule[0] run data modify storage build:global schedule set value []
@@ -67,10 +75,14 @@ team modify builder_admin color dark_aqua
 team modify builder_admin collisionRule never
 team modify builder_admin seeFriendlyInvisibles false
 
-team add color.gray
-team modify color.gray color gray
-team add color.red
-team modify color.red color red
+team add colour.gray
+team modify colour.gray color gray
+team add colour.red
+team modify colour.red color red
+team add colour.green
+team modify colour.green color green
+team add colour.blue
+team modify colour.blue color blue
 
 #
 

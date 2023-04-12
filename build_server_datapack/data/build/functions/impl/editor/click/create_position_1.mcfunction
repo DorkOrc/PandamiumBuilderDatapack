@@ -1,0 +1,6 @@
+scoreboard players operation @s owner_id = $id scratch
+tag @s add editor
+tag @s add editor.position_1
+
+tp @s ~ ~ ~ 0 0
+execute positioned ~.5 ~ ~.5 summon text_display run function build:impl/editor/block_colour/create_red

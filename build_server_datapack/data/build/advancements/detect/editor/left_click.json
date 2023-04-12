@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"player_hurt_editor_interaction": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:['editor.interaction']}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:detect/editor/left_click"
+	}
+}

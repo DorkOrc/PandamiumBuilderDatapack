@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"player_interacted_with_editor_interaction": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:['editor.interaction']}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:detect/editor/right_click"
+	}
+}

@@ -16,4 +16,6 @@ scoreboard players reset @e[scores={glow_time=..0}] glow_time
 
 execute in build:snapshot/overworld as @e[type=marker,tag=parkour.checkpoint,x=0] store result score @s id run data get entity @s data.CheckpointID
 
-schedule function build:slow_loop 20t
+execute unless score <enable_tnt> global matches 1 run kill @e[type=tnt]
+
+schedule function build:slow_loop 1s

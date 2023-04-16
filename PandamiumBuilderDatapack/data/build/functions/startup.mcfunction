@@ -148,6 +148,7 @@ scoreboard objectives add permanent_elytra dummy
 #
 scoreboard objectives add glow_time dummy
 scoreboard objectives add is_spectator dummy
+scoreboard objectives add can_toggle_tnt dummy
 
 scoreboard objectives add detect.leave custom:leave_game
 scoreboard objectives add in_dimension dummy
@@ -161,17 +162,9 @@ team add op_builder
 team modify op_builder color gold
 team modify op_builder prefix "Builder | "
 
-team add head_builder
-team modify head_builder color dark_aqua
-team modify head_builder prefix "Head Builder | "
-
 team add dev
 team modify dev color light_purple
 team modify dev prefix "Dev | "
-
-team add owner
-team modify owner color dark_red
-team modify owner prefix "Owner | "
 
 team add gray_color
 team modify gray_color color gray

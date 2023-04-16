@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "build:detect/editor/left_click"
+		"function": "build:impl/detect/editor/left_click"
 	}
 }

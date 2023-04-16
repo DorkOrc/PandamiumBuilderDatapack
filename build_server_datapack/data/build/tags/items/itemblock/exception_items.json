@@ -21,6 +21,12 @@
 		"pufferfish_bucket",
 		"salmon_bucket",
 		"tropical_fish_bucket",
-		"water_bucket"
+		"water_bucket",
+		"tadpole_bucket",
+		"twisting_vines",
+		"weeping_vines",
+		"fire_charge",
+		"pitcher_pod",
+		"torchflower_seeds"
 	]
 }

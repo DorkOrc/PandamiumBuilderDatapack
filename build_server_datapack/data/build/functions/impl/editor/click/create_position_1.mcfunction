@@ -1,4 +1,4 @@
-scoreboard players operation @s owner_id = $id scratch
+scoreboard players operation @s owner_id = $owner_id io
 tag @s add editor
 tag @s add editor.position_1
 

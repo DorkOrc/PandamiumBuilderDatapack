@@ -9,6 +9,7 @@ scoreboard objectives add id dummy
 execute unless score $next_id global matches 2.. run scoreboard players set $next_id global 2
 
 # Player Info
+scoreboard objectives add builder_rank dummy
 scoreboard objectives add builder_perms dummy
 scoreboard objectives add in_dimension dummy
 scoreboard objectives add gamemode_last_tick dummy
@@ -18,7 +19,8 @@ scoreboard objectives add opt.night_vision_mode dummy
 scoreboard objectives add opt.show_invisible_entities dummy
 
 # Detect
-scoreboard objectives add detect.leave custom:leave_game
+scoreboard objectives add detect.leave_game custom:leave_game
+scoreboard objectives add detect.sneak custom:sneak_time
 
 
 # Triggers
@@ -50,7 +52,8 @@ scoreboard objectives add world trigger
 # Editor
 scoreboard objectives add owner_id dummy
 scoreboard objectives add editor.holding_wand_ticks dummy
-scoreboard objectives add editor.click used:carrot_on_a_stick
+scoreboard objectives add editor.right_click used:carrot_on_a_stick
+scoreboard objectives add editor.left_click dummy
 scoreboard objectives add editor.state dummy
 scoreboard objectives add editor.position_1.x dummy
 scoreboard objectives add editor.position_1.y dummy
@@ -58,6 +61,11 @@ scoreboard objectives add editor.position_1.z dummy
 scoreboard objectives add editor.position_2.x dummy
 scoreboard objectives add editor.position_2.y dummy
 scoreboard objectives add editor.position_2.z dummy
+scoreboard objectives add editor.position_3.x dummy
+scoreboard objectives add editor.position_3.y dummy
+scoreboard objectives add editor.position_3.z dummy
+scoreboard objectives add editor.reach dummy
+scoreboard objectives add editor.select_before dummy
 
 
 # Misc
@@ -120,9 +128,14 @@ execute in build:snapshot/overworld run forceload add -1 -1 0 0
 execute in build:snapshot/the_nether run forceload add -1 -1 0 0
 execute in build:event_world run forceload add -1 -1 0 0
 execute in build:blueprint_world run forceload add -1 -1 0 0
+execute in build:storage run forceload add -1 -1 95 95
 
 
 scoreboard players set $-1 constant -1
+scoreboard players set $2 constant 2
+scoreboard players set $3 constant 3
+scoreboard players set $4 constant 4
+scoreboard players set $6 constant 6
 scoreboard players set $16 constant 16
 scoreboard players set $32 constant 32
 scoreboard players set $100 constant 100

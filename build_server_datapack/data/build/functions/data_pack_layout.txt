@@ -25,13 +25,7 @@ objective "global"
 
 objective "scratch"
 	Stores VOLATILE variables such as temporary data, and calculations.
-	It should not be expected that these variables persist after a MAIN function is called, so an in-pack structure is used:
-		${function_root_path}.{variable_name}
-		e.g. $impl.schedule.source
-			which is used by any children of the "impl/schedule" folder
-		
-		the "root" function can either be the function itself, or the MAIN function which calls it.
-		
+	It should not be expected that these variables persist after a function is called:
 
 objective "constant"
 	These variables will never be changed in run-time and are always declared in the "build:load" function
@@ -42,7 +36,6 @@ objectives ["io"]
 	The variable will be used by the function, predicate, or loot table ran as input data, 
 	and a function may return data via an "io" variable, too.
 	No structure is used as the variable should be immediately used by the function/predicate/loot table
-	
 
 objective "id"
 	assigned when a player joins for the first time, and is always one more than the previous player who joined for the first time

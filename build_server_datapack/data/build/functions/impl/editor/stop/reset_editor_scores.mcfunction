@@ -1,0 +1,12 @@
+scoreboard players reset @s editor.holding_wand_ticks
+scoreboard players reset @s editor.right_click
+scoreboard players reset @s editor.state
+scoreboard players reset @s editor.position_1.x
+scoreboard players reset @s editor.position_1.y
+scoreboard players reset @s editor.position_1.z
+scoreboard players reset @s editor.position_2.x
+scoreboard players reset @s editor.position_2.y
+scoreboard players reset @s editor.position_2.z
+scoreboard players reset @s editor.position_3.x
+scoreboard players reset @s editor.position_3.y
+scoreboard players reset @s editor.position_3.z

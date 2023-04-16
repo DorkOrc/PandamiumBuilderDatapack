@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"punch_cursor_slime": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:slime",
+					"nbt": "{Tags:['editor.cursor_block_colour']}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:impl/detect/editor/punch_cursor_slime"
+	}
+}

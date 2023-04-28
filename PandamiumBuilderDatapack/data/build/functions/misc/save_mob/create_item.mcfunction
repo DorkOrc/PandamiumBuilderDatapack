@@ -2,11 +2,11 @@
 
 setblock 0 0 0 shulker_box
 setblock 0 1 0 oak_sign
-data merge block 0 1 0 {Text1:'[{"text":"","color":"white","italic":false},{"selector":"@e[tag=selected_entity,limit=1]"}]'}
+data modify block 0 1 0 front_text.messages[0] set value '[{"text":"","color":"white","italic":false},{"selector":"@e[tag=selected_entity,limit=1]"}]'
 
 item replace block 0 0 0 container.0 with clock{display:{Name:'{"color":"gold","italic":false,"text":"Stored Mob Item"}'},Enchantments:[{}],pandamium:{stored_mob:{}}}
 function build:misc/save_mob/get_entity_id
-data modify block 0 0 0 Items[0].tag.display.Lore prepend from block 0 1 0 Text1
+data modify block 0 0 0 Items[0].tag.display.Lore prepend from block 0 1 0 front_text.messages[0]
 data modify block 0 0 0 Items[0].tag.display.Lore append value '[{"color":"dark_gray","italic":false,"text":"Hold this in your main hand and "}]'
 data modify block 0 0 0 Items[0].tag.display.Lore append value '[{"color":"dark_gray","italic":false,"text":"run "},{"text":"/trigger ","color":"gray"},{"text":"save_mob.spawn","color":"aqua"}," to spawn it!"]'
 

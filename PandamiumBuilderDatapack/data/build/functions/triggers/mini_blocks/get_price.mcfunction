@@ -11,6 +11,6 @@ execute if score <section> variable matches -3..-2 run scoreboard players set <b
 execute if score <section> variable matches -200..-101 run scoreboard players set <buying_mini_block> variable 1
 execute if score <section> variable matches ..-201 run scoreboard players set <buying_mini_block> variable 1
 
-scoreboard players set <cost> variable 0
+execute if score <buying_mini_block> variable matches 1 run scoreboard players set <cost> variable 0
 
 execute unless score <cost> variable = <cost> variable run scoreboard players set <valid_option> variable 0

@@ -1,75 +1,39 @@
-#display menu
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"======== ","color":"aqua"},{"text":"Item Font Menu","bold":true}," ========"]
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"","color":"aqua"},{"text":"Bold","bold":true},": ",{"text":"[False]","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -1"},"hoverEvent":{"action":"show_text","value":{"text":"Disable Bold","color":"red"}}}," ",{"text":"[True]","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -2"},"hoverEvent":{"action":"show_text","value":{"text":"Enable Bold","color":"green"}}}]
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"","color":"aqua"},{"text":"Italic","italic":true},": ",{"text":"[False]","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -3"},"hoverEvent":{"action":"show_text","value":{"text":"Disable Italic","color":"red"}}}," ",{"text":"[True]","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -4"},"hoverEvent":{"action":"show_text","value":{"text":"Enable Italic","color":"green"}}}]
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"","color":"aqua"},{"text":"Underlined","underlined":true},": ",{"text":"[False]","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -5"},"hoverEvent":{"action":"show_text","value":{"text":"Disable Underlined","color":"red"}}}," ",{"text":"[True]","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -6"},"hoverEvent":{"action":"show_text","value":{"text":"Enable Underlined","color":"green"}}}]
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"","color":"aqua"},{"text":"Strikethrough","strikethrough":true},": ",{"text":"[False]","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -7"},"hoverEvent":{"action":"show_text","value":{"text":"Disable Strikethrough","color":"red"}}}," ",{"text":"[True]","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -8"},"hoverEvent":{"action":"show_text","value":{"text":"Enable Strikethrough","color":"green"}}}]
-execute if score @s item_font matches 1.. run tellraw @s [{"text":"","color":"aqua"},"Obfuscated (",{"text":"aaa","obfuscated":true},"): ",{"text":"[False]","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -64"},"hoverEvent":{"action":"show_text","value":{"text":"Disable Obfuscated","color":"red"}}}," ",{"text":"[True]","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -65"},"hoverEvent":{"action":"show_text","value":{"text":"Enable Obfuscated","color":"green"}}}]
-execute if score @s item_font matches 1.. run tellraw @s ["",{"text":"⬛","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger item_font set -9"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Red","color":"dark_red"}}},{"text":"⬛","color":"red","clickEvent":{"action":"run_command","value":"/trigger item_font set -10"},"hoverEvent":{"action":"show_text","value":{"text":"Red","color":"red"}}},{"text":"⬛","color":"gold","clickEvent":{"action":"run_command","value":"/trigger item_font set -11"},"hoverEvent":{"action":"show_text","value":{"text":"Gold","color":"gold"}}},{"text":"⬛","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger item_font set -12"},"hoverEvent":{"action":"show_text","value":{"text":"Yellow","color":"yellow"}}},{"text":"⬛","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger item_font set -13"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Green","color":"dark_green"}}},{"text":"⬛","color":"green","clickEvent":{"action":"run_command","value":"/trigger item_font set -14"},"hoverEvent":{"action":"show_text","value":{"text":"Green","color":"green"}}},{"text":"⬛","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger item_font set -15"},"hoverEvent":{"action":"show_text","value":{"text":"Aqua","color":"aqua"}}},{"text":"⬛","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger item_font set -16"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Aqua","color":"dark_aqua"}}},{"text":"⬛","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger item_font set -17"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Blue","color":"dark_blue"}}},{"text":"⬛","color":"blue","clickEvent":{"action":"run_command","value":"/trigger item_font set -18"},"hoverEvent":{"action":"show_text","value":{"text":"Blue","color":"blue"}}},{"text":"⬛","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger item_font set -19"},"hoverEvent":{"action":"show_text","value":{"text":"Light Purple","color":"light_purple"}}},{"text":"⬛","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger item_font set -20"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Purple","color":"dark_purple"}}},{"text":"⬛","color":"white","clickEvent":{"action":"run_command","value":"/trigger item_font set -21"},"hoverEvent":{"action":"show_text","value":{"text":"White","color":"white"}}},{"text":"⬛","color":"gray","clickEvent":{"action":"run_command","value":"/trigger item_font set -22"},"hoverEvent":{"action":"show_text","value":{"text":"Gray","color":"gray"}}},{"text":"⬛","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger item_font set -23"},"hoverEvent":{"action":"show_text","value":{"text":"Dark Gray","color":"dark_gray"}}},{"text":"⬛","color":"black","clickEvent":{"action":"run_command","value":"/trigger item_font set -24"},"hoverEvent":{"action":"show_text","value":{"text":"Black","color":"black"}}}]
-execute if score @s item_font matches 1.. run tellraw @s {"text":"================================","color":"aqua"}
+scoreboard players set <returned> variable 0
 
-#catch errors (check if held item with custom name)
-scoreboard players set <can_run> variable 1
-execute unless data entity @s SelectedItem.tag.display.Name run scoreboard players set <can_run> variable 0
-execute unless score @s item_font matches -32..-1 unless score @s item_font matches -65..-64 run scoreboard players set <can_run> variable 0
-execute if entity @s[gamemode=spectator] run scoreboard players set <can_run> variable 0
+# Menu
+execute if score <returned> variable matches 0 if score @s item_font matches 2 store success score <returned> variable run function build:misc/font/print_menu/item_font/gradients
+execute if score <returned> variable matches 0 if score @s item_font matches 1.. store success score <returned> variable run function build:misc/font/print_menu/item_font/main
 
-#store starting name
-execute if score @s item_font matches ..-1 run data modify storage build:temp old_name set from entity @s SelectedItem.tag.display.Name
+# Restrictions
 
-#modify held item custom name
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run tag @s add running_trigger
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run setblock 0 0 0 air
+# Gradient
+execute if score <returned> variable matches 0 if score @s item_font matches -300..-201 run function build:misc/font/custom_fonts/gradient/enter_left_index
 
-execute if score <can_run> variable matches 1 if score @s item_font matches -1 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"bold":false}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -2 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"bold":true}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -3 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"italic":false}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -4 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"italic":true}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -5 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"underlined":false}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -6 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"underlined":true}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -7 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"strikethrough":false}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -8 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"strikethrough":true}'}
+# Everything Else
+execute if score <returned> variable matches 0 run data modify storage build:temp nbt set from entity @s
+execute if score <returned> variable matches 0 unless data storage build:temp nbt.SelectedItem store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" There is no item in your main hand!","color":"red"}]
 
-execute if score <can_run> variable matches 1 if score @s item_font matches -9 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_red"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -10 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"red"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -11 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"gold"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -12 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"yellow"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -13 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_green"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -14 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"green"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -15 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"aqua"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -16 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_aqua"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -17 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_blue"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -18 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"blue"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -19 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"light_purple"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -20 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_purple"}'}
+execute if score <returned> variable matches 0 run function build:misc/font/check_item_display_requirements
+execute if score <returned> variable matches 0 if score <can_edit> variable matches 0 store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" The item in your main hand has no custom name, or there is no lore on that line! Name the item using an anvil to change its font and give it lore.","color":"red"}]
 
-execute if score <can_run> variable matches 1 if score @s item_font matches -21 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"white"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -22 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"gray"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -23 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"dark_gray"}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -24 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"color":"black"}'}
+execute if score <returned> variable matches 0 run scoreboard players operation <font> variable = @s item_font
+execute if score <returned> variable matches 0 run scoreboard players operation <font> variable *= #-1 constant
+execute if score <returned> variable matches 0 run scoreboard players set <edit_mainhand_name> variable 1
+execute if score <returned> variable matches 0 unless score <font> variable matches 1..100 unless score <font> variable matches 301..400 run scoreboard players set <edit_mainhand_name> variable 0
 
-execute if score <can_run> variable matches 1 if score @s item_font matches -64 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"obfuscated":false}'}
-execute if score <can_run> variable matches 1 if score @s item_font matches -65 run setblock 0 0 0 oak_sign{Text1:'{"nbt":"SelectedItem.tag.display.Name","entity":"@p[tag=running_trigger]","interpret":true,"obfuscated":true}'}
+execute if score <returned> variable matches 0 if data storage build:temp nbt.SelectedItem.tag.build.font.cannot_modify{all:1b} store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" You cannot modify the display properties of that item!","color":"red"}]
+execute if score <returned> variable matches 0 if score <edit_mainhand_name> variable matches 1 if data storage build:temp nbt.SelectedItem.tag.build.font.cannot_modify{name:1b} store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" You cannot modify the name of that item!","color":"red"}]
+execute if score <returned> variable matches 0 if score @s item_font matches -200..-101 run function build:misc/font/check_can_modify_lore
 
-#check if name changed
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run data modify storage build:temp new_name set from block 0 0 0 Text1
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 store success score <different_name> variable run data modify storage build:temp old_name set from storage build:temp new_name
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 if score <different_name> variable matches 0 run scoreboard players set <can_run> variable 0
+# Do Edit
+execute if score <returned> variable matches 0 run scoreboard players set <valid_option> variable 0
+execute if score <returned> variable matches 0 if score <edit_mainhand_name> variable matches 1 run function build:misc/font/edit_mainhand_name
+execute if score <returned> variable matches 0 if score <font> variable matches 101..104 run function build:misc/font/edit_mainhand_lore
 
-#transfer new_name
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run item modify entity @s weapon.mainhand build:item_font/transfer_name
+execute if score <returned> variable matches 0 if score <valid_option> variable matches 0 store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" That is not a valid option!","color":"red"}]
+execute if score <returned> variable matches 0 if score <text_changed> variable matches 0 store success score <returned> variable run tellraw @s [{"text":"[Item Font]","color":"dark_red"},{"text":" Nothing changed!","color":"red"}]
 
-#display success
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 run tellraw @s [{"text":"","color":"green"},{"text":"[Item Font]","color":"dark_green"}," Updated your mainhand item's display name: ",[{"text":"","color":"white","italic":true},{"nbt":"SelectedItem.tag.display.Name","entity":"@s","interpret":true}]]
-execute if score <can_run> variable matches 1 if score @s item_font matches ..-1 at @s run playsound ui.cartography_table.take_result master @s
-
-#display an error message
-execute if score @s item_font matches ..-1 run scoreboard players set <displayed_error> variable 0
-execute if score @s item_font matches ..-1 if score <can_run> variable matches 0 unless score <displayed_error> variable matches 1 store success score <displayed_error> variable unless score @s item_font matches -32..-1 unless score @s item_font matches -65..-64 run tellraw @s [{"text":"","color":"red"},{"text":"[Item Font]","color":"dark_red"}," This is not a valid option!"]
-execute if score @s item_font matches ..-1 if score <can_run> variable matches 0 unless score <displayed_error> variable matches 1 store success score <displayed_error> variable unless data entity @s SelectedItem run tellraw @s [{"text":"","color":"red"},{"text":"[Item Font]","color":"dark_red"}," There is no item in your main hand!"]
-execute if score @s item_font matches ..-1 if score <can_run> variable matches 0 unless score <displayed_error> variable matches 1 store success score <displayed_error> variable unless data entity @s SelectedItem.tag.display.Name run tellraw @s [{"text":"","color":"red"},{"text":"[Item Font]","color":"dark_red"}," The item in your main hand has no custom name! Name the item using an anvil to change its font."]
-execute if score @s item_font matches ..-1 if score <can_run> variable matches 0 unless score <displayed_error> variable matches 1 store success score <displayed_error> variable unless score <different_name> variable matches 1 run tellraw @s [{"text":"","color":"red"},{"text":"[Item Font]","color":"dark_red"}," Nothing changed!"]
-
-#
-
-tag @a remove running_trigger
+# Success
+execute if score <returned> variable matches 0 if score <edit_mainhand_name> variable matches 1 run tellraw @s [{"text":"","color":"green"},{"text":"[Item Font]","color":"dark_green"}," Updated the ",{"text":"name","color":"aqua"}," of your selected item: ",[{"text":"","color":"white","italic":true},{"nbt":"display.Name","storage":"build:temp","interpret":true}]]
+execute if score <returned> variable matches 0 if score @s item_font matches -104..-101 run tellraw @s [{"text":"","color":"green"},{"text":"[Item Font]","color":"dark_green"}," Updated the ",{"text":"name and lore","color":"aqua"}," of your selected item!"]
+execute if score <returned> variable matches 0 run playsound ui.cartography_table.take_result master @s

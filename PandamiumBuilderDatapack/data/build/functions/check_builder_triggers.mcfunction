@@ -61,9 +61,13 @@ execute if score @s give_all_mob_heads matches 1.. run function build:misc/give_
 scoreboard players reset @s give_all_mob_heads
 scoreboard players enable @s give_all_mob_heads
 
-execute if score @s item_font = @s item_font unless score @s item_font matches 0 in pandamium:staff_world run function build:triggers/item_font
+execute if score @s item_font = @s item_font unless score @s item_font matches 0 at @s run function build:triggers/item_font
 scoreboard players reset @s item_font
 scoreboard players enable @s item_font
+
+execute if score @s sign_font = @s sign_font unless score @s sign_font matches 0 at @s run function build:triggers/sign_font
+scoreboard players reset @s sign_font
+scoreboard players enable @s sign_font
 
 execute if score @s save_mob = @s save_mob unless score @s save_mob matches 0 at @s run function build:triggers/save_mob/store
 scoreboard players reset @s save_mob

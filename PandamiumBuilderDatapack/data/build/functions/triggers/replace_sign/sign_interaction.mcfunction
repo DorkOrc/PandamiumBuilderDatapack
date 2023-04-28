@@ -1,3 +1,3 @@
-advancement revoke @s only build:interact_with_sign
+execute if score @s sign_interaction matches 1 if predicate build:sneaking run scoreboard players set @s replace_sign 1
 
-execute if score @s sign_interaction matches 1 run function build:triggers/replace_sign/run
+advancement revoke @s only build:interact_with_sign

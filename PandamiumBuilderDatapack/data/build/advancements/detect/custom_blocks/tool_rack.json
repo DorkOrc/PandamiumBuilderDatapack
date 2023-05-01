@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place_custom_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:barrel",
+				"item": {
+					"nbt": "{pandabuild:{is_custom_block:1b,custom_block:'tool_rack'}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:custom_blocks/tool_rack/fill"
+	}
+}

@@ -18,4 +18,6 @@ execute in build:release/overworld run function build:misc/release_map_specific_
 execute as @e[type=marker,tag=place_red_mushroom] at @s run function build:misc/place_red_mushroom
 execute as @e[type=marker,tag=place_brown_mushroom] at @s run function build:misc/place_brown_mushroom
 
+function build:custom_blocks/loop
+
 schedule function build:main_loop 5t

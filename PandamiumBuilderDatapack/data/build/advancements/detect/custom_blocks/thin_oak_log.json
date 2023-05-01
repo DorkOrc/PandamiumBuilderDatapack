@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place_custom_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:barrel",
+				"item": {
+					"nbt": "{pandabuild:{is_custom_block:1b,custom_block:'thin_oak_log'}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:custom_blocks/thin_oak_log/fill"
+	}
+}

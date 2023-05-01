@@ -208,7 +208,7 @@ scoreboard players set #85 constant 85
 scoreboard players set #96 constant 96
 scoreboard players set #100 constant 100
 
-
+execute store success score <server> global if score <server> global matches 1
 execute unless score <next_uid> global = <next_uid> global run scoreboard players set <next_uid> global 2
 
 data modify storage build:dictionary font.menu.custom_fonts.info set value '["This feature is currently a work\\nin progress and is not directly\\ncompatible with regular colours.\\nYou will have to pick the ",{"text":"Reset","bold":true},"\\nfont to pick a solid colour\\nagain."]'

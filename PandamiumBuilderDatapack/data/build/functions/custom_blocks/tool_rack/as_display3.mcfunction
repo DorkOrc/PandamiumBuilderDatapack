@@ -7,6 +7,8 @@ scoreboard players set <is_pickaxe> variable 1
 execute unless data entity @s item{id:"minecraft:wooden_pickaxe"} unless data entity @s item{id:"minecraft:stone_pickaxe"} unless data entity @s item{id:"minecraft:iron_pickaxe"} unless data entity @s item{id:"minecraft:iron_pickaxe"} unless data entity @s item{id:"minecraft:golden_pickaxe"} unless data entity @s item{id:"minecraft:diamond_pickaxe"} unless data entity @s item{id:"minecraft:netherite_pickaxe"} run scoreboard players set <is_pickaxe> variable 0
 scoreboard players set <is_sword> variable 1
 execute unless data entity @s item{id:"minecraft:wooden_sword"} unless data entity @s item{id:"minecraft:stone_sword"} unless data entity @s item{id:"minecraft:iron_sword"} unless data entity @s item{id:"minecraft:iron_sword"} unless data entity @s item{id:"minecraft:golden_sword"} unless data entity @s item{id:"minecraft:diamond_sword"} unless data entity @s item{id:"minecraft:netherite_sword"} run scoreboard players set <is_sword> variable 0
+execute if data entity @s item{id:"minecraft:barrier"} run function build:custom_blocks/kill_stack
+execute if data entity @s item{id:"minecraft:barrier"} run return 0
 execute if score <is_pickaxe> variable matches 0 if score <is_sword> variable matches 0 store success score <is_pickaxe> variable run item replace entity @s container.0 with diamond_pickaxe
 
 #

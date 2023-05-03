@@ -1,3 +1,5 @@
+function build:custom_blocks/pre
+
 scoreboard players set <found_item> variable 0
 tag @p[nbt={SelectedItem:{id:"minecraft:barrel",tag:{pandabuild:{custom_block:"trapdoor_corner"}}}}] add source
 

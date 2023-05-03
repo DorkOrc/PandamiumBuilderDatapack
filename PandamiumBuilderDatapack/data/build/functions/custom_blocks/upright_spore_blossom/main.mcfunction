@@ -1,3 +1,5 @@
+function build:custom_blocks/pre
+
 setblock ~ ~ ~ barrier
 
 execute if block ~ ~-1 ~ #slabs run setblock ~ ~ ~ air

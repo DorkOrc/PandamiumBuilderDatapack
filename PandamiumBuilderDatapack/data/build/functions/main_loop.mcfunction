@@ -19,5 +19,6 @@ execute as @e[type=marker,tag=place_red_mushroom] at @s run function build:misc/
 execute as @e[type=marker,tag=place_brown_mushroom] at @s run function build:misc/place_brown_mushroom
 
 function build:custom_blocks/loop
+function build:map_specific/every_5_ticks
 
 schedule function build:main_loop 5t

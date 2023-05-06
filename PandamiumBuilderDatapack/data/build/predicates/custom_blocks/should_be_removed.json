@@ -1,0 +1,49 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:air",
+						"minecraft:cave_air",
+						"minecraft:void_air"
+					]
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"tag": "build:fully_opaque"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"tag": "minecraft:slabs",
+					"state": {
+						"type": "double"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:snow"
+					],
+					"state": {
+						"layers": 8
+					}
+				}
+			}
+		}
+	]
+}

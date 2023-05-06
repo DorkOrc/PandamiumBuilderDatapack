@@ -1,16 +1,14 @@
-[
-	{
-		"function": "copy_nbt",
-		"source": {
-			"type": "storage",
-			"source": "build:temp"
-		},
-		"ops": [
-			{
-				"source": "display",
-				"target": "display",
-				"op": "replace"
-			}
-		]
-	}
-]
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "minecraft:storage",
+		"source": "build:temp"
+	},
+	"ops": [
+		{
+			"source": "display",
+			"target": "display",
+			"op": "replace"
+		}
+	]
+}

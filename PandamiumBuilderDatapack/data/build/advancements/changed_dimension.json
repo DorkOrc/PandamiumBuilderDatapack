@@ -1,7 +1,7 @@
 {
 	"criteria": {
 		"changed_dimension": {
-			"trigger": "changed_dimension"
+			"trigger": "minecraft:changed_dimension"
 		}
 	},
 	"rewards": {

@@ -1,13 +1,13 @@
 {
 	"criteria": {
 		"enter_nether_portal": {
-			"trigger": "enter_block",
+			"trigger": "minecraft:enter_block",
 			"conditions": {
 				"player": [
 					{
-						"condition": "inverted",
+						"condition": "minecraft:inverted",
 						"term": {
-							"condition": "entity_scores",
+							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"nether_portal_cooldown": {
@@ -17,28 +17,28 @@
 						}
 					},
 					{
-						"condition": "alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:release/overworld"
 								}
 							},
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:release/the_nether"
 								}
 							},
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:snapshot/overworld"
 								}
 							},
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:snapshot/the_nether"
 								}
@@ -46,7 +46,7 @@
 						]
 					}
 				],
-				"block": "nether_portal"
+				"block": "minecraft:nether_portal"
 			}
 		}
 	},

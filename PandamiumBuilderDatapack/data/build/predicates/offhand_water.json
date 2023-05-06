@@ -1,15 +1,34 @@
 {
-	"condition": "alternative",
+	"condition": "minecraft:any_of",
 	"terms": [
 		{
-			"condition": "entity_properties",
+			"condition": "minecraft:entity_properties",
 			"entity": "this",
-			"predicate": { "equipment": { "offhand": { "items": [ "water_bucket" ] } } }
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:water_bucket"
+						]
+					}
+				}
+			}
 		},
 		{
-			"condition": "entity_properties",
+			"condition": "minecraft:entity_properties",
 			"entity": "this",
-			"predicate": { "equipment": { "offhand": { "items": [ "potion", "splash_potion", "lingering_potion" ], "potion": "water" } } }
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:potion",
+							"minecraft:splash_potion",
+							"minecraft:lingering_potion"
+						],
+						"potion": "minecraft:water"
+					}
+				}
+			}
 		}
 	]
 }

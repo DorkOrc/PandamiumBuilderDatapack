@@ -1,12 +1,12 @@
 {
 	"criteria": {
 		"writable_book_changed": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": [
-							"writable_book"
+							"minecraft:writable_book"
 						]
 					}
 				]

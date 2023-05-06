@@ -17,7 +17,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"nbt": "{pandabuild:{is_custom_block:1b,custom_block:'coloured_water_cauldron'}}"
+							"nbt": "{pandabuild:{is_custom_block:1b,custom_block:'rotatable_block'}}"
 						}
 					}
 				]
@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "build:custom_blocks/coloured_water_cauldron/fill"
+		"function": "build:custom_blocks/rotatable_block/fill"
 	}
 }

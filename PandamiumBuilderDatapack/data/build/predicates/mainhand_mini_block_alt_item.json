@@ -1,28 +1,28 @@
 {
-	"condition": "entity_properties",
+	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
 		"equipment": {
 			"mainhand": {
 				"items": [
-					"furnace",
-					"smoker",
-					"blast_furnace",
-					"redstone_ore",
-					"deepslate_redstone_ore",
-					"powder_snow_bucket",
-					"redstone_lamp",
-					"dirt",
-					"apple",
-					"lectern",
-					"barrel",
-					"cauldron",
-					"grass_block",
-					"podzol",
-					"mycelium",
-					"bee_nest",
-					"beehive",
-					"prismarine"
+					"minecraft:furnace",
+					"minecraft:smoker",
+					"minecraft:blast_furnace",
+					"minecraft:redstone_ore",
+					"minecraft:deepslate_redstone_ore",
+					"minecraft:powder_snow_bucket",
+					"minecraft:redstone_lamp",
+					"minecraft:dirt",
+					"minecraft:apple",
+					"minecraft:lectern",
+					"minecraft:barrel",
+					"minecraft:cauldron",
+					"minecraft:grass_block",
+					"minecraft:podzol",
+					"minecraft:mycelium",
+					"minecraft:bee_nest",
+					"minecraft:beehive",
+					"minecraft:prismarine"
 				]
 			}
 		}

@@ -1,32 +1,35 @@
 {
 	"criteria": {
-		"placed_disabled_block": {
-			"trigger": "placed_block",
+		"place_disabled_block": {
+			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"player": [
+				"location": [
 					{
-						"condition": "alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:release/overworld"
 								}
 							},
 							{
-								"condition": "location_check",
+								"condition": "minecraft:location_check",
 								"predicate": {
 									"dimension": "build:release/the_nether"
 								}
 							}
 						]
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "build:disabled_blocks/release"
+							}
+						}
 					}
-				],
-				"location": {
-					"block": {
-						"tag": "build:disabled_blocks/release"
-					}
-				}
+				]
 			}
 		}
 	},

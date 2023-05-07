@@ -45,13 +45,13 @@ execute if score @s restart = @s restart unless score @s restart matches 0 run f
 scoreboard players reset @s restart
 scoreboard players enable @s restart
 
-execute if score @s lock_all matches 1.. run function build:triggers/lock_all
-scoreboard players reset @s lock_all
-scoreboard players enable @s lock_all
+#execute if score @s lock_all matches 1.. run function build:triggers/lock_all
+#scoreboard players reset @s lock_all
+#scoreboard players enable @s lock_all
 
-execute if score @s unlock_nearest matches 1.. at @s run function build:triggers/unlock_nearest
-scoreboard players reset @s unlock_nearest
-scoreboard players enable @s unlock_nearest
+#execute if score @s unlock_nearest matches 1.. at @s run function build:triggers/unlock_nearest
+#scoreboard players reset @s unlock_nearest
+#scoreboard players enable @s unlock_nearest
 
 execute if score @s mini_blocks = @s mini_blocks unless score @s mini_blocks matches 0 run function build:triggers/mini_blocks
 scoreboard players reset @s mini_blocks

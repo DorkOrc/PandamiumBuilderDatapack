@@ -167,7 +167,8 @@ execute if score @s entity_data matches -119 run data merge entity @e[tag=select
 execute if score @s entity_data matches -120 run data merge entity @e[tag=selected_entity,limit=1,type=iron_golem] {DisabledSlots:0}
 execute if score @s entity_data matches -121 run data merge entity @e[tag=selected_entity,limit=1,type=iron_golem] {DisabledSlots:4144896}
 
-execute if score @s entity_data matches -122 store success entity @e[tag=selected_entity,limit=1] Marker byte 1 unless data storage build:entity_data {NBT:{Marker:1b}}
+#execute if score @s entity_data matches -122 store success entity @e[tag=selected_entity,limit=1] Marker byte 1 unless data storage build:entity_data {NBT:{Marker:1b}}
+execute if score @s entity_data matches -122 run tellraw @s {"text":"TOGGLE_Marker is disabled","color":"red"}
 execute if score @s entity_data matches -123 store success entity @e[tag=selected_entity,limit=1] NoBasePlate byte 1 unless data storage build:entity_data {NBT:{NoBasePlate:1b}}
 execute if score @s entity_data matches -124 store success entity @e[tag=selected_entity,limit=1] ShowArms byte 1 unless data storage build:entity_data {NBT:{ShowArms:1b}}
 execute if score @s entity_data matches -125 store success entity @e[tag=selected_entity,limit=1] Small byte 1 unless data storage build:entity_data {NBT:{Small:1b}}

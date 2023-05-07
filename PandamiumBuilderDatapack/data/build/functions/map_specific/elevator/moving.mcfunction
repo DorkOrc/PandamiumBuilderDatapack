@@ -19,6 +19,3 @@ execute align xz positioned ~ 126.8125 ~ if entity @s[tag=elevator.location.mapr
 
 execute align xz positioned ~ 125.8125 ~ if entity @s[tag=elevator.location.maproom,tag=elevator.state.1,tag=elevator.moving_down,dx=-100] run function build:map_specific/elevator/stop
 execute align xz positioned ~ 143.8125 ~ if entity @s[tag=elevator.location.maproom,tag=elevator.state.1,tag=elevator.moving_up,dx=100] run function build:map_specific/elevator/stop
-
-execute align xz positioned ~ 109.8125 ~ if entity @s[tag=elevator.location.maproom,tag=elevator.state.2,tag=elevator.moving_down,dx=-100] run function build:map_specific/elevator/stop
-execute align xz positioned ~ 143.8125 ~ if entity @s[tag=elevator.location.maproom,tag=elevator.state.2,tag=elevator.moving_up,dx=100] run function build:map_specific/elevator/stop

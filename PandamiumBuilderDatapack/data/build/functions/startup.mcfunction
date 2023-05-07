@@ -192,6 +192,8 @@ execute in build:snapshot/overworld run forceload add -1 -1 0 0
 execute in build:snapshot/the_nether run forceload add -1 -1 0 0
 execute in build:event_world run forceload add -1 -1 0 0
 
+worldborder set 1024
+worldborder center 0.0 0.0
 
 scoreboard players set <-1> variable -1
 scoreboard players set <16> variable 16

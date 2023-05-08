@@ -1,5 +1,5 @@
 tag @s add running_trigger
-tag @e[limit=1,sort=nearest,distance=..7,type=!player,type=!marker,tag=!Corner,tag=!CloneDisplay,tag=!ClickDetector,tag=!map_specific.fake_block] add selected_entity
+tag @e[limit=1,sort=nearest,distance=..7,type=!player,type=!marker,tag=!Corner,tag=!CloneDisplay,tag=!ClickDetector,tag=!map_specific.fake_block,tag=!custom_block.display,tag=!elevator,predicate=!build:is_riding_and_entity] add selected_entity
 
 execute store success score <entity_exists> variable if entity @e[tag=selected_entity]
 

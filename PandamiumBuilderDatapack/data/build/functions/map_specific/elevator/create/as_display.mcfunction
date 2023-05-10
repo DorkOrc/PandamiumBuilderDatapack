@@ -3,7 +3,7 @@ tag @s add elevator
 tag @s add elevator.display
 
 scoreboard players add <elevator_display_part> variable 1
-execute if score <elevator_display_part> variable matches 1 run data merge entity @s {block_state:{Name:"minecraft:grindstone",Properties:{face:"ceiling",facing:"west"}},transformation:{translation:[-0.5f,-2f,-0.5f]}}
+execute if score <elevator_display_part> variable matches 1 run data merge entity @s {block_state:{Name:"minecraft:grindstone",Properties:{face:"ceiling",facing:"north"}},transformation:{translation:[-0.5f,-2f,-0.5f]}}
 execute if score <elevator_display_part> variable matches 2 run data merge entity @s {block_state:{Name:"minecraft:spruce_trapdoor",Properties:{facing:"north",half:"top",open:"false"}},transformation:{translation:[-1.5f,-1f,-1.5f]}}
 execute if score <elevator_display_part> variable matches 3 run data merge entity @s {block_state:{Name:"minecraft:spruce_stairs",Properties:{facing:"south",half:"top",shape:"straight"}},transformation:{translation:[-0.5f,-1f,-1.5f]}}
 execute if score <elevator_display_part> variable matches 4 run data merge entity @s {block_state:{Name:"minecraft:spruce_trapdoor",Properties:{facing:"north",half:"top",open:"false"}},transformation:{translation:[0.5f,-1f,-1.5f]}}
@@ -35,7 +35,7 @@ execute if score <elevator_display_part> variable matches 29 run data merge enti
 execute if score <elevator_display_part> variable matches 30 run data merge entity @s {block_state:{Name:"minecraft:smooth_stone"},transformation:{translation:[-0.5f,3f,-0.5f]}}
 execute if score <elevator_display_part> variable matches 31 run data merge entity @s {block_state:{Name:"minecraft:spruce_slab",Properties:{type:"bottom"}},transformation:{translation:[-1.5f,3f,0.5f]}}
 execute if score <elevator_display_part> variable matches 32 run data merge entity @s {block_state:{Name:"minecraft:spruce_slab",Properties:{type:"bottom"}},transformation:{translation:[0.5f,3f,0.5f]}}
-execute if score <elevator_display_part> variable matches 33 run data merge entity @s {block_state:{Name:"minecraft:grindstone",Properties:{face:"floor",facing:"west"}},transformation:{translation:[-0.5f,4f,-0.5f]}}
+execute if score <elevator_display_part> variable matches 33 run data merge entity @s {block_state:{Name:"minecraft:grindstone",Properties:{face:"floor",facing:"north"}},transformation:{translation:[-0.5f,4f,-0.5f]}}
 
 ride @s mount @e[type=item_display,tag=elevator.base_new,limit=1]
 

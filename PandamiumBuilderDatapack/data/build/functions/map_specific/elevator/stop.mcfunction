@@ -1,6 +1,8 @@
 # as engine
 execute at @s align xyz run tp ~.5 ~0.8125 ~.5
 execute at @s align xyz run place template pandamium:elevator ~-1 ~-1 ~-1
+execute at @s[tag=elevator.location.maproom] run fill -311 109 123 -313 109 121 barrier replace air
+execute at @s[tag=elevator.location.mineshaft] run fill -197 77 204 -195 77 202 barrier replace air
 tag @s remove elevator.is_moving
 tag @s remove elevator.moving_down
 tag @s remove elevator.moving_up

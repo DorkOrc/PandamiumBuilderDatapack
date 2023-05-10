@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"place_custom_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:barrel"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"nbt": "{pandabuild:{is_custom_block:1b,custom_block:'wall_hanging_soul_lantern'}}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "build:custom_blocks/wall_hanging_soul_lantern/fill"
+	}
+}

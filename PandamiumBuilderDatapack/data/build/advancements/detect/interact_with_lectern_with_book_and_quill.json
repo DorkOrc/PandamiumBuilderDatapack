@@ -5,6 +5,14 @@
 			"conditions": {
 				"location": [
 					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:writable_book"
+							]
+						}
+					},
+					{
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {

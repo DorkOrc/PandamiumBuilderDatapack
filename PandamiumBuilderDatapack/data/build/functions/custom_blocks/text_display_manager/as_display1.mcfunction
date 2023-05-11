@@ -1,7 +1,7 @@
 tag @s add custom_block.text_display_manager
 tag @s add custom_block.display
 
-data merge entity @s {text:'{"text":"TEXT"}',transformation:{translation:[0f,1.5f,0f],scale:[1f,1f,1.0f]}}
+data merge entity @s {text:'{"text":"TEXT"}',transformation:{translation:[0f,1.5f,0f],scale:[1f,1f,1.0f]},line_width:1000}
 
 execute if entity @a[tag=source,limit=1,y_rotation=-45..44] run tp @s ~ ~ ~ 180 0
 execute if entity @a[tag=source,limit=1,y_rotation=45..134] run tp @s ~ ~ ~ -90 0

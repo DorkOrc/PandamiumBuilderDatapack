@@ -1,4 +1,4 @@
 {
 	"function": "minecraft:set_nbt",
-	"tag": "{text:'§8# config§r;\nbg=#40000000;\nscale=1.0;\nx_translation=0.0;\ny_translation=1.5;\nz_translation=0.0;'}"
+	"tag": "{text:'bg=#40000000;\n§8#↑ ARGB§r;\nscale=1.0;\nx_translation=0.0;\ny_translation=1.5;\nz_translation=0.0;\nbillboard=fixed;\n§8#↑ fixed, center, horizontal, vertical§r\nsee_through=false;\n#yaw=0.0;\n#pitch=0.0;\n#roll=0.0;'}"
 }

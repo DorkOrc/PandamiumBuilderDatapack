@@ -1,4 +1,4 @@
-execute if data storage build:temp {char:';'} run function build:custom_blocks/text_display_manager/parse_config/instruction_terminator
+execute if data storage build:temp {char:';'} run function build:custom_blocks/text_display_manager/parse_config/instruction_terminator/main
 execute if data storage build:temp {char:';'} run return 0
 
 execute if score <continue> variable matches 1 run return 0

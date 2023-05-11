@@ -1,10 +1,7 @@
 execute if score <scale_back> variable matches 0.. run scoreboard players add <scale_back> variable 1
 
-execute if score <index_in_value> variable matches 0 if data storage build:temp {char:'-'} run scoreboard players set <negative> variable 1
-execute if score <index_in_value> variable matches 0 if data storage build:temp {char:'-'} run return 0
-
-execute if score <index_in_value> variable matches 0 if data storage build:temp {char:'#'} run scoreboard players set <hexadecimal> variable 1
-execute if score <index_in_value> variable matches 0 if data storage build:temp {char:'#'} run return 0
+execute if score <index_in_value> variable matches 0 store result score <return> variable run function build:custom_blocks/text_display_manager/parse_config/reading_value/on_first_character
+execute if score <index_in_value> variable matches 0 if score <return> variable matches 1 run return 0
 
 execute if data storage build:temp {char:' '} run scoreboard players remove <index_in_value> variable 1
 execute if data storage build:temp {char:' '} run return 0
@@ -29,4 +26,5 @@ execute if score <character_value> variable matches -2 run scoreboard players se
 
 execute unless score <character_value> variable matches -1 run return 0
 
+scoreboard players set <error> variable 1
 scoreboard players set <continue> variable 1

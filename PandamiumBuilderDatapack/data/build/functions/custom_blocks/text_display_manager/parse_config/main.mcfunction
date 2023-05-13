@@ -1,8 +1,7 @@
 data remove storage build:temp string
 data modify storage build:temp string set from block ~ ~ ~ Book.tag.pages[0]
 
-data modify storage build:temp config set value {bg:1073741824,scale:1.0f,x_translation:0.0f,y_translation:1.5f,z_translation:0.0f,billboard:"fixed",roll:0.0f,see_through:"false"}
-data modify storage build:temp config.yaw set from entity @s Rotation[0]
+data modify storage build:temp config set value {bg:1073741824,scale:1.0f,x_translation:0.0f,y_translation:1.5f,z_translation:0.0f,billboard:"fixed",roll:0.0f,yaw:0.0f,see_through:"false"}
 data modify storage build:temp config.pitch set from entity @s Rotation[1]
 
 scoreboard players set <continue> variable 0

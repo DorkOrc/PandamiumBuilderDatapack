@@ -1,3 +1,4 @@
+execute if score <negative> variable matches 1 run scoreboard players operation <value_digits> variable *= #-1 constant
 data modify storage build:temp value set value 0
 execute if score <scale_back> variable matches -1 store result storage build:temp value int 1 run scoreboard players get <value_digits> variable
 execute if score <scale_back> variable matches 0 store result storage build:temp value float 1 run scoreboard players get <value_digits> variable

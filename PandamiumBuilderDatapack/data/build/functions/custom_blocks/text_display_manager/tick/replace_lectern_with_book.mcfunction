@@ -5,3 +5,4 @@ execute if data entity @s item.tag.pandabuild.text_display_manager{facing:'west'
 data modify entity @s item.tag.pandabuild.text_display_manager.has_book set value 1b
 data modify block ~ ~ ~ Book set from entity @s item
 data remove block ~ ~ ~ Book.pandabuild.text_display_manager
+scoreboard players reset @s custom_block.attr_1

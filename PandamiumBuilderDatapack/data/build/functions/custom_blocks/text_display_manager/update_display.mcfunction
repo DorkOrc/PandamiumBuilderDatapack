@@ -33,3 +33,5 @@ data modify storage build:temp left_rotation set value {axis:[0f,0f,1f],angle:0f
 execute store result storage build:temp left_rotation.angle float -0.0001745329252 run data get storage build:temp config.roll 100
 data modify entity @s transformation.left_rotation set from storage build:temp left_rotation
 
+# Update base storage book
+execute on vehicle at @s[type=item_display,tag=custom_block.base] at @s run function build:custom_blocks/text_display_manager/update_base_storage

@@ -149,13 +149,15 @@ scoreboard objectives add invis_indicators dummy
 scoreboard objectives add permanent_socks dummy
 scoreboard objectives add permanent_elytra dummy
 
-#
+# Misc
 scoreboard objectives add glow_time dummy
 scoreboard objectives add is_spectator dummy
 scoreboard objectives add can_toggle_tnt dummy
-
 scoreboard objectives add detect.leave custom:leave_game
 scoreboard objectives add in_dimension dummy
+
+# Custom Blocks
+scoreboard objectives add custom_block.attr_1 dummy
 
 # Teams
 team add builder

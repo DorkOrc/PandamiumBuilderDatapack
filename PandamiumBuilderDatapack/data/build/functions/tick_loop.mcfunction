@@ -9,5 +9,6 @@ execute as @a[gamemode=spectator,scores={builder_perms=0}] at @s anchored eyes r
 execute as @a[gamemode=spectator,scores={builder_perms=1..}] at @s anchored eyes run particle dust 0 1 1 1 ^ ^ ^ 0 0 0 0 1 force @a[distance=.01..16]
 
 function build:map_specific/elevator/tick
+function build:custom_blocks/tick
 
 schedule function build:tick_loop 1t

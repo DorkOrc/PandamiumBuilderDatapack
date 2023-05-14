@@ -13,5 +13,8 @@ scoreboard players set <error> variable 0
 data modify storage build:temp error set value 'An error occurred while reading the lines.'
 execute if data storage build:temp pages[0] run function build:custom_blocks/text_display_manager/parse_lines/loop
 
+# in case last page has an elipsis at the end, append page  
+execute if data storage build:temp join[0] run function build:custom_blocks/text_display_manager/parse_lines/add_line
+
 execute if score <error> variable matches 1 run tellraw @a[tag=source,limit=1] [{"text":"text_display_manager: ","color":"red"},{"nbt":"error","storage":"build:temp","interpret":true}]
 execute if score <error> variable matches 1 run data modify entity @s text set from storage build:temp old_text

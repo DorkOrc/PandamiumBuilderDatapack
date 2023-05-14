@@ -16,5 +16,7 @@ execute if data storage build:temp pages[0] run function build:custom_blocks/tex
 # in case last page has an elipsis at the end, append page  
 execute if data storage build:temp join[0] run function build:custom_blocks/text_display_manager/parse_lines/add_line
 
+# revert to old text in case config error occurs
+data modify entity @s text set from storage build:temp old_text
+
 execute if score <error> variable matches 1 run tellraw @a[tag=source,limit=1] [{"text":"text_display_manager: ","color":"red"},{"nbt":"error","storage":"build:temp","interpret":true}]
-execute if score <error> variable matches 1 run data modify entity @s text set from storage build:temp old_text

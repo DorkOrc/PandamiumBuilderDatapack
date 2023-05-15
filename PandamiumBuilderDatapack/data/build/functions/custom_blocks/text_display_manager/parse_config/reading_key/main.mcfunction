@@ -10,6 +10,7 @@ execute if data storage build:temp key if data storage build:temp {char:'='} run
 execute if score <next_state> variable matches 1 run return 0
 
 scoreboard players set <found> variable 0
+execute if data storage build:temp {char:'a'} run function build:custom_blocks/text_display_manager/parse_config/reading_key/check_for_key/a
 execute if data storage build:temp {char:'b'} run function build:custom_blocks/text_display_manager/parse_config/reading_key/check_for_key/b
 execute if data storage build:temp {char:'p'} run function build:custom_blocks/text_display_manager/parse_config/reading_key/check_for_key/p
 execute if data storage build:temp {char:'r'} run function build:custom_blocks/text_display_manager/parse_config/reading_key/check_for_key/r

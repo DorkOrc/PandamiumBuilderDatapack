@@ -23,6 +23,10 @@ execute if data storage build:temp config{billboard:"vertical"} run data modify 
 execute if data storage build:temp config{see_through:"false"} run data modify entity @s see_through set value 0b
 execute if data storage build:temp config{see_through:"true"} run data modify entity @s see_through set value 1b
 
+execute if data storage build:temp config{alignment:"center"} run data modify entity @s alignment set value "center"
+execute if data storage build:temp config{alignment:"left"} run data modify entity @s alignment set value "left"
+execute if data storage build:temp config{alignment:"right"} run data modify entity @s alignment set value "right"
+
 # Yaw
 data modify storage build:temp right_rotation set value {axis:[0f,1f,0f],angle:0f}
 execute store result storage build:temp right_rotation.angle float -0.0001745329252 run data get storage build:temp config.yaw 100

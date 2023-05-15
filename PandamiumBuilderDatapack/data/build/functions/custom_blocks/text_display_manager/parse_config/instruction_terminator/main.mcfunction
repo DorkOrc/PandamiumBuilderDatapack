@@ -9,6 +9,7 @@ execute if data storage build:temp {key:'billboard'} run data modify storage bui
 execute if data storage build:temp {key:'yaw'} run data modify storage build:temp config.yaw set from storage build:temp value
 execute if data storage build:temp {key:'pitch'} run data modify storage build:temp config.pitch set from storage build:temp value
 execute if data storage build:temp {key:'roll'} run data modify storage build:temp config.roll set from storage build:temp value
+execute if data storage build:temp {key:'alignment'} run data modify storage build:temp config.alignment set from storage build:temp value
 
 #tellraw @a ["",{"nbt":"key","storage":"build:temp"}," <- ",{"nbt":"value","storage":"build:temp"}," (",{"score":{"name":"<value_digits>","objective":"variable"}},", ",{"score":{"name":"<scale_back>","objective":"variable"}},"); last=",{"score":{"name":"<index_in_value>","objective":"variable"}}]
 

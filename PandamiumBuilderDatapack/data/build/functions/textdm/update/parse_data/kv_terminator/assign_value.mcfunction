@@ -1,15 +1,22 @@
 scoreboard players set <successfully_assigned_value> variable 0
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.bg if data storage build:textdm parse_data{key:'bg'} run data modify storage build:textdm io.data.bg set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.scale if data storage build:textdm parse_data{key:'scale'} run data modify storage build:textdm io.data.scale set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.x_translation if data storage build:textdm parse_data{key:'x_translation'} run data modify storage build:textdm io.data.x_translation set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.y_translation if data storage build:textdm parse_data{key:'y_translation'} run data modify storage build:textdm io.data.y_translation set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.z_translation if data storage build:textdm parse_data{key:'z_translation'} run data modify storage build:textdm io.data.z_translation set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.billboard if data storage build:textdm parse_data{key:'billboard'} run data modify storage build:textdm io.data.billboard set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.alignment if data storage build:textdm parse_data{key:'alignment'} run data modify storage build:textdm io.data.alignment set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.see_through if data storage build:textdm parse_data{key:'see_through'} run data modify storage build:textdm io.data.see_through set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.yaw if data storage build:textdm parse_data{key:'yaw'} run data modify storage build:textdm io.data.yaw set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.pitch if data storage build:textdm parse_data{key:'pitch'} run data modify storage build:textdm io.data.pitch set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.roll if data storage build:textdm parse_data{key:'roll'} run data modify storage build:textdm io.data.roll set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.rows if data storage build:textdm parse_data{key:'rows'} run data modify storage build:textdm io.data.rows set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.columns if data storage build:textdm parse_data{key:'columns'} run data modify storage build:textdm io.data.columns set from storage build:textdm parse_data.value
-execute store success score <successfully_assigned_value> variable unless data storage build:textdm io.data.spacing if data storage build:textdm parse_data{key:'spacing'} run data modify storage build:textdm io.data.spacing set from storage build:textdm parse_data.value
+
+execute if data storage build:textdm parse_data{key:'bg'} run function build:textdm/update/parse_data/kv_terminator/assign_value/bg
+execute if data storage build:textdm parse_data{key:'scale'} run function build:textdm/update/parse_data/kv_terminator/assign_value/scale
+execute if data storage build:textdm parse_data{key:'x_translation'} run function build:textdm/update/parse_data/kv_terminator/assign_value/x_translation
+execute if data storage build:textdm parse_data{key:'y_translation'} run function build:textdm/update/parse_data/kv_terminator/assign_value/y_translation
+execute if data storage build:textdm parse_data{key:'z_translation'} run function build:textdm/update/parse_data/kv_terminator/assign_value/z_translation
+execute if data storage build:textdm parse_data{key:'billboard'} run function build:textdm/update/parse_data/kv_terminator/assign_value/billboard
+execute if data storage build:textdm parse_data{key:'alignment'} run function build:textdm/update/parse_data/kv_terminator/assign_value/alignment
+execute if data storage build:textdm parse_data{key:'see_through'} run function build:textdm/update/parse_data/kv_terminator/assign_value/see_through
+execute if data storage build:textdm parse_data{key:'yaw'} run function build:textdm/update/parse_data/kv_terminator/assign_value/yaw
+execute if data storage build:textdm parse_data{key:'pitch'} run function build:textdm/update/parse_data/kv_terminator/assign_value/pitch
+execute if data storage build:textdm parse_data{key:'roll'} run function build:textdm/update/parse_data/kv_terminator/assign_value/roll
+execute if data storage build:textdm parse_data{key:'rows'} run function build:textdm/update/parse_data/kv_terminator/assign_value/rows
+execute if data storage build:textdm parse_data{key:'columns'} run function build:textdm/update/parse_data/kv_terminator/assign_value/columns
+execute if data storage build:textdm parse_data{key:'spacing'} run function build:textdm/update/parse_data/kv_terminator/assign_value/spacing
+execute if data storage build:textdm parse_data{key:'text_opacity'} run function build:textdm/update/parse_data/kv_terminator/assign_value/text_opacity
+execute if score <fatal_error> variable matches 1 run return 0
+
+execute if score <successfully_assigned_value> variable matches 0 run scoreboard players set <fatal_error> variable 1
+execute if score <fatal_error> variable matches 1 run tellraw @a[tag=source,limit=1] "ERR in assign_value: no value assigned"
+execute if score <fatal_error> variable matches 1 run return 0

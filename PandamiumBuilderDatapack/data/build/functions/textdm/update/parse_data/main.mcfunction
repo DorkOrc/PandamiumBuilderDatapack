@@ -1,4 +1,5 @@
 data modify storage build:textdm parse_data.string set from storage build:textdm io.data
+data remove storage build:textdm parse_data.char
 data modify storage build:textdm io.data set value {}
 
 data remove storage build:textdm parse_data.key

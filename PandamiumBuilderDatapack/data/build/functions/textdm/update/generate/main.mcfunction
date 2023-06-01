@@ -13,6 +13,7 @@ execute store result storage build:textdm data_to_merge.transformation.right_rot
 data modify storage build:textdm data_to_merge.Rotation[0] set from entity @s Rotation[0]
 data modify storage build:textdm data_to_merge.Rotation[1] set from storage build:textdm config.pitch
 execute store result storage build:textdm data_to_merge.transformation.left_rotation.angle float 0.01745329252 run data get storage build:textdm config.roll
+data modify storage build:textdm data_to_merge.line_width set value 2000
 
 scoreboard players set <line_scale> variable 275
 scoreboard players set <line_offset> variable 0

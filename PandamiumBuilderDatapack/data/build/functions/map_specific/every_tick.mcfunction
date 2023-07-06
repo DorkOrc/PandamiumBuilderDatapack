@@ -49,4 +49,4 @@ particle dripping_obsidian_tear -41.63 62.00 118.44 4 2 2 10 1
 particle dripping_obsidian_tear -27.00 62.24 128.27 4 2 2 10 1
 
 # wind tunnel particles
-particle firework -80.5 100 429.5 2 4 2 0 10
+particle instant_effect -80.5 98 429.5 2 5 2 0 2

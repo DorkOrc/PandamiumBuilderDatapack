@@ -1,3 +1,10 @@
+function build:map_specific/elevator/tick
+
+# wind tunnel
+effect clear @a[x=-84,y=108,z=426,dx=6,dy=0,dz=6,gamemode=!spectator] levitation
+execute as @a[x=-84,y=92,z=426,dx=6,dy=15,dz=6,gamemode=!spectator,x_rotation=-90..-1] at @s run effect give @s[x=-81,z=429,distance=..3.5] levitation 1 6 true
+execute as @a[x=-84,y=92,z=426,dx=6,dy=15,dz=6,gamemode=!spectator,x_rotation=0..90] at @s run effect give @s[x=-81,z=429,distance=..3.5] slow_falling 1 0 true
+
 # portal cauldron effects
 #execute at @e[type=item_display,tag=custom_block.portal_cauldron,tag=custom_block.base] run particle portal ~ ~1 ~ 0.18 0.95 0.18 0.01 1
 particle portal -50 76 138 0.18 0.95 0.18 0.01 1

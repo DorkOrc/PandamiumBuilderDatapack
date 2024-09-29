@@ -1,4 +1,0 @@
-execute if score @s cursor_range matches 5..5 at @s anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~ ~0.5 run function blingedit:execute014_ln177
-execute if score @s cursor_range matches 10..10 at @s anchored eyes positioned ^ ^ ^10 align xyz positioned ~0.5 ~ ~0.5 run function blingedit:execute015_ln182
-execute if score @s cursor_range matches 15..15 at @s anchored eyes positioned ^ ^ ^15 align xyz positioned ~0.5 ~ ~0.5 run function blingedit:execute016_ln187
-execute if score @s cursor_range matches 20..20 at @s anchored eyes positioned ^ ^ ^20 align xyz positioned ~0.5 ~ ~0.5 run function blingedit:execute017_ln192

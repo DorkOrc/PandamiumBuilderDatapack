@@ -1,0 +1,25 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": [
+			"Builder Pandamium Datapack\n",
+			{
+				"text": "Server: ",
+				"color": "dark_gray"
+			},
+			{
+				"text": "build.pandamium.eu",
+				"color": "gray",
+				"underlined": true
+			}
+		]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancements/.*"
+			}
+		]
+	}
+}

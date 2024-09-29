@@ -1,2 +1,0 @@
-tellraw @s [{"text":"\n","color":"aqua"},{"text":"Randomization Options:","color":"dark_aqua"},"\n",{"text":"[Store Selected Region as Random Block Pool]","clickEvent":{"action":"run_command","value":"/trigger blingedit set -256"}},"\n",{"text":"[Fill Selected Region from Random Block Pool]","clickEvent":{"action":"run_command","value":"/trigger blingedit set -257"},"color":"aqua"},"\n",{"text":"[Replace in Selected Region from Random Block Pool]","clickEvent":{"action":"run_command","value":"/trigger blingedit set -258"},"color":"aqua"}]
-gamerule sendCommandFeedback false

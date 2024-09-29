@@ -1,0 +1,6 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"dimension": "pandabuild:servers/snapshot/variant_1/overworld"
+	}
+}

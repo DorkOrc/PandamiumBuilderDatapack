@@ -24,6 +24,18 @@
 			"predicate": {
 				"dimension": "pandabuild:servers/snapshot/variant_1/the_nether"
 			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "pandabuild:servers/snapshot/variant_2/overworld"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "pandabuild:servers/snapshot/variant_2/the_nether"
+			}
 		}
 	]
 }

@@ -16,6 +16,12 @@
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
+				"dimension": "pandabuild:servers/snapshot/sandbox"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
 				"dimension": "pandabuild:servers/snapshot/variant_1/overworld"
 			}
 		},

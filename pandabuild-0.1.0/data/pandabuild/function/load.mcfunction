@@ -49,6 +49,7 @@ worldborder warning distance 0
 scoreboard objectives add spawn trigger
 scoreboard objectives add spawn.snapshot.original.overworld trigger
 scoreboard objectives add spawn.snapshot.original.the_nether trigger
+scoreboard objectives add spawn.snapshot.sandbox trigger
 scoreboard objectives add spawn.snapshot.christmas.overworld trigger
 scoreboard objectives add spawn.snapshot.christmas.the_nether trigger
 scoreboard objectives add spawn.snapshot.halloween.overworld trigger

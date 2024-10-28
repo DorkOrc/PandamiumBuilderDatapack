@@ -12,6 +12,7 @@ execute as @e[type=player,scores={previously_dead=1}] at @s run function pandabu
 # handling triggers
 execute as @a[scores={spawn.snapshot.original.overworld=1..}] run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.original.overworld"}
 execute as @a[scores={spawn.snapshot.original.the_nether=1..}] run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.original.the_nether"}
+execute as @a[scores={spawn.snapshot.sandbox=1..}] run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.sandbox"}
 
 execute as @a[scores={spawn.snapshot.christmas.overworld=1..}] run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.christmas.overworld"}
 execute as @a[scores={spawn.snapshot.christmas.the_nether=1..}] run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.christmas.the_nether"}

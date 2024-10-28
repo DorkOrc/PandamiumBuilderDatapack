@@ -6,6 +6,7 @@ execute at @s if dimension minecraft:the_end in pandabuild:servers/snapshot/over
 scoreboard players display numberformat @s tablist_value fixed {"text":"???","color":"gray"}
 execute at @s if dimension pandabuild:servers/snapshot/overworld run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot - Original (overworld)","color":"gray"}
 execute at @s if dimension pandabuild:servers/snapshot/the_nether run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot - Original (nether)","color":"gray"}
+execute at @s if dimension pandabuild:servers/snapshot/sandbox run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot (sandbox/parkour world)","color":"gray"}
 execute at @s if dimension pandabuild:servers/snapshot/variant_1/overworld run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot - Christmas (overworld)","color":"gray"}
 execute at @s if dimension pandabuild:servers/snapshot/variant_1/the_nether run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot - Christmas (nether)","color":"gray"}
 execute at @s if dimension pandabuild:servers/snapshot/variant_2/overworld run scoreboard players display numberformat @s tablist_value fixed {"text":"Snapshot - Halloween (overworld)","color":"gray"}

@@ -23,11 +23,7 @@ execute as @a[scores={spawn.snapshot.halloween.the_nether=1..}] run function pan
 execute as @a[scores={spawn=1..}] at @s run function pandabuild:triggers/spawn/main
 
 # test
-#execute at @a[predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run fillbiome ~-10 ~-10 ~-10 ~10 ~10 ~10 pandamium:autumn replace minecraft:forest
-#execute at @a[predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run fillbiome ~-10 ~-10 ~-10 ~10 ~10 ~10 pandamium:autumn replace minecraft:jungle
-#execute at @a[predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run fillbiome ~-10 ~-10 ~-10 ~10 ~10 ~10 pandamium:autumn replace minecraft:sparse_jungle
-#execute at @a[predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run fillbiome ~-10 ~-10 ~-10 ~10 ~10 ~10 pandamium:autumn replace minecraft:stony_peaks
-#execute at @a[predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run fillbiome ~-10 ~-10 ~-10 ~10 ~10 ~10 pandamium:autumn replace minecraft:stony_shore
+execute as DorkOrc at @s[tag=clone_to_storage,gamemode=spectator,predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run function pandabuild:impl/halloween_to_storage_cloning
 
 # flying eyeball
 execute as @e[tag=pandamium.ticking,tag=pandamium.flying_eyeball.root] at @s run function pandamium:impl/flying_eyeball/every_tick

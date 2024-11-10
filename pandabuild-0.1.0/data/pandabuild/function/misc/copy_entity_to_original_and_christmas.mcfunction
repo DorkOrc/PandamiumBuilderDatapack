@@ -160,6 +160,6 @@ execute if entity @s[type=minecraft:zombie_horse] run data modify storage pandab
 execute if entity @s[type=minecraft:zombie_villager] run data modify storage pandabuild:local groups.copy_entity_to_original_and_christmas.entity_type set value "minecraft:zombie_villager"
 execute if entity @s[type=minecraft:zombified_piglin] run data modify storage pandabuild:local groups.copy_entity_to_original_and_christmas.entity_type set value "minecraft:zombified_piglin"
 
-function pandabuild:impl/copy_entity_to_original_and_christmas with storage pandabuild:local groups.copy_entity_to_original_and_christmas
+function pandabuild:impl/copy_entity_to_original_and_christmas/with_data with storage pandabuild:local groups.copy_entity_to_original_and_christmas
 
 tag @s add copy_entity_to_original_and_christmas.copied

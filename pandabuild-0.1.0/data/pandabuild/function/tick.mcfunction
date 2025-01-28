@@ -24,3 +24,8 @@ execute as @a[scores={spawn=1..}] at @s run function pandabuild:triggers/spawn/m
 
 # flying eyeball
 execute as @e[tag=pandamium.ticking,tag=pandamium.flying_eyeball.root] at @s run function pandamium:impl/flying_eyeball/every_tick
+
+# particles
+execute in pandabuild:servers/snapshot/overworld if entity @a[x=0] run function pandabuild:impl/map_specific/original_every_tick
+execute in pandabuild:servers/snapshot/variant_1/overworld if entity @a[x=0] run function pandabuild:impl/map_specific/christmas_every_tick
+execute in pandabuild:servers/snapshot/variant_2/overworld if entity @a[x=0] run function pandabuild:impl/map_specific/halloween_every_tick

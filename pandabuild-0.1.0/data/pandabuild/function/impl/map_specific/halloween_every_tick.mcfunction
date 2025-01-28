@@ -9,8 +9,8 @@ particle portal -50 76 138 0.18 0.95 0.18 0.01 1
 particle portal -280 113 79 0.18 0.95 0.18 0.01 1
 
 # rtp portal effect
-particle minecraft:tinted_leaves{color:[0,1,0,1]} -288.5 130.5 183.5 1.5 1.5 0.1 0.5 1 force
-particle minecraft:tinted_leaves{color:[0,0.8,0.2,1]} -288.5 130.5 183.5 1.5 1.5 0.1 0.5 1 force
+particle minecraft:tinted_leaves{color:[1,0.5,0,1]} -288.5 130.5 183.5 1.5 1.5 0.1 0.5 1 force
+particle minecraft:tinted_leaves{color:[1,1,1,0.5]} -288.5 130.5 183.5 1.5 1.5 0.1 0.5 1 force
 
 # hawk's particles
 particle dragon_breath -40.42 82.00 181.40 1 1 1 0.1 1

@@ -22,8 +22,5 @@ execute as @a[scores={spawn.snapshot.halloween.the_nether=1..}] run function pan
 
 execute as @a[scores={spawn=1..}] at @s run function pandabuild:triggers/spawn/main
 
-# test
-execute as DorkOrc at @s[tag=clone_to_storage,gamemode=spectator,predicate=pandabuild:in_dimension/pandabuild/servers/snapshot/variant_2/overworld] run function pandabuild:impl/halloween_to_storage_cloning
-
 # flying eyeball
 execute as @e[tag=pandamium.ticking,tag=pandamium.flying_eyeball.root] at @s run function pandamium:impl/flying_eyeball/every_tick

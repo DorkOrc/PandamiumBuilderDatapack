@@ -1,35 +1,35 @@
 # arguments: block
 
-$setblock ~-2 ~ ~ $(block)
-$setblock ~-1 ~-1 ~-1 $(block)
-$setblock ~-1 ~-1 ~ $(block)
-$setblock ~-1 ~-1 ~1 $(block)
-$setblock ~-1 ~ ~-1 $(block)
-$setblock ~-1 ~ ~ $(block)
-$setblock ~-1 ~ ~1 $(block)
-$setblock ~-1 ~1 ~-1 $(block)
-$setblock ~-1 ~1 ~ $(block)
-$setblock ~-1 ~1 ~1 $(block)
-$setblock ~ ~-2 ~ $(block)
-$setblock ~ ~-1 ~-1 $(block)
-$setblock ~ ~-1 ~ $(block)
-$setblock ~ ~-1 ~1 $(block)
-$setblock ~ ~ ~-2 $(block)
-$setblock ~ ~ ~-1 $(block)
-$setblock ~ ~ ~ $(block)
-$setblock ~ ~ ~1 $(block)
-$setblock ~ ~ ~2 $(block)
-$setblock ~ ~1 ~-1 $(block)
-$setblock ~ ~1 ~ $(block)
-$setblock ~ ~1 ~1 $(block)
-$setblock ~ ~2 ~ $(block)
-$setblock ~1 ~-1 ~-1 $(block)
-$setblock ~1 ~-1 ~ $(block)
-$setblock ~1 ~-1 ~1 $(block)
-$setblock ~1 ~ ~-1 $(block)
-$setblock ~1 ~ ~ $(block)
-$setblock ~1 ~ ~1 $(block)
-$setblock ~1 ~1 ~-1 $(block)
-$setblock ~1 ~1 ~ $(block)
-$setblock ~1 ~1 ~1 $(block)
-$setblock ~2 ~ ~ $(block)
+$setblock ~-2 ~ ~ $(block) strict
+$setblock ~-1 ~-1 ~-1 $(block) strict
+$setblock ~-1 ~-1 ~ $(block) strict
+$setblock ~-1 ~-1 ~1 $(block) strict
+$setblock ~-1 ~ ~-1 $(block) strict
+$setblock ~-1 ~ ~ $(block) strict
+$setblock ~-1 ~ ~1 $(block) strict
+$setblock ~-1 ~1 ~-1 $(block) strict
+$setblock ~-1 ~1 ~ $(block) strict
+$setblock ~-1 ~1 ~1 $(block) strict
+$setblock ~ ~-2 ~ $(block) strict
+$setblock ~ ~-1 ~-1 $(block) strict
+$setblock ~ ~-1 ~ $(block) strict
+$setblock ~ ~-1 ~1 $(block) strict
+$setblock ~ ~ ~-2 $(block) strict
+$setblock ~ ~ ~-1 $(block) strict
+$setblock ~ ~ ~ $(block) strict
+$setblock ~ ~ ~1 $(block) strict
+$setblock ~ ~ ~2 $(block) strict
+$setblock ~ ~1 ~-1 $(block) strict
+$setblock ~ ~1 ~ $(block) strict
+$setblock ~ ~1 ~1 $(block) strict
+$setblock ~ ~2 ~ $(block) strict
+$setblock ~1 ~-1 ~-1 $(block) strict
+$setblock ~1 ~-1 ~ $(block) strict
+$setblock ~1 ~-1 ~1 $(block) strict
+$setblock ~1 ~ ~-1 $(block) strict
+$setblock ~1 ~ ~ $(block) strict
+$setblock ~1 ~ ~1 $(block) strict
+$setblock ~1 ~1 ~-1 $(block) strict
+$setblock ~1 ~1 ~ $(block) strict
+$setblock ~1 ~1 ~1 $(block) strict
+$setblock ~2 ~ ~ $(block) strict

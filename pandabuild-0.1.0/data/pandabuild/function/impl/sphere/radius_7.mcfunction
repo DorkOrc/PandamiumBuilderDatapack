@@ -1,1421 +1,1421 @@
 # arguments: block
 
-$setblock ~-7 ~ ~ $(block)
-$setblock ~-6 ~-3 ~-2 $(block)
-$setblock ~-6 ~-3 ~-1 $(block)
-$setblock ~-6 ~-3 ~ $(block)
-$setblock ~-6 ~-3 ~1 $(block)
-$setblock ~-6 ~-3 ~2 $(block)
-$setblock ~-6 ~-2 ~-3 $(block)
-$setblock ~-6 ~-2 ~-2 $(block)
-$setblock ~-6 ~-2 ~-1 $(block)
-$setblock ~-6 ~-2 ~ $(block)
-$setblock ~-6 ~-2 ~1 $(block)
-$setblock ~-6 ~-2 ~2 $(block)
-$setblock ~-6 ~-2 ~3 $(block)
-$setblock ~-6 ~-1 ~-3 $(block)
-$setblock ~-6 ~-1 ~-2 $(block)
-$setblock ~-6 ~-1 ~-1 $(block)
-$setblock ~-6 ~-1 ~ $(block)
-$setblock ~-6 ~-1 ~1 $(block)
-$setblock ~-6 ~-1 ~2 $(block)
-$setblock ~-6 ~-1 ~3 $(block)
-$setblock ~-6 ~ ~-3 $(block)
-$setblock ~-6 ~ ~-2 $(block)
-$setblock ~-6 ~ ~-1 $(block)
-$setblock ~-6 ~ ~ $(block)
-$setblock ~-6 ~ ~1 $(block)
-$setblock ~-6 ~ ~2 $(block)
-$setblock ~-6 ~ ~3 $(block)
-$setblock ~-6 ~1 ~-3 $(block)
-$setblock ~-6 ~1 ~-2 $(block)
-$setblock ~-6 ~1 ~-1 $(block)
-$setblock ~-6 ~1 ~ $(block)
-$setblock ~-6 ~1 ~1 $(block)
-$setblock ~-6 ~1 ~2 $(block)
-$setblock ~-6 ~1 ~3 $(block)
-$setblock ~-6 ~2 ~-3 $(block)
-$setblock ~-6 ~2 ~-2 $(block)
-$setblock ~-6 ~2 ~-1 $(block)
-$setblock ~-6 ~2 ~ $(block)
-$setblock ~-6 ~2 ~1 $(block)
-$setblock ~-6 ~2 ~2 $(block)
-$setblock ~-6 ~2 ~3 $(block)
-$setblock ~-6 ~3 ~-2 $(block)
-$setblock ~-6 ~3 ~-1 $(block)
-$setblock ~-6 ~3 ~ $(block)
-$setblock ~-6 ~3 ~1 $(block)
-$setblock ~-6 ~3 ~2 $(block)
-$setblock ~-5 ~-4 ~-2 $(block)
-$setblock ~-5 ~-4 ~-1 $(block)
-$setblock ~-5 ~-4 ~ $(block)
-$setblock ~-5 ~-4 ~1 $(block)
-$setblock ~-5 ~-4 ~2 $(block)
-$setblock ~-5 ~-3 ~-3 $(block)
-$setblock ~-5 ~-3 ~-2 $(block)
-$setblock ~-5 ~-3 ~-1 $(block)
-$setblock ~-5 ~-3 ~ $(block)
-$setblock ~-5 ~-3 ~1 $(block)
-$setblock ~-5 ~-3 ~2 $(block)
-$setblock ~-5 ~-3 ~3 $(block)
-$setblock ~-5 ~-2 ~-4 $(block)
-$setblock ~-5 ~-2 ~-3 $(block)
-$setblock ~-5 ~-2 ~-2 $(block)
-$setblock ~-5 ~-2 ~-1 $(block)
-$setblock ~-5 ~-2 ~ $(block)
-$setblock ~-5 ~-2 ~1 $(block)
-$setblock ~-5 ~-2 ~2 $(block)
-$setblock ~-5 ~-2 ~3 $(block)
-$setblock ~-5 ~-2 ~4 $(block)
-$setblock ~-5 ~-1 ~-4 $(block)
-$setblock ~-5 ~-1 ~-3 $(block)
-$setblock ~-5 ~-1 ~-2 $(block)
-$setblock ~-5 ~-1 ~-1 $(block)
-$setblock ~-5 ~-1 ~ $(block)
-$setblock ~-5 ~-1 ~1 $(block)
-$setblock ~-5 ~-1 ~2 $(block)
-$setblock ~-5 ~-1 ~3 $(block)
-$setblock ~-5 ~-1 ~4 $(block)
-$setblock ~-5 ~ ~-4 $(block)
-$setblock ~-5 ~ ~-3 $(block)
-$setblock ~-5 ~ ~-2 $(block)
-$setblock ~-5 ~ ~-1 $(block)
-$setblock ~-5 ~ ~ $(block)
-$setblock ~-5 ~ ~1 $(block)
-$setblock ~-5 ~ ~2 $(block)
-$setblock ~-5 ~ ~3 $(block)
-$setblock ~-5 ~ ~4 $(block)
-$setblock ~-5 ~1 ~-4 $(block)
-$setblock ~-5 ~1 ~-3 $(block)
-$setblock ~-5 ~1 ~-2 $(block)
-$setblock ~-5 ~1 ~-1 $(block)
-$setblock ~-5 ~1 ~ $(block)
-$setblock ~-5 ~1 ~1 $(block)
-$setblock ~-5 ~1 ~2 $(block)
-$setblock ~-5 ~1 ~3 $(block)
-$setblock ~-5 ~1 ~4 $(block)
-$setblock ~-5 ~2 ~-4 $(block)
-$setblock ~-5 ~2 ~-3 $(block)
-$setblock ~-5 ~2 ~-2 $(block)
-$setblock ~-5 ~2 ~-1 $(block)
-$setblock ~-5 ~2 ~ $(block)
-$setblock ~-5 ~2 ~1 $(block)
-$setblock ~-5 ~2 ~2 $(block)
-$setblock ~-5 ~2 ~3 $(block)
-$setblock ~-5 ~2 ~4 $(block)
-$setblock ~-5 ~3 ~-3 $(block)
-$setblock ~-5 ~3 ~-2 $(block)
-$setblock ~-5 ~3 ~-1 $(block)
-$setblock ~-5 ~3 ~ $(block)
-$setblock ~-5 ~3 ~1 $(block)
-$setblock ~-5 ~3 ~2 $(block)
-$setblock ~-5 ~3 ~3 $(block)
-$setblock ~-5 ~4 ~-2 $(block)
-$setblock ~-5 ~4 ~-1 $(block)
-$setblock ~-5 ~4 ~ $(block)
-$setblock ~-5 ~4 ~1 $(block)
-$setblock ~-5 ~4 ~2 $(block)
-$setblock ~-4 ~-5 ~-2 $(block)
-$setblock ~-4 ~-5 ~-1 $(block)
-$setblock ~-4 ~-5 ~ $(block)
-$setblock ~-4 ~-5 ~1 $(block)
-$setblock ~-4 ~-5 ~2 $(block)
-$setblock ~-4 ~-4 ~-4 $(block)
-$setblock ~-4 ~-4 ~-3 $(block)
-$setblock ~-4 ~-4 ~-2 $(block)
-$setblock ~-4 ~-4 ~-1 $(block)
-$setblock ~-4 ~-4 ~ $(block)
-$setblock ~-4 ~-4 ~1 $(block)
-$setblock ~-4 ~-4 ~2 $(block)
-$setblock ~-4 ~-4 ~3 $(block)
-$setblock ~-4 ~-4 ~4 $(block)
-$setblock ~-4 ~-3 ~-4 $(block)
-$setblock ~-4 ~-3 ~-3 $(block)
-$setblock ~-4 ~-3 ~-2 $(block)
-$setblock ~-4 ~-3 ~-1 $(block)
-$setblock ~-4 ~-3 ~ $(block)
-$setblock ~-4 ~-3 ~1 $(block)
-$setblock ~-4 ~-3 ~2 $(block)
-$setblock ~-4 ~-3 ~3 $(block)
-$setblock ~-4 ~-3 ~4 $(block)
-$setblock ~-4 ~-2 ~-5 $(block)
-$setblock ~-4 ~-2 ~-4 $(block)
-$setblock ~-4 ~-2 ~-3 $(block)
-$setblock ~-4 ~-2 ~-2 $(block)
-$setblock ~-4 ~-2 ~-1 $(block)
-$setblock ~-4 ~-2 ~ $(block)
-$setblock ~-4 ~-2 ~1 $(block)
-$setblock ~-4 ~-2 ~2 $(block)
-$setblock ~-4 ~-2 ~3 $(block)
-$setblock ~-4 ~-2 ~4 $(block)
-$setblock ~-4 ~-2 ~5 $(block)
-$setblock ~-4 ~-1 ~-5 $(block)
-$setblock ~-4 ~-1 ~-4 $(block)
-$setblock ~-4 ~-1 ~-3 $(block)
-$setblock ~-4 ~-1 ~-2 $(block)
-$setblock ~-4 ~-1 ~-1 $(block)
-$setblock ~-4 ~-1 ~ $(block)
-$setblock ~-4 ~-1 ~1 $(block)
-$setblock ~-4 ~-1 ~2 $(block)
-$setblock ~-4 ~-1 ~3 $(block)
-$setblock ~-4 ~-1 ~4 $(block)
-$setblock ~-4 ~-1 ~5 $(block)
-$setblock ~-4 ~ ~-5 $(block)
-$setblock ~-4 ~ ~-4 $(block)
-$setblock ~-4 ~ ~-3 $(block)
-$setblock ~-4 ~ ~-2 $(block)
-$setblock ~-4 ~ ~-1 $(block)
-$setblock ~-4 ~ ~ $(block)
-$setblock ~-4 ~ ~1 $(block)
-$setblock ~-4 ~ ~2 $(block)
-$setblock ~-4 ~ ~3 $(block)
-$setblock ~-4 ~ ~4 $(block)
-$setblock ~-4 ~ ~5 $(block)
-$setblock ~-4 ~1 ~-5 $(block)
-$setblock ~-4 ~1 ~-4 $(block)
-$setblock ~-4 ~1 ~-3 $(block)
-$setblock ~-4 ~1 ~-2 $(block)
-$setblock ~-4 ~1 ~-1 $(block)
-$setblock ~-4 ~1 ~ $(block)
-$setblock ~-4 ~1 ~1 $(block)
-$setblock ~-4 ~1 ~2 $(block)
-$setblock ~-4 ~1 ~3 $(block)
-$setblock ~-4 ~1 ~4 $(block)
-$setblock ~-4 ~1 ~5 $(block)
-$setblock ~-4 ~2 ~-5 $(block)
-$setblock ~-4 ~2 ~-4 $(block)
-$setblock ~-4 ~2 ~-3 $(block)
-$setblock ~-4 ~2 ~-2 $(block)
-$setblock ~-4 ~2 ~-1 $(block)
-$setblock ~-4 ~2 ~ $(block)
-$setblock ~-4 ~2 ~1 $(block)
-$setblock ~-4 ~2 ~2 $(block)
-$setblock ~-4 ~2 ~3 $(block)
-$setblock ~-4 ~2 ~4 $(block)
-$setblock ~-4 ~2 ~5 $(block)
-$setblock ~-4 ~3 ~-4 $(block)
-$setblock ~-4 ~3 ~-3 $(block)
-$setblock ~-4 ~3 ~-2 $(block)
-$setblock ~-4 ~3 ~-1 $(block)
-$setblock ~-4 ~3 ~ $(block)
-$setblock ~-4 ~3 ~1 $(block)
-$setblock ~-4 ~3 ~2 $(block)
-$setblock ~-4 ~3 ~3 $(block)
-$setblock ~-4 ~3 ~4 $(block)
-$setblock ~-4 ~4 ~-4 $(block)
-$setblock ~-4 ~4 ~-3 $(block)
-$setblock ~-4 ~4 ~-2 $(block)
-$setblock ~-4 ~4 ~-1 $(block)
-$setblock ~-4 ~4 ~ $(block)
-$setblock ~-4 ~4 ~1 $(block)
-$setblock ~-4 ~4 ~2 $(block)
-$setblock ~-4 ~4 ~3 $(block)
-$setblock ~-4 ~4 ~4 $(block)
-$setblock ~-4 ~5 ~-2 $(block)
-$setblock ~-4 ~5 ~-1 $(block)
-$setblock ~-4 ~5 ~ $(block)
-$setblock ~-4 ~5 ~1 $(block)
-$setblock ~-4 ~5 ~2 $(block)
-$setblock ~-3 ~-6 ~-2 $(block)
-$setblock ~-3 ~-6 ~-1 $(block)
-$setblock ~-3 ~-6 ~ $(block)
-$setblock ~-3 ~-6 ~1 $(block)
-$setblock ~-3 ~-6 ~2 $(block)
-$setblock ~-3 ~-5 ~-3 $(block)
-$setblock ~-3 ~-5 ~-2 $(block)
-$setblock ~-3 ~-5 ~-1 $(block)
-$setblock ~-3 ~-5 ~ $(block)
-$setblock ~-3 ~-5 ~1 $(block)
-$setblock ~-3 ~-5 ~2 $(block)
-$setblock ~-3 ~-5 ~3 $(block)
-$setblock ~-3 ~-4 ~-4 $(block)
-$setblock ~-3 ~-4 ~-3 $(block)
-$setblock ~-3 ~-4 ~-2 $(block)
-$setblock ~-3 ~-4 ~-1 $(block)
-$setblock ~-3 ~-4 ~ $(block)
-$setblock ~-3 ~-4 ~1 $(block)
-$setblock ~-3 ~-4 ~2 $(block)
-$setblock ~-3 ~-4 ~3 $(block)
-$setblock ~-3 ~-4 ~4 $(block)
-$setblock ~-3 ~-3 ~-5 $(block)
-$setblock ~-3 ~-3 ~-4 $(block)
-$setblock ~-3 ~-3 ~-3 $(block)
-$setblock ~-3 ~-3 ~-2 $(block)
-$setblock ~-3 ~-3 ~-1 $(block)
-$setblock ~-3 ~-3 ~ $(block)
-$setblock ~-3 ~-3 ~1 $(block)
-$setblock ~-3 ~-3 ~2 $(block)
-$setblock ~-3 ~-3 ~3 $(block)
-$setblock ~-3 ~-3 ~4 $(block)
-$setblock ~-3 ~-3 ~5 $(block)
-$setblock ~-3 ~-2 ~-6 $(block)
-$setblock ~-3 ~-2 ~-5 $(block)
-$setblock ~-3 ~-2 ~-4 $(block)
-$setblock ~-3 ~-2 ~-3 $(block)
-$setblock ~-3 ~-2 ~-2 $(block)
-$setblock ~-3 ~-2 ~-1 $(block)
-$setblock ~-3 ~-2 ~ $(block)
-$setblock ~-3 ~-2 ~1 $(block)
-$setblock ~-3 ~-2 ~2 $(block)
-$setblock ~-3 ~-2 ~3 $(block)
-$setblock ~-3 ~-2 ~4 $(block)
-$setblock ~-3 ~-2 ~5 $(block)
-$setblock ~-3 ~-2 ~6 $(block)
-$setblock ~-3 ~-1 ~-6 $(block)
-$setblock ~-3 ~-1 ~-5 $(block)
-$setblock ~-3 ~-1 ~-4 $(block)
-$setblock ~-3 ~-1 ~-3 $(block)
-$setblock ~-3 ~-1 ~-2 $(block)
-$setblock ~-3 ~-1 ~-1 $(block)
-$setblock ~-3 ~-1 ~ $(block)
-$setblock ~-3 ~-1 ~1 $(block)
-$setblock ~-3 ~-1 ~2 $(block)
-$setblock ~-3 ~-1 ~3 $(block)
-$setblock ~-3 ~-1 ~4 $(block)
-$setblock ~-3 ~-1 ~5 $(block)
-$setblock ~-3 ~-1 ~6 $(block)
-$setblock ~-3 ~ ~-6 $(block)
-$setblock ~-3 ~ ~-5 $(block)
-$setblock ~-3 ~ ~-4 $(block)
-$setblock ~-3 ~ ~-3 $(block)
-$setblock ~-3 ~ ~-2 $(block)
-$setblock ~-3 ~ ~-1 $(block)
-$setblock ~-3 ~ ~ $(block)
-$setblock ~-3 ~ ~1 $(block)
-$setblock ~-3 ~ ~2 $(block)
-$setblock ~-3 ~ ~3 $(block)
-$setblock ~-3 ~ ~4 $(block)
-$setblock ~-3 ~ ~5 $(block)
-$setblock ~-3 ~ ~6 $(block)
-$setblock ~-3 ~1 ~-6 $(block)
-$setblock ~-3 ~1 ~-5 $(block)
-$setblock ~-3 ~1 ~-4 $(block)
-$setblock ~-3 ~1 ~-3 $(block)
-$setblock ~-3 ~1 ~-2 $(block)
-$setblock ~-3 ~1 ~-1 $(block)
-$setblock ~-3 ~1 ~ $(block)
-$setblock ~-3 ~1 ~1 $(block)
-$setblock ~-3 ~1 ~2 $(block)
-$setblock ~-3 ~1 ~3 $(block)
-$setblock ~-3 ~1 ~4 $(block)
-$setblock ~-3 ~1 ~5 $(block)
-$setblock ~-3 ~1 ~6 $(block)
-$setblock ~-3 ~2 ~-6 $(block)
-$setblock ~-3 ~2 ~-5 $(block)
-$setblock ~-3 ~2 ~-4 $(block)
-$setblock ~-3 ~2 ~-3 $(block)
-$setblock ~-3 ~2 ~-2 $(block)
-$setblock ~-3 ~2 ~-1 $(block)
-$setblock ~-3 ~2 ~ $(block)
-$setblock ~-3 ~2 ~1 $(block)
-$setblock ~-3 ~2 ~2 $(block)
-$setblock ~-3 ~2 ~3 $(block)
-$setblock ~-3 ~2 ~4 $(block)
-$setblock ~-3 ~2 ~5 $(block)
-$setblock ~-3 ~2 ~6 $(block)
-$setblock ~-3 ~3 ~-5 $(block)
-$setblock ~-3 ~3 ~-4 $(block)
-$setblock ~-3 ~3 ~-3 $(block)
-$setblock ~-3 ~3 ~-2 $(block)
-$setblock ~-3 ~3 ~-1 $(block)
-$setblock ~-3 ~3 ~ $(block)
-$setblock ~-3 ~3 ~1 $(block)
-$setblock ~-3 ~3 ~2 $(block)
-$setblock ~-3 ~3 ~3 $(block)
-$setblock ~-3 ~3 ~4 $(block)
-$setblock ~-3 ~3 ~5 $(block)
-$setblock ~-3 ~4 ~-4 $(block)
-$setblock ~-3 ~4 ~-3 $(block)
-$setblock ~-3 ~4 ~-2 $(block)
-$setblock ~-3 ~4 ~-1 $(block)
-$setblock ~-3 ~4 ~ $(block)
-$setblock ~-3 ~4 ~1 $(block)
-$setblock ~-3 ~4 ~2 $(block)
-$setblock ~-3 ~4 ~3 $(block)
-$setblock ~-3 ~4 ~4 $(block)
-$setblock ~-3 ~5 ~-3 $(block)
-$setblock ~-3 ~5 ~-2 $(block)
-$setblock ~-3 ~5 ~-1 $(block)
-$setblock ~-3 ~5 ~ $(block)
-$setblock ~-3 ~5 ~1 $(block)
-$setblock ~-3 ~5 ~2 $(block)
-$setblock ~-3 ~5 ~3 $(block)
-$setblock ~-3 ~6 ~-2 $(block)
-$setblock ~-3 ~6 ~-1 $(block)
-$setblock ~-3 ~6 ~ $(block)
-$setblock ~-3 ~6 ~1 $(block)
-$setblock ~-3 ~6 ~2 $(block)
-$setblock ~-2 ~-6 ~-3 $(block)
-$setblock ~-2 ~-6 ~-2 $(block)
-$setblock ~-2 ~-6 ~-1 $(block)
-$setblock ~-2 ~-6 ~ $(block)
-$setblock ~-2 ~-6 ~1 $(block)
-$setblock ~-2 ~-6 ~2 $(block)
-$setblock ~-2 ~-6 ~3 $(block)
-$setblock ~-2 ~-5 ~-4 $(block)
-$setblock ~-2 ~-5 ~-3 $(block)
-$setblock ~-2 ~-5 ~-2 $(block)
-$setblock ~-2 ~-5 ~-1 $(block)
-$setblock ~-2 ~-5 ~ $(block)
-$setblock ~-2 ~-5 ~1 $(block)
-$setblock ~-2 ~-5 ~2 $(block)
-$setblock ~-2 ~-5 ~3 $(block)
-$setblock ~-2 ~-5 ~4 $(block)
-$setblock ~-2 ~-4 ~-5 $(block)
-$setblock ~-2 ~-4 ~-4 $(block)
-$setblock ~-2 ~-4 ~-3 $(block)
-$setblock ~-2 ~-4 ~-2 $(block)
-$setblock ~-2 ~-4 ~-1 $(block)
-$setblock ~-2 ~-4 ~ $(block)
-$setblock ~-2 ~-4 ~1 $(block)
-$setblock ~-2 ~-4 ~2 $(block)
-$setblock ~-2 ~-4 ~3 $(block)
-$setblock ~-2 ~-4 ~4 $(block)
-$setblock ~-2 ~-4 ~5 $(block)
-$setblock ~-2 ~-3 ~-6 $(block)
-$setblock ~-2 ~-3 ~-5 $(block)
-$setblock ~-2 ~-3 ~-4 $(block)
-$setblock ~-2 ~-3 ~-3 $(block)
-$setblock ~-2 ~-3 ~-2 $(block)
-$setblock ~-2 ~-3 ~-1 $(block)
-$setblock ~-2 ~-3 ~ $(block)
-$setblock ~-2 ~-3 ~1 $(block)
-$setblock ~-2 ~-3 ~2 $(block)
-$setblock ~-2 ~-3 ~3 $(block)
-$setblock ~-2 ~-3 ~4 $(block)
-$setblock ~-2 ~-3 ~5 $(block)
-$setblock ~-2 ~-3 ~6 $(block)
-$setblock ~-2 ~-2 ~-6 $(block)
-$setblock ~-2 ~-2 ~-5 $(block)
-$setblock ~-2 ~-2 ~-4 $(block)
-$setblock ~-2 ~-2 ~-3 $(block)
-$setblock ~-2 ~-2 ~-2 $(block)
-$setblock ~-2 ~-2 ~-1 $(block)
-$setblock ~-2 ~-2 ~ $(block)
-$setblock ~-2 ~-2 ~1 $(block)
-$setblock ~-2 ~-2 ~2 $(block)
-$setblock ~-2 ~-2 ~3 $(block)
-$setblock ~-2 ~-2 ~4 $(block)
-$setblock ~-2 ~-2 ~5 $(block)
-$setblock ~-2 ~-2 ~6 $(block)
-$setblock ~-2 ~-1 ~-6 $(block)
-$setblock ~-2 ~-1 ~-5 $(block)
-$setblock ~-2 ~-1 ~-4 $(block)
-$setblock ~-2 ~-1 ~-3 $(block)
-$setblock ~-2 ~-1 ~-2 $(block)
-$setblock ~-2 ~-1 ~-1 $(block)
-$setblock ~-2 ~-1 ~ $(block)
-$setblock ~-2 ~-1 ~1 $(block)
-$setblock ~-2 ~-1 ~2 $(block)
-$setblock ~-2 ~-1 ~3 $(block)
-$setblock ~-2 ~-1 ~4 $(block)
-$setblock ~-2 ~-1 ~5 $(block)
-$setblock ~-2 ~-1 ~6 $(block)
-$setblock ~-2 ~ ~-6 $(block)
-$setblock ~-2 ~ ~-5 $(block)
-$setblock ~-2 ~ ~-4 $(block)
-$setblock ~-2 ~ ~-3 $(block)
-$setblock ~-2 ~ ~-2 $(block)
-$setblock ~-2 ~ ~-1 $(block)
-$setblock ~-2 ~ ~ $(block)
-$setblock ~-2 ~ ~1 $(block)
-$setblock ~-2 ~ ~2 $(block)
-$setblock ~-2 ~ ~3 $(block)
-$setblock ~-2 ~ ~4 $(block)
-$setblock ~-2 ~ ~5 $(block)
-$setblock ~-2 ~ ~6 $(block)
-$setblock ~-2 ~1 ~-6 $(block)
-$setblock ~-2 ~1 ~-5 $(block)
-$setblock ~-2 ~1 ~-4 $(block)
-$setblock ~-2 ~1 ~-3 $(block)
-$setblock ~-2 ~1 ~-2 $(block)
-$setblock ~-2 ~1 ~-1 $(block)
-$setblock ~-2 ~1 ~ $(block)
-$setblock ~-2 ~1 ~1 $(block)
-$setblock ~-2 ~1 ~2 $(block)
-$setblock ~-2 ~1 ~3 $(block)
-$setblock ~-2 ~1 ~4 $(block)
-$setblock ~-2 ~1 ~5 $(block)
-$setblock ~-2 ~1 ~6 $(block)
-$setblock ~-2 ~2 ~-6 $(block)
-$setblock ~-2 ~2 ~-5 $(block)
-$setblock ~-2 ~2 ~-4 $(block)
-$setblock ~-2 ~2 ~-3 $(block)
-$setblock ~-2 ~2 ~-2 $(block)
-$setblock ~-2 ~2 ~-1 $(block)
-$setblock ~-2 ~2 ~ $(block)
-$setblock ~-2 ~2 ~1 $(block)
-$setblock ~-2 ~2 ~2 $(block)
-$setblock ~-2 ~2 ~3 $(block)
-$setblock ~-2 ~2 ~4 $(block)
-$setblock ~-2 ~2 ~5 $(block)
-$setblock ~-2 ~2 ~6 $(block)
-$setblock ~-2 ~3 ~-6 $(block)
-$setblock ~-2 ~3 ~-5 $(block)
-$setblock ~-2 ~3 ~-4 $(block)
-$setblock ~-2 ~3 ~-3 $(block)
-$setblock ~-2 ~3 ~-2 $(block)
-$setblock ~-2 ~3 ~-1 $(block)
-$setblock ~-2 ~3 ~ $(block)
-$setblock ~-2 ~3 ~1 $(block)
-$setblock ~-2 ~3 ~2 $(block)
-$setblock ~-2 ~3 ~3 $(block)
-$setblock ~-2 ~3 ~4 $(block)
-$setblock ~-2 ~3 ~5 $(block)
-$setblock ~-2 ~3 ~6 $(block)
-$setblock ~-2 ~4 ~-5 $(block)
-$setblock ~-2 ~4 ~-4 $(block)
-$setblock ~-2 ~4 ~-3 $(block)
-$setblock ~-2 ~4 ~-2 $(block)
-$setblock ~-2 ~4 ~-1 $(block)
-$setblock ~-2 ~4 ~ $(block)
-$setblock ~-2 ~4 ~1 $(block)
-$setblock ~-2 ~4 ~2 $(block)
-$setblock ~-2 ~4 ~3 $(block)
-$setblock ~-2 ~4 ~4 $(block)
-$setblock ~-2 ~4 ~5 $(block)
-$setblock ~-2 ~5 ~-4 $(block)
-$setblock ~-2 ~5 ~-3 $(block)
-$setblock ~-2 ~5 ~-2 $(block)
-$setblock ~-2 ~5 ~-1 $(block)
-$setblock ~-2 ~5 ~ $(block)
-$setblock ~-2 ~5 ~1 $(block)
-$setblock ~-2 ~5 ~2 $(block)
-$setblock ~-2 ~5 ~3 $(block)
-$setblock ~-2 ~5 ~4 $(block)
-$setblock ~-2 ~6 ~-3 $(block)
-$setblock ~-2 ~6 ~-2 $(block)
-$setblock ~-2 ~6 ~-1 $(block)
-$setblock ~-2 ~6 ~ $(block)
-$setblock ~-2 ~6 ~1 $(block)
-$setblock ~-2 ~6 ~2 $(block)
-$setblock ~-2 ~6 ~3 $(block)
-$setblock ~-1 ~-6 ~-3 $(block)
-$setblock ~-1 ~-6 ~-2 $(block)
-$setblock ~-1 ~-6 ~-1 $(block)
-$setblock ~-1 ~-6 ~ $(block)
-$setblock ~-1 ~-6 ~1 $(block)
-$setblock ~-1 ~-6 ~2 $(block)
-$setblock ~-1 ~-6 ~3 $(block)
-$setblock ~-1 ~-5 ~-4 $(block)
-$setblock ~-1 ~-5 ~-3 $(block)
-$setblock ~-1 ~-5 ~-2 $(block)
-$setblock ~-1 ~-5 ~-1 $(block)
-$setblock ~-1 ~-5 ~ $(block)
-$setblock ~-1 ~-5 ~1 $(block)
-$setblock ~-1 ~-5 ~2 $(block)
-$setblock ~-1 ~-5 ~3 $(block)
-$setblock ~-1 ~-5 ~4 $(block)
-$setblock ~-1 ~-4 ~-5 $(block)
-$setblock ~-1 ~-4 ~-4 $(block)
-$setblock ~-1 ~-4 ~-3 $(block)
-$setblock ~-1 ~-4 ~-2 $(block)
-$setblock ~-1 ~-4 ~-1 $(block)
-$setblock ~-1 ~-4 ~ $(block)
-$setblock ~-1 ~-4 ~1 $(block)
-$setblock ~-1 ~-4 ~2 $(block)
-$setblock ~-1 ~-4 ~3 $(block)
-$setblock ~-1 ~-4 ~4 $(block)
-$setblock ~-1 ~-4 ~5 $(block)
-$setblock ~-1 ~-3 ~-6 $(block)
-$setblock ~-1 ~-3 ~-5 $(block)
-$setblock ~-1 ~-3 ~-4 $(block)
-$setblock ~-1 ~-3 ~-3 $(block)
-$setblock ~-1 ~-3 ~-2 $(block)
-$setblock ~-1 ~-3 ~-1 $(block)
-$setblock ~-1 ~-3 ~ $(block)
-$setblock ~-1 ~-3 ~1 $(block)
-$setblock ~-1 ~-3 ~2 $(block)
-$setblock ~-1 ~-3 ~3 $(block)
-$setblock ~-1 ~-3 ~4 $(block)
-$setblock ~-1 ~-3 ~5 $(block)
-$setblock ~-1 ~-3 ~6 $(block)
-$setblock ~-1 ~-2 ~-6 $(block)
-$setblock ~-1 ~-2 ~-5 $(block)
-$setblock ~-1 ~-2 ~-4 $(block)
-$setblock ~-1 ~-2 ~-3 $(block)
-$setblock ~-1 ~-2 ~-2 $(block)
-$setblock ~-1 ~-2 ~-1 $(block)
-$setblock ~-1 ~-2 ~ $(block)
-$setblock ~-1 ~-2 ~1 $(block)
-$setblock ~-1 ~-2 ~2 $(block)
-$setblock ~-1 ~-2 ~3 $(block)
-$setblock ~-1 ~-2 ~4 $(block)
-$setblock ~-1 ~-2 ~5 $(block)
-$setblock ~-1 ~-2 ~6 $(block)
-$setblock ~-1 ~-1 ~-6 $(block)
-$setblock ~-1 ~-1 ~-5 $(block)
-$setblock ~-1 ~-1 ~-4 $(block)
-$setblock ~-1 ~-1 ~-3 $(block)
-$setblock ~-1 ~-1 ~-2 $(block)
-$setblock ~-1 ~-1 ~-1 $(block)
-$setblock ~-1 ~-1 ~ $(block)
-$setblock ~-1 ~-1 ~1 $(block)
-$setblock ~-1 ~-1 ~2 $(block)
-$setblock ~-1 ~-1 ~3 $(block)
-$setblock ~-1 ~-1 ~4 $(block)
-$setblock ~-1 ~-1 ~5 $(block)
-$setblock ~-1 ~-1 ~6 $(block)
-$setblock ~-1 ~ ~-6 $(block)
-$setblock ~-1 ~ ~-5 $(block)
-$setblock ~-1 ~ ~-4 $(block)
-$setblock ~-1 ~ ~-3 $(block)
-$setblock ~-1 ~ ~-2 $(block)
-$setblock ~-1 ~ ~-1 $(block)
-$setblock ~-1 ~ ~ $(block)
-$setblock ~-1 ~ ~1 $(block)
-$setblock ~-1 ~ ~2 $(block)
-$setblock ~-1 ~ ~3 $(block)
-$setblock ~-1 ~ ~4 $(block)
-$setblock ~-1 ~ ~5 $(block)
-$setblock ~-1 ~ ~6 $(block)
-$setblock ~-1 ~1 ~-6 $(block)
-$setblock ~-1 ~1 ~-5 $(block)
-$setblock ~-1 ~1 ~-4 $(block)
-$setblock ~-1 ~1 ~-3 $(block)
-$setblock ~-1 ~1 ~-2 $(block)
-$setblock ~-1 ~1 ~-1 $(block)
-$setblock ~-1 ~1 ~ $(block)
-$setblock ~-1 ~1 ~1 $(block)
-$setblock ~-1 ~1 ~2 $(block)
-$setblock ~-1 ~1 ~3 $(block)
-$setblock ~-1 ~1 ~4 $(block)
-$setblock ~-1 ~1 ~5 $(block)
-$setblock ~-1 ~1 ~6 $(block)
-$setblock ~-1 ~2 ~-6 $(block)
-$setblock ~-1 ~2 ~-5 $(block)
-$setblock ~-1 ~2 ~-4 $(block)
-$setblock ~-1 ~2 ~-3 $(block)
-$setblock ~-1 ~2 ~-2 $(block)
-$setblock ~-1 ~2 ~-1 $(block)
-$setblock ~-1 ~2 ~ $(block)
-$setblock ~-1 ~2 ~1 $(block)
-$setblock ~-1 ~2 ~2 $(block)
-$setblock ~-1 ~2 ~3 $(block)
-$setblock ~-1 ~2 ~4 $(block)
-$setblock ~-1 ~2 ~5 $(block)
-$setblock ~-1 ~2 ~6 $(block)
-$setblock ~-1 ~3 ~-6 $(block)
-$setblock ~-1 ~3 ~-5 $(block)
-$setblock ~-1 ~3 ~-4 $(block)
-$setblock ~-1 ~3 ~-3 $(block)
-$setblock ~-1 ~3 ~-2 $(block)
-$setblock ~-1 ~3 ~-1 $(block)
-$setblock ~-1 ~3 ~ $(block)
-$setblock ~-1 ~3 ~1 $(block)
-$setblock ~-1 ~3 ~2 $(block)
-$setblock ~-1 ~3 ~3 $(block)
-$setblock ~-1 ~3 ~4 $(block)
-$setblock ~-1 ~3 ~5 $(block)
-$setblock ~-1 ~3 ~6 $(block)
-$setblock ~-1 ~4 ~-5 $(block)
-$setblock ~-1 ~4 ~-4 $(block)
-$setblock ~-1 ~4 ~-3 $(block)
-$setblock ~-1 ~4 ~-2 $(block)
-$setblock ~-1 ~4 ~-1 $(block)
-$setblock ~-1 ~4 ~ $(block)
-$setblock ~-1 ~4 ~1 $(block)
-$setblock ~-1 ~4 ~2 $(block)
-$setblock ~-1 ~4 ~3 $(block)
-$setblock ~-1 ~4 ~4 $(block)
-$setblock ~-1 ~4 ~5 $(block)
-$setblock ~-1 ~5 ~-4 $(block)
-$setblock ~-1 ~5 ~-3 $(block)
-$setblock ~-1 ~5 ~-2 $(block)
-$setblock ~-1 ~5 ~-1 $(block)
-$setblock ~-1 ~5 ~ $(block)
-$setblock ~-1 ~5 ~1 $(block)
-$setblock ~-1 ~5 ~2 $(block)
-$setblock ~-1 ~5 ~3 $(block)
-$setblock ~-1 ~5 ~4 $(block)
-$setblock ~-1 ~6 ~-3 $(block)
-$setblock ~-1 ~6 ~-2 $(block)
-$setblock ~-1 ~6 ~-1 $(block)
-$setblock ~-1 ~6 ~ $(block)
-$setblock ~-1 ~6 ~1 $(block)
-$setblock ~-1 ~6 ~2 $(block)
-$setblock ~-1 ~6 ~3 $(block)
-$setblock ~ ~-7 ~ $(block)
-$setblock ~ ~-6 ~-3 $(block)
-$setblock ~ ~-6 ~-2 $(block)
-$setblock ~ ~-6 ~-1 $(block)
-$setblock ~ ~-6 ~ $(block)
-$setblock ~ ~-6 ~1 $(block)
-$setblock ~ ~-6 ~2 $(block)
-$setblock ~ ~-6 ~3 $(block)
-$setblock ~ ~-5 ~-4 $(block)
-$setblock ~ ~-5 ~-3 $(block)
-$setblock ~ ~-5 ~-2 $(block)
-$setblock ~ ~-5 ~-1 $(block)
-$setblock ~ ~-5 ~ $(block)
-$setblock ~ ~-5 ~1 $(block)
-$setblock ~ ~-5 ~2 $(block)
-$setblock ~ ~-5 ~3 $(block)
-$setblock ~ ~-5 ~4 $(block)
-$setblock ~ ~-4 ~-5 $(block)
-$setblock ~ ~-4 ~-4 $(block)
-$setblock ~ ~-4 ~-3 $(block)
-$setblock ~ ~-4 ~-2 $(block)
-$setblock ~ ~-4 ~-1 $(block)
-$setblock ~ ~-4 ~ $(block)
-$setblock ~ ~-4 ~1 $(block)
-$setblock ~ ~-4 ~2 $(block)
-$setblock ~ ~-4 ~3 $(block)
-$setblock ~ ~-4 ~4 $(block)
-$setblock ~ ~-4 ~5 $(block)
-$setblock ~ ~-3 ~-6 $(block)
-$setblock ~ ~-3 ~-5 $(block)
-$setblock ~ ~-3 ~-4 $(block)
-$setblock ~ ~-3 ~-3 $(block)
-$setblock ~ ~-3 ~-2 $(block)
-$setblock ~ ~-3 ~-1 $(block)
-$setblock ~ ~-3 ~ $(block)
-$setblock ~ ~-3 ~1 $(block)
-$setblock ~ ~-3 ~2 $(block)
-$setblock ~ ~-3 ~3 $(block)
-$setblock ~ ~-3 ~4 $(block)
-$setblock ~ ~-3 ~5 $(block)
-$setblock ~ ~-3 ~6 $(block)
-$setblock ~ ~-2 ~-6 $(block)
-$setblock ~ ~-2 ~-5 $(block)
-$setblock ~ ~-2 ~-4 $(block)
-$setblock ~ ~-2 ~-3 $(block)
-$setblock ~ ~-2 ~-2 $(block)
-$setblock ~ ~-2 ~-1 $(block)
-$setblock ~ ~-2 ~ $(block)
-$setblock ~ ~-2 ~1 $(block)
-$setblock ~ ~-2 ~2 $(block)
-$setblock ~ ~-2 ~3 $(block)
-$setblock ~ ~-2 ~4 $(block)
-$setblock ~ ~-2 ~5 $(block)
-$setblock ~ ~-2 ~6 $(block)
-$setblock ~ ~-1 ~-6 $(block)
-$setblock ~ ~-1 ~-5 $(block)
-$setblock ~ ~-1 ~-4 $(block)
-$setblock ~ ~-1 ~-3 $(block)
-$setblock ~ ~-1 ~-2 $(block)
-$setblock ~ ~-1 ~-1 $(block)
-$setblock ~ ~-1 ~ $(block)
-$setblock ~ ~-1 ~1 $(block)
-$setblock ~ ~-1 ~2 $(block)
-$setblock ~ ~-1 ~3 $(block)
-$setblock ~ ~-1 ~4 $(block)
-$setblock ~ ~-1 ~5 $(block)
-$setblock ~ ~-1 ~6 $(block)
-$setblock ~ ~ ~-7 $(block)
-$setblock ~ ~ ~-6 $(block)
-$setblock ~ ~ ~-5 $(block)
-$setblock ~ ~ ~-4 $(block)
-$setblock ~ ~ ~-3 $(block)
-$setblock ~ ~ ~-2 $(block)
-$setblock ~ ~ ~-1 $(block)
-$setblock ~ ~ ~ $(block)
-$setblock ~ ~ ~1 $(block)
-$setblock ~ ~ ~2 $(block)
-$setblock ~ ~ ~3 $(block)
-$setblock ~ ~ ~4 $(block)
-$setblock ~ ~ ~5 $(block)
-$setblock ~ ~ ~6 $(block)
-$setblock ~ ~ ~7 $(block)
-$setblock ~ ~1 ~-6 $(block)
-$setblock ~ ~1 ~-5 $(block)
-$setblock ~ ~1 ~-4 $(block)
-$setblock ~ ~1 ~-3 $(block)
-$setblock ~ ~1 ~-2 $(block)
-$setblock ~ ~1 ~-1 $(block)
-$setblock ~ ~1 ~ $(block)
-$setblock ~ ~1 ~1 $(block)
-$setblock ~ ~1 ~2 $(block)
-$setblock ~ ~1 ~3 $(block)
-$setblock ~ ~1 ~4 $(block)
-$setblock ~ ~1 ~5 $(block)
-$setblock ~ ~1 ~6 $(block)
-$setblock ~ ~2 ~-6 $(block)
-$setblock ~ ~2 ~-5 $(block)
-$setblock ~ ~2 ~-4 $(block)
-$setblock ~ ~2 ~-3 $(block)
-$setblock ~ ~2 ~-2 $(block)
-$setblock ~ ~2 ~-1 $(block)
-$setblock ~ ~2 ~ $(block)
-$setblock ~ ~2 ~1 $(block)
-$setblock ~ ~2 ~2 $(block)
-$setblock ~ ~2 ~3 $(block)
-$setblock ~ ~2 ~4 $(block)
-$setblock ~ ~2 ~5 $(block)
-$setblock ~ ~2 ~6 $(block)
-$setblock ~ ~3 ~-6 $(block)
-$setblock ~ ~3 ~-5 $(block)
-$setblock ~ ~3 ~-4 $(block)
-$setblock ~ ~3 ~-3 $(block)
-$setblock ~ ~3 ~-2 $(block)
-$setblock ~ ~3 ~-1 $(block)
-$setblock ~ ~3 ~ $(block)
-$setblock ~ ~3 ~1 $(block)
-$setblock ~ ~3 ~2 $(block)
-$setblock ~ ~3 ~3 $(block)
-$setblock ~ ~3 ~4 $(block)
-$setblock ~ ~3 ~5 $(block)
-$setblock ~ ~3 ~6 $(block)
-$setblock ~ ~4 ~-5 $(block)
-$setblock ~ ~4 ~-4 $(block)
-$setblock ~ ~4 ~-3 $(block)
-$setblock ~ ~4 ~-2 $(block)
-$setblock ~ ~4 ~-1 $(block)
-$setblock ~ ~4 ~ $(block)
-$setblock ~ ~4 ~1 $(block)
-$setblock ~ ~4 ~2 $(block)
-$setblock ~ ~4 ~3 $(block)
-$setblock ~ ~4 ~4 $(block)
-$setblock ~ ~4 ~5 $(block)
-$setblock ~ ~5 ~-4 $(block)
-$setblock ~ ~5 ~-3 $(block)
-$setblock ~ ~5 ~-2 $(block)
-$setblock ~ ~5 ~-1 $(block)
-$setblock ~ ~5 ~ $(block)
-$setblock ~ ~5 ~1 $(block)
-$setblock ~ ~5 ~2 $(block)
-$setblock ~ ~5 ~3 $(block)
-$setblock ~ ~5 ~4 $(block)
-$setblock ~ ~6 ~-3 $(block)
-$setblock ~ ~6 ~-2 $(block)
-$setblock ~ ~6 ~-1 $(block)
-$setblock ~ ~6 ~ $(block)
-$setblock ~ ~6 ~1 $(block)
-$setblock ~ ~6 ~2 $(block)
-$setblock ~ ~6 ~3 $(block)
-$setblock ~ ~7 ~ $(block)
-$setblock ~1 ~-6 ~-3 $(block)
-$setblock ~1 ~-6 ~-2 $(block)
-$setblock ~1 ~-6 ~-1 $(block)
-$setblock ~1 ~-6 ~ $(block)
-$setblock ~1 ~-6 ~1 $(block)
-$setblock ~1 ~-6 ~2 $(block)
-$setblock ~1 ~-6 ~3 $(block)
-$setblock ~1 ~-5 ~-4 $(block)
-$setblock ~1 ~-5 ~-3 $(block)
-$setblock ~1 ~-5 ~-2 $(block)
-$setblock ~1 ~-5 ~-1 $(block)
-$setblock ~1 ~-5 ~ $(block)
-$setblock ~1 ~-5 ~1 $(block)
-$setblock ~1 ~-5 ~2 $(block)
-$setblock ~1 ~-5 ~3 $(block)
-$setblock ~1 ~-5 ~4 $(block)
-$setblock ~1 ~-4 ~-5 $(block)
-$setblock ~1 ~-4 ~-4 $(block)
-$setblock ~1 ~-4 ~-3 $(block)
-$setblock ~1 ~-4 ~-2 $(block)
-$setblock ~1 ~-4 ~-1 $(block)
-$setblock ~1 ~-4 ~ $(block)
-$setblock ~1 ~-4 ~1 $(block)
-$setblock ~1 ~-4 ~2 $(block)
-$setblock ~1 ~-4 ~3 $(block)
-$setblock ~1 ~-4 ~4 $(block)
-$setblock ~1 ~-4 ~5 $(block)
-$setblock ~1 ~-3 ~-6 $(block)
-$setblock ~1 ~-3 ~-5 $(block)
-$setblock ~1 ~-3 ~-4 $(block)
-$setblock ~1 ~-3 ~-3 $(block)
-$setblock ~1 ~-3 ~-2 $(block)
-$setblock ~1 ~-3 ~-1 $(block)
-$setblock ~1 ~-3 ~ $(block)
-$setblock ~1 ~-3 ~1 $(block)
-$setblock ~1 ~-3 ~2 $(block)
-$setblock ~1 ~-3 ~3 $(block)
-$setblock ~1 ~-3 ~4 $(block)
-$setblock ~1 ~-3 ~5 $(block)
-$setblock ~1 ~-3 ~6 $(block)
-$setblock ~1 ~-2 ~-6 $(block)
-$setblock ~1 ~-2 ~-5 $(block)
-$setblock ~1 ~-2 ~-4 $(block)
-$setblock ~1 ~-2 ~-3 $(block)
-$setblock ~1 ~-2 ~-2 $(block)
-$setblock ~1 ~-2 ~-1 $(block)
-$setblock ~1 ~-2 ~ $(block)
-$setblock ~1 ~-2 ~1 $(block)
-$setblock ~1 ~-2 ~2 $(block)
-$setblock ~1 ~-2 ~3 $(block)
-$setblock ~1 ~-2 ~4 $(block)
-$setblock ~1 ~-2 ~5 $(block)
-$setblock ~1 ~-2 ~6 $(block)
-$setblock ~1 ~-1 ~-6 $(block)
-$setblock ~1 ~-1 ~-5 $(block)
-$setblock ~1 ~-1 ~-4 $(block)
-$setblock ~1 ~-1 ~-3 $(block)
-$setblock ~1 ~-1 ~-2 $(block)
-$setblock ~1 ~-1 ~-1 $(block)
-$setblock ~1 ~-1 ~ $(block)
-$setblock ~1 ~-1 ~1 $(block)
-$setblock ~1 ~-1 ~2 $(block)
-$setblock ~1 ~-1 ~3 $(block)
-$setblock ~1 ~-1 ~4 $(block)
-$setblock ~1 ~-1 ~5 $(block)
-$setblock ~1 ~-1 ~6 $(block)
-$setblock ~1 ~ ~-6 $(block)
-$setblock ~1 ~ ~-5 $(block)
-$setblock ~1 ~ ~-4 $(block)
-$setblock ~1 ~ ~-3 $(block)
-$setblock ~1 ~ ~-2 $(block)
-$setblock ~1 ~ ~-1 $(block)
-$setblock ~1 ~ ~ $(block)
-$setblock ~1 ~ ~1 $(block)
-$setblock ~1 ~ ~2 $(block)
-$setblock ~1 ~ ~3 $(block)
-$setblock ~1 ~ ~4 $(block)
-$setblock ~1 ~ ~5 $(block)
-$setblock ~1 ~ ~6 $(block)
-$setblock ~1 ~1 ~-6 $(block)
-$setblock ~1 ~1 ~-5 $(block)
-$setblock ~1 ~1 ~-4 $(block)
-$setblock ~1 ~1 ~-3 $(block)
-$setblock ~1 ~1 ~-2 $(block)
-$setblock ~1 ~1 ~-1 $(block)
-$setblock ~1 ~1 ~ $(block)
-$setblock ~1 ~1 ~1 $(block)
-$setblock ~1 ~1 ~2 $(block)
-$setblock ~1 ~1 ~3 $(block)
-$setblock ~1 ~1 ~4 $(block)
-$setblock ~1 ~1 ~5 $(block)
-$setblock ~1 ~1 ~6 $(block)
-$setblock ~1 ~2 ~-6 $(block)
-$setblock ~1 ~2 ~-5 $(block)
-$setblock ~1 ~2 ~-4 $(block)
-$setblock ~1 ~2 ~-3 $(block)
-$setblock ~1 ~2 ~-2 $(block)
-$setblock ~1 ~2 ~-1 $(block)
-$setblock ~1 ~2 ~ $(block)
-$setblock ~1 ~2 ~1 $(block)
-$setblock ~1 ~2 ~2 $(block)
-$setblock ~1 ~2 ~3 $(block)
-$setblock ~1 ~2 ~4 $(block)
-$setblock ~1 ~2 ~5 $(block)
-$setblock ~1 ~2 ~6 $(block)
-$setblock ~1 ~3 ~-6 $(block)
-$setblock ~1 ~3 ~-5 $(block)
-$setblock ~1 ~3 ~-4 $(block)
-$setblock ~1 ~3 ~-3 $(block)
-$setblock ~1 ~3 ~-2 $(block)
-$setblock ~1 ~3 ~-1 $(block)
-$setblock ~1 ~3 ~ $(block)
-$setblock ~1 ~3 ~1 $(block)
-$setblock ~1 ~3 ~2 $(block)
-$setblock ~1 ~3 ~3 $(block)
-$setblock ~1 ~3 ~4 $(block)
-$setblock ~1 ~3 ~5 $(block)
-$setblock ~1 ~3 ~6 $(block)
-$setblock ~1 ~4 ~-5 $(block)
-$setblock ~1 ~4 ~-4 $(block)
-$setblock ~1 ~4 ~-3 $(block)
-$setblock ~1 ~4 ~-2 $(block)
-$setblock ~1 ~4 ~-1 $(block)
-$setblock ~1 ~4 ~ $(block)
-$setblock ~1 ~4 ~1 $(block)
-$setblock ~1 ~4 ~2 $(block)
-$setblock ~1 ~4 ~3 $(block)
-$setblock ~1 ~4 ~4 $(block)
-$setblock ~1 ~4 ~5 $(block)
-$setblock ~1 ~5 ~-4 $(block)
-$setblock ~1 ~5 ~-3 $(block)
-$setblock ~1 ~5 ~-2 $(block)
-$setblock ~1 ~5 ~-1 $(block)
-$setblock ~1 ~5 ~ $(block)
-$setblock ~1 ~5 ~1 $(block)
-$setblock ~1 ~5 ~2 $(block)
-$setblock ~1 ~5 ~3 $(block)
-$setblock ~1 ~5 ~4 $(block)
-$setblock ~1 ~6 ~-3 $(block)
-$setblock ~1 ~6 ~-2 $(block)
-$setblock ~1 ~6 ~-1 $(block)
-$setblock ~1 ~6 ~ $(block)
-$setblock ~1 ~6 ~1 $(block)
-$setblock ~1 ~6 ~2 $(block)
-$setblock ~1 ~6 ~3 $(block)
-$setblock ~2 ~-6 ~-3 $(block)
-$setblock ~2 ~-6 ~-2 $(block)
-$setblock ~2 ~-6 ~-1 $(block)
-$setblock ~2 ~-6 ~ $(block)
-$setblock ~2 ~-6 ~1 $(block)
-$setblock ~2 ~-6 ~2 $(block)
-$setblock ~2 ~-6 ~3 $(block)
-$setblock ~2 ~-5 ~-4 $(block)
-$setblock ~2 ~-5 ~-3 $(block)
-$setblock ~2 ~-5 ~-2 $(block)
-$setblock ~2 ~-5 ~-1 $(block)
-$setblock ~2 ~-5 ~ $(block)
-$setblock ~2 ~-5 ~1 $(block)
-$setblock ~2 ~-5 ~2 $(block)
-$setblock ~2 ~-5 ~3 $(block)
-$setblock ~2 ~-5 ~4 $(block)
-$setblock ~2 ~-4 ~-5 $(block)
-$setblock ~2 ~-4 ~-4 $(block)
-$setblock ~2 ~-4 ~-3 $(block)
-$setblock ~2 ~-4 ~-2 $(block)
-$setblock ~2 ~-4 ~-1 $(block)
-$setblock ~2 ~-4 ~ $(block)
-$setblock ~2 ~-4 ~1 $(block)
-$setblock ~2 ~-4 ~2 $(block)
-$setblock ~2 ~-4 ~3 $(block)
-$setblock ~2 ~-4 ~4 $(block)
-$setblock ~2 ~-4 ~5 $(block)
-$setblock ~2 ~-3 ~-6 $(block)
-$setblock ~2 ~-3 ~-5 $(block)
-$setblock ~2 ~-3 ~-4 $(block)
-$setblock ~2 ~-3 ~-3 $(block)
-$setblock ~2 ~-3 ~-2 $(block)
-$setblock ~2 ~-3 ~-1 $(block)
-$setblock ~2 ~-3 ~ $(block)
-$setblock ~2 ~-3 ~1 $(block)
-$setblock ~2 ~-3 ~2 $(block)
-$setblock ~2 ~-3 ~3 $(block)
-$setblock ~2 ~-3 ~4 $(block)
-$setblock ~2 ~-3 ~5 $(block)
-$setblock ~2 ~-3 ~6 $(block)
-$setblock ~2 ~-2 ~-6 $(block)
-$setblock ~2 ~-2 ~-5 $(block)
-$setblock ~2 ~-2 ~-4 $(block)
-$setblock ~2 ~-2 ~-3 $(block)
-$setblock ~2 ~-2 ~-2 $(block)
-$setblock ~2 ~-2 ~-1 $(block)
-$setblock ~2 ~-2 ~ $(block)
-$setblock ~2 ~-2 ~1 $(block)
-$setblock ~2 ~-2 ~2 $(block)
-$setblock ~2 ~-2 ~3 $(block)
-$setblock ~2 ~-2 ~4 $(block)
-$setblock ~2 ~-2 ~5 $(block)
-$setblock ~2 ~-2 ~6 $(block)
-$setblock ~2 ~-1 ~-6 $(block)
-$setblock ~2 ~-1 ~-5 $(block)
-$setblock ~2 ~-1 ~-4 $(block)
-$setblock ~2 ~-1 ~-3 $(block)
-$setblock ~2 ~-1 ~-2 $(block)
-$setblock ~2 ~-1 ~-1 $(block)
-$setblock ~2 ~-1 ~ $(block)
-$setblock ~2 ~-1 ~1 $(block)
-$setblock ~2 ~-1 ~2 $(block)
-$setblock ~2 ~-1 ~3 $(block)
-$setblock ~2 ~-1 ~4 $(block)
-$setblock ~2 ~-1 ~5 $(block)
-$setblock ~2 ~-1 ~6 $(block)
-$setblock ~2 ~ ~-6 $(block)
-$setblock ~2 ~ ~-5 $(block)
-$setblock ~2 ~ ~-4 $(block)
-$setblock ~2 ~ ~-3 $(block)
-$setblock ~2 ~ ~-2 $(block)
-$setblock ~2 ~ ~-1 $(block)
-$setblock ~2 ~ ~ $(block)
-$setblock ~2 ~ ~1 $(block)
-$setblock ~2 ~ ~2 $(block)
-$setblock ~2 ~ ~3 $(block)
-$setblock ~2 ~ ~4 $(block)
-$setblock ~2 ~ ~5 $(block)
-$setblock ~2 ~ ~6 $(block)
-$setblock ~2 ~1 ~-6 $(block)
-$setblock ~2 ~1 ~-5 $(block)
-$setblock ~2 ~1 ~-4 $(block)
-$setblock ~2 ~1 ~-3 $(block)
-$setblock ~2 ~1 ~-2 $(block)
-$setblock ~2 ~1 ~-1 $(block)
-$setblock ~2 ~1 ~ $(block)
-$setblock ~2 ~1 ~1 $(block)
-$setblock ~2 ~1 ~2 $(block)
-$setblock ~2 ~1 ~3 $(block)
-$setblock ~2 ~1 ~4 $(block)
-$setblock ~2 ~1 ~5 $(block)
-$setblock ~2 ~1 ~6 $(block)
-$setblock ~2 ~2 ~-6 $(block)
-$setblock ~2 ~2 ~-5 $(block)
-$setblock ~2 ~2 ~-4 $(block)
-$setblock ~2 ~2 ~-3 $(block)
-$setblock ~2 ~2 ~-2 $(block)
-$setblock ~2 ~2 ~-1 $(block)
-$setblock ~2 ~2 ~ $(block)
-$setblock ~2 ~2 ~1 $(block)
-$setblock ~2 ~2 ~2 $(block)
-$setblock ~2 ~2 ~3 $(block)
-$setblock ~2 ~2 ~4 $(block)
-$setblock ~2 ~2 ~5 $(block)
-$setblock ~2 ~2 ~6 $(block)
-$setblock ~2 ~3 ~-6 $(block)
-$setblock ~2 ~3 ~-5 $(block)
-$setblock ~2 ~3 ~-4 $(block)
-$setblock ~2 ~3 ~-3 $(block)
-$setblock ~2 ~3 ~-2 $(block)
-$setblock ~2 ~3 ~-1 $(block)
-$setblock ~2 ~3 ~ $(block)
-$setblock ~2 ~3 ~1 $(block)
-$setblock ~2 ~3 ~2 $(block)
-$setblock ~2 ~3 ~3 $(block)
-$setblock ~2 ~3 ~4 $(block)
-$setblock ~2 ~3 ~5 $(block)
-$setblock ~2 ~3 ~6 $(block)
-$setblock ~2 ~4 ~-5 $(block)
-$setblock ~2 ~4 ~-4 $(block)
-$setblock ~2 ~4 ~-3 $(block)
-$setblock ~2 ~4 ~-2 $(block)
-$setblock ~2 ~4 ~-1 $(block)
-$setblock ~2 ~4 ~ $(block)
-$setblock ~2 ~4 ~1 $(block)
-$setblock ~2 ~4 ~2 $(block)
-$setblock ~2 ~4 ~3 $(block)
-$setblock ~2 ~4 ~4 $(block)
-$setblock ~2 ~4 ~5 $(block)
-$setblock ~2 ~5 ~-4 $(block)
-$setblock ~2 ~5 ~-3 $(block)
-$setblock ~2 ~5 ~-2 $(block)
-$setblock ~2 ~5 ~-1 $(block)
-$setblock ~2 ~5 ~ $(block)
-$setblock ~2 ~5 ~1 $(block)
-$setblock ~2 ~5 ~2 $(block)
-$setblock ~2 ~5 ~3 $(block)
-$setblock ~2 ~5 ~4 $(block)
-$setblock ~2 ~6 ~-3 $(block)
-$setblock ~2 ~6 ~-2 $(block)
-$setblock ~2 ~6 ~-1 $(block)
-$setblock ~2 ~6 ~ $(block)
-$setblock ~2 ~6 ~1 $(block)
-$setblock ~2 ~6 ~2 $(block)
-$setblock ~2 ~6 ~3 $(block)
-$setblock ~3 ~-6 ~-2 $(block)
-$setblock ~3 ~-6 ~-1 $(block)
-$setblock ~3 ~-6 ~ $(block)
-$setblock ~3 ~-6 ~1 $(block)
-$setblock ~3 ~-6 ~2 $(block)
-$setblock ~3 ~-5 ~-3 $(block)
-$setblock ~3 ~-5 ~-2 $(block)
-$setblock ~3 ~-5 ~-1 $(block)
-$setblock ~3 ~-5 ~ $(block)
-$setblock ~3 ~-5 ~1 $(block)
-$setblock ~3 ~-5 ~2 $(block)
-$setblock ~3 ~-5 ~3 $(block)
-$setblock ~3 ~-4 ~-4 $(block)
-$setblock ~3 ~-4 ~-3 $(block)
-$setblock ~3 ~-4 ~-2 $(block)
-$setblock ~3 ~-4 ~-1 $(block)
-$setblock ~3 ~-4 ~ $(block)
-$setblock ~3 ~-4 ~1 $(block)
-$setblock ~3 ~-4 ~2 $(block)
-$setblock ~3 ~-4 ~3 $(block)
-$setblock ~3 ~-4 ~4 $(block)
-$setblock ~3 ~-3 ~-5 $(block)
-$setblock ~3 ~-3 ~-4 $(block)
-$setblock ~3 ~-3 ~-3 $(block)
-$setblock ~3 ~-3 ~-2 $(block)
-$setblock ~3 ~-3 ~-1 $(block)
-$setblock ~3 ~-3 ~ $(block)
-$setblock ~3 ~-3 ~1 $(block)
-$setblock ~3 ~-3 ~2 $(block)
-$setblock ~3 ~-3 ~3 $(block)
-$setblock ~3 ~-3 ~4 $(block)
-$setblock ~3 ~-3 ~5 $(block)
-$setblock ~3 ~-2 ~-6 $(block)
-$setblock ~3 ~-2 ~-5 $(block)
-$setblock ~3 ~-2 ~-4 $(block)
-$setblock ~3 ~-2 ~-3 $(block)
-$setblock ~3 ~-2 ~-2 $(block)
-$setblock ~3 ~-2 ~-1 $(block)
-$setblock ~3 ~-2 ~ $(block)
-$setblock ~3 ~-2 ~1 $(block)
-$setblock ~3 ~-2 ~2 $(block)
-$setblock ~3 ~-2 ~3 $(block)
-$setblock ~3 ~-2 ~4 $(block)
-$setblock ~3 ~-2 ~5 $(block)
-$setblock ~3 ~-2 ~6 $(block)
-$setblock ~3 ~-1 ~-6 $(block)
-$setblock ~3 ~-1 ~-5 $(block)
-$setblock ~3 ~-1 ~-4 $(block)
-$setblock ~3 ~-1 ~-3 $(block)
-$setblock ~3 ~-1 ~-2 $(block)
-$setblock ~3 ~-1 ~-1 $(block)
-$setblock ~3 ~-1 ~ $(block)
-$setblock ~3 ~-1 ~1 $(block)
-$setblock ~3 ~-1 ~2 $(block)
-$setblock ~3 ~-1 ~3 $(block)
-$setblock ~3 ~-1 ~4 $(block)
-$setblock ~3 ~-1 ~5 $(block)
-$setblock ~3 ~-1 ~6 $(block)
-$setblock ~3 ~ ~-6 $(block)
-$setblock ~3 ~ ~-5 $(block)
-$setblock ~3 ~ ~-4 $(block)
-$setblock ~3 ~ ~-3 $(block)
-$setblock ~3 ~ ~-2 $(block)
-$setblock ~3 ~ ~-1 $(block)
-$setblock ~3 ~ ~ $(block)
-$setblock ~3 ~ ~1 $(block)
-$setblock ~3 ~ ~2 $(block)
-$setblock ~3 ~ ~3 $(block)
-$setblock ~3 ~ ~4 $(block)
-$setblock ~3 ~ ~5 $(block)
-$setblock ~3 ~ ~6 $(block)
-$setblock ~3 ~1 ~-6 $(block)
-$setblock ~3 ~1 ~-5 $(block)
-$setblock ~3 ~1 ~-4 $(block)
-$setblock ~3 ~1 ~-3 $(block)
-$setblock ~3 ~1 ~-2 $(block)
-$setblock ~3 ~1 ~-1 $(block)
-$setblock ~3 ~1 ~ $(block)
-$setblock ~3 ~1 ~1 $(block)
-$setblock ~3 ~1 ~2 $(block)
-$setblock ~3 ~1 ~3 $(block)
-$setblock ~3 ~1 ~4 $(block)
-$setblock ~3 ~1 ~5 $(block)
-$setblock ~3 ~1 ~6 $(block)
-$setblock ~3 ~2 ~-6 $(block)
-$setblock ~3 ~2 ~-5 $(block)
-$setblock ~3 ~2 ~-4 $(block)
-$setblock ~3 ~2 ~-3 $(block)
-$setblock ~3 ~2 ~-2 $(block)
-$setblock ~3 ~2 ~-1 $(block)
-$setblock ~3 ~2 ~ $(block)
-$setblock ~3 ~2 ~1 $(block)
-$setblock ~3 ~2 ~2 $(block)
-$setblock ~3 ~2 ~3 $(block)
-$setblock ~3 ~2 ~4 $(block)
-$setblock ~3 ~2 ~5 $(block)
-$setblock ~3 ~2 ~6 $(block)
-$setblock ~3 ~3 ~-5 $(block)
-$setblock ~3 ~3 ~-4 $(block)
-$setblock ~3 ~3 ~-3 $(block)
-$setblock ~3 ~3 ~-2 $(block)
-$setblock ~3 ~3 ~-1 $(block)
-$setblock ~3 ~3 ~ $(block)
-$setblock ~3 ~3 ~1 $(block)
-$setblock ~3 ~3 ~2 $(block)
-$setblock ~3 ~3 ~3 $(block)
-$setblock ~3 ~3 ~4 $(block)
-$setblock ~3 ~3 ~5 $(block)
-$setblock ~3 ~4 ~-4 $(block)
-$setblock ~3 ~4 ~-3 $(block)
-$setblock ~3 ~4 ~-2 $(block)
-$setblock ~3 ~4 ~-1 $(block)
-$setblock ~3 ~4 ~ $(block)
-$setblock ~3 ~4 ~1 $(block)
-$setblock ~3 ~4 ~2 $(block)
-$setblock ~3 ~4 ~3 $(block)
-$setblock ~3 ~4 ~4 $(block)
-$setblock ~3 ~5 ~-3 $(block)
-$setblock ~3 ~5 ~-2 $(block)
-$setblock ~3 ~5 ~-1 $(block)
-$setblock ~3 ~5 ~ $(block)
-$setblock ~3 ~5 ~1 $(block)
-$setblock ~3 ~5 ~2 $(block)
-$setblock ~3 ~5 ~3 $(block)
-$setblock ~3 ~6 ~-2 $(block)
-$setblock ~3 ~6 ~-1 $(block)
-$setblock ~3 ~6 ~ $(block)
-$setblock ~3 ~6 ~1 $(block)
-$setblock ~3 ~6 ~2 $(block)
-$setblock ~4 ~-5 ~-2 $(block)
-$setblock ~4 ~-5 ~-1 $(block)
-$setblock ~4 ~-5 ~ $(block)
-$setblock ~4 ~-5 ~1 $(block)
-$setblock ~4 ~-5 ~2 $(block)
-$setblock ~4 ~-4 ~-4 $(block)
-$setblock ~4 ~-4 ~-3 $(block)
-$setblock ~4 ~-4 ~-2 $(block)
-$setblock ~4 ~-4 ~-1 $(block)
-$setblock ~4 ~-4 ~ $(block)
-$setblock ~4 ~-4 ~1 $(block)
-$setblock ~4 ~-4 ~2 $(block)
-$setblock ~4 ~-4 ~3 $(block)
-$setblock ~4 ~-4 ~4 $(block)
-$setblock ~4 ~-3 ~-4 $(block)
-$setblock ~4 ~-3 ~-3 $(block)
-$setblock ~4 ~-3 ~-2 $(block)
-$setblock ~4 ~-3 ~-1 $(block)
-$setblock ~4 ~-3 ~ $(block)
-$setblock ~4 ~-3 ~1 $(block)
-$setblock ~4 ~-3 ~2 $(block)
-$setblock ~4 ~-3 ~3 $(block)
-$setblock ~4 ~-3 ~4 $(block)
-$setblock ~4 ~-2 ~-5 $(block)
-$setblock ~4 ~-2 ~-4 $(block)
-$setblock ~4 ~-2 ~-3 $(block)
-$setblock ~4 ~-2 ~-2 $(block)
-$setblock ~4 ~-2 ~-1 $(block)
-$setblock ~4 ~-2 ~ $(block)
-$setblock ~4 ~-2 ~1 $(block)
-$setblock ~4 ~-2 ~2 $(block)
-$setblock ~4 ~-2 ~3 $(block)
-$setblock ~4 ~-2 ~4 $(block)
-$setblock ~4 ~-2 ~5 $(block)
-$setblock ~4 ~-1 ~-5 $(block)
-$setblock ~4 ~-1 ~-4 $(block)
-$setblock ~4 ~-1 ~-3 $(block)
-$setblock ~4 ~-1 ~-2 $(block)
-$setblock ~4 ~-1 ~-1 $(block)
-$setblock ~4 ~-1 ~ $(block)
-$setblock ~4 ~-1 ~1 $(block)
-$setblock ~4 ~-1 ~2 $(block)
-$setblock ~4 ~-1 ~3 $(block)
-$setblock ~4 ~-1 ~4 $(block)
-$setblock ~4 ~-1 ~5 $(block)
-$setblock ~4 ~ ~-5 $(block)
-$setblock ~4 ~ ~-4 $(block)
-$setblock ~4 ~ ~-3 $(block)
-$setblock ~4 ~ ~-2 $(block)
-$setblock ~4 ~ ~-1 $(block)
-$setblock ~4 ~ ~ $(block)
-$setblock ~4 ~ ~1 $(block)
-$setblock ~4 ~ ~2 $(block)
-$setblock ~4 ~ ~3 $(block)
-$setblock ~4 ~ ~4 $(block)
-$setblock ~4 ~ ~5 $(block)
-$setblock ~4 ~1 ~-5 $(block)
-$setblock ~4 ~1 ~-4 $(block)
-$setblock ~4 ~1 ~-3 $(block)
-$setblock ~4 ~1 ~-2 $(block)
-$setblock ~4 ~1 ~-1 $(block)
-$setblock ~4 ~1 ~ $(block)
-$setblock ~4 ~1 ~1 $(block)
-$setblock ~4 ~1 ~2 $(block)
-$setblock ~4 ~1 ~3 $(block)
-$setblock ~4 ~1 ~4 $(block)
-$setblock ~4 ~1 ~5 $(block)
-$setblock ~4 ~2 ~-5 $(block)
-$setblock ~4 ~2 ~-4 $(block)
-$setblock ~4 ~2 ~-3 $(block)
-$setblock ~4 ~2 ~-2 $(block)
-$setblock ~4 ~2 ~-1 $(block)
-$setblock ~4 ~2 ~ $(block)
-$setblock ~4 ~2 ~1 $(block)
-$setblock ~4 ~2 ~2 $(block)
-$setblock ~4 ~2 ~3 $(block)
-$setblock ~4 ~2 ~4 $(block)
-$setblock ~4 ~2 ~5 $(block)
-$setblock ~4 ~3 ~-4 $(block)
-$setblock ~4 ~3 ~-3 $(block)
-$setblock ~4 ~3 ~-2 $(block)
-$setblock ~4 ~3 ~-1 $(block)
-$setblock ~4 ~3 ~ $(block)
-$setblock ~4 ~3 ~1 $(block)
-$setblock ~4 ~3 ~2 $(block)
-$setblock ~4 ~3 ~3 $(block)
-$setblock ~4 ~3 ~4 $(block)
-$setblock ~4 ~4 ~-4 $(block)
-$setblock ~4 ~4 ~-3 $(block)
-$setblock ~4 ~4 ~-2 $(block)
-$setblock ~4 ~4 ~-1 $(block)
-$setblock ~4 ~4 ~ $(block)
-$setblock ~4 ~4 ~1 $(block)
-$setblock ~4 ~4 ~2 $(block)
-$setblock ~4 ~4 ~3 $(block)
-$setblock ~4 ~4 ~4 $(block)
-$setblock ~4 ~5 ~-2 $(block)
-$setblock ~4 ~5 ~-1 $(block)
-$setblock ~4 ~5 ~ $(block)
-$setblock ~4 ~5 ~1 $(block)
-$setblock ~4 ~5 ~2 $(block)
-$setblock ~5 ~-4 ~-2 $(block)
-$setblock ~5 ~-4 ~-1 $(block)
-$setblock ~5 ~-4 ~ $(block)
-$setblock ~5 ~-4 ~1 $(block)
-$setblock ~5 ~-4 ~2 $(block)
-$setblock ~5 ~-3 ~-3 $(block)
-$setblock ~5 ~-3 ~-2 $(block)
-$setblock ~5 ~-3 ~-1 $(block)
-$setblock ~5 ~-3 ~ $(block)
-$setblock ~5 ~-3 ~1 $(block)
-$setblock ~5 ~-3 ~2 $(block)
-$setblock ~5 ~-3 ~3 $(block)
-$setblock ~5 ~-2 ~-4 $(block)
-$setblock ~5 ~-2 ~-3 $(block)
-$setblock ~5 ~-2 ~-2 $(block)
-$setblock ~5 ~-2 ~-1 $(block)
-$setblock ~5 ~-2 ~ $(block)
-$setblock ~5 ~-2 ~1 $(block)
-$setblock ~5 ~-2 ~2 $(block)
-$setblock ~5 ~-2 ~3 $(block)
-$setblock ~5 ~-2 ~4 $(block)
-$setblock ~5 ~-1 ~-4 $(block)
-$setblock ~5 ~-1 ~-3 $(block)
-$setblock ~5 ~-1 ~-2 $(block)
-$setblock ~5 ~-1 ~-1 $(block)
-$setblock ~5 ~-1 ~ $(block)
-$setblock ~5 ~-1 ~1 $(block)
-$setblock ~5 ~-1 ~2 $(block)
-$setblock ~5 ~-1 ~3 $(block)
-$setblock ~5 ~-1 ~4 $(block)
-$setblock ~5 ~ ~-4 $(block)
-$setblock ~5 ~ ~-3 $(block)
-$setblock ~5 ~ ~-2 $(block)
-$setblock ~5 ~ ~-1 $(block)
-$setblock ~5 ~ ~ $(block)
-$setblock ~5 ~ ~1 $(block)
-$setblock ~5 ~ ~2 $(block)
-$setblock ~5 ~ ~3 $(block)
-$setblock ~5 ~ ~4 $(block)
-$setblock ~5 ~1 ~-4 $(block)
-$setblock ~5 ~1 ~-3 $(block)
-$setblock ~5 ~1 ~-2 $(block)
-$setblock ~5 ~1 ~-1 $(block)
-$setblock ~5 ~1 ~ $(block)
-$setblock ~5 ~1 ~1 $(block)
-$setblock ~5 ~1 ~2 $(block)
-$setblock ~5 ~1 ~3 $(block)
-$setblock ~5 ~1 ~4 $(block)
-$setblock ~5 ~2 ~-4 $(block)
-$setblock ~5 ~2 ~-3 $(block)
-$setblock ~5 ~2 ~-2 $(block)
-$setblock ~5 ~2 ~-1 $(block)
-$setblock ~5 ~2 ~ $(block)
-$setblock ~5 ~2 ~1 $(block)
-$setblock ~5 ~2 ~2 $(block)
-$setblock ~5 ~2 ~3 $(block)
-$setblock ~5 ~2 ~4 $(block)
-$setblock ~5 ~3 ~-3 $(block)
-$setblock ~5 ~3 ~-2 $(block)
-$setblock ~5 ~3 ~-1 $(block)
-$setblock ~5 ~3 ~ $(block)
-$setblock ~5 ~3 ~1 $(block)
-$setblock ~5 ~3 ~2 $(block)
-$setblock ~5 ~3 ~3 $(block)
-$setblock ~5 ~4 ~-2 $(block)
-$setblock ~5 ~4 ~-1 $(block)
-$setblock ~5 ~4 ~ $(block)
-$setblock ~5 ~4 ~1 $(block)
-$setblock ~5 ~4 ~2 $(block)
-$setblock ~6 ~-3 ~-2 $(block)
-$setblock ~6 ~-3 ~-1 $(block)
-$setblock ~6 ~-3 ~ $(block)
-$setblock ~6 ~-3 ~1 $(block)
-$setblock ~6 ~-3 ~2 $(block)
-$setblock ~6 ~-2 ~-3 $(block)
-$setblock ~6 ~-2 ~-2 $(block)
-$setblock ~6 ~-2 ~-1 $(block)
-$setblock ~6 ~-2 ~ $(block)
-$setblock ~6 ~-2 ~1 $(block)
-$setblock ~6 ~-2 ~2 $(block)
-$setblock ~6 ~-2 ~3 $(block)
-$setblock ~6 ~-1 ~-3 $(block)
-$setblock ~6 ~-1 ~-2 $(block)
-$setblock ~6 ~-1 ~-1 $(block)
-$setblock ~6 ~-1 ~ $(block)
-$setblock ~6 ~-1 ~1 $(block)
-$setblock ~6 ~-1 ~2 $(block)
-$setblock ~6 ~-1 ~3 $(block)
-$setblock ~6 ~ ~-3 $(block)
-$setblock ~6 ~ ~-2 $(block)
-$setblock ~6 ~ ~-1 $(block)
-$setblock ~6 ~ ~ $(block)
-$setblock ~6 ~ ~1 $(block)
-$setblock ~6 ~ ~2 $(block)
-$setblock ~6 ~ ~3 $(block)
-$setblock ~6 ~1 ~-3 $(block)
-$setblock ~6 ~1 ~-2 $(block)
-$setblock ~6 ~1 ~-1 $(block)
-$setblock ~6 ~1 ~ $(block)
-$setblock ~6 ~1 ~1 $(block)
-$setblock ~6 ~1 ~2 $(block)
-$setblock ~6 ~1 ~3 $(block)
-$setblock ~6 ~2 ~-3 $(block)
-$setblock ~6 ~2 ~-2 $(block)
-$setblock ~6 ~2 ~-1 $(block)
-$setblock ~6 ~2 ~ $(block)
-$setblock ~6 ~2 ~1 $(block)
-$setblock ~6 ~2 ~2 $(block)
-$setblock ~6 ~2 ~3 $(block)
-$setblock ~6 ~3 ~-2 $(block)
-$setblock ~6 ~3 ~-1 $(block)
-$setblock ~6 ~3 ~ $(block)
-$setblock ~6 ~3 ~1 $(block)
-$setblock ~6 ~3 ~2 $(block)
-$setblock ~7 ~ ~ $(block)
+$setblock ~-7 ~ ~ $(block) strict
+$setblock ~-6 ~-3 ~-2 $(block) strict
+$setblock ~-6 ~-3 ~-1 $(block) strict
+$setblock ~-6 ~-3 ~ $(block) strict
+$setblock ~-6 ~-3 ~1 $(block) strict
+$setblock ~-6 ~-3 ~2 $(block) strict
+$setblock ~-6 ~-2 ~-3 $(block) strict
+$setblock ~-6 ~-2 ~-2 $(block) strict
+$setblock ~-6 ~-2 ~-1 $(block) strict
+$setblock ~-6 ~-2 ~ $(block) strict
+$setblock ~-6 ~-2 ~1 $(block) strict
+$setblock ~-6 ~-2 ~2 $(block) strict
+$setblock ~-6 ~-2 ~3 $(block) strict
+$setblock ~-6 ~-1 ~-3 $(block) strict
+$setblock ~-6 ~-1 ~-2 $(block) strict
+$setblock ~-6 ~-1 ~-1 $(block) strict
+$setblock ~-6 ~-1 ~ $(block) strict
+$setblock ~-6 ~-1 ~1 $(block) strict
+$setblock ~-6 ~-1 ~2 $(block) strict
+$setblock ~-6 ~-1 ~3 $(block) strict
+$setblock ~-6 ~ ~-3 $(block) strict
+$setblock ~-6 ~ ~-2 $(block) strict
+$setblock ~-6 ~ ~-1 $(block) strict
+$setblock ~-6 ~ ~ $(block) strict
+$setblock ~-6 ~ ~1 $(block) strict
+$setblock ~-6 ~ ~2 $(block) strict
+$setblock ~-6 ~ ~3 $(block) strict
+$setblock ~-6 ~1 ~-3 $(block) strict
+$setblock ~-6 ~1 ~-2 $(block) strict
+$setblock ~-6 ~1 ~-1 $(block) strict
+$setblock ~-6 ~1 ~ $(block) strict
+$setblock ~-6 ~1 ~1 $(block) strict
+$setblock ~-6 ~1 ~2 $(block) strict
+$setblock ~-6 ~1 ~3 $(block) strict
+$setblock ~-6 ~2 ~-3 $(block) strict
+$setblock ~-6 ~2 ~-2 $(block) strict
+$setblock ~-6 ~2 ~-1 $(block) strict
+$setblock ~-6 ~2 ~ $(block) strict
+$setblock ~-6 ~2 ~1 $(block) strict
+$setblock ~-6 ~2 ~2 $(block) strict
+$setblock ~-6 ~2 ~3 $(block) strict
+$setblock ~-6 ~3 ~-2 $(block) strict
+$setblock ~-6 ~3 ~-1 $(block) strict
+$setblock ~-6 ~3 ~ $(block) strict
+$setblock ~-6 ~3 ~1 $(block) strict
+$setblock ~-6 ~3 ~2 $(block) strict
+$setblock ~-5 ~-4 ~-2 $(block) strict
+$setblock ~-5 ~-4 ~-1 $(block) strict
+$setblock ~-5 ~-4 ~ $(block) strict
+$setblock ~-5 ~-4 ~1 $(block) strict
+$setblock ~-5 ~-4 ~2 $(block) strict
+$setblock ~-5 ~-3 ~-3 $(block) strict
+$setblock ~-5 ~-3 ~-2 $(block) strict
+$setblock ~-5 ~-3 ~-1 $(block) strict
+$setblock ~-5 ~-3 ~ $(block) strict
+$setblock ~-5 ~-3 ~1 $(block) strict
+$setblock ~-5 ~-3 ~2 $(block) strict
+$setblock ~-5 ~-3 ~3 $(block) strict
+$setblock ~-5 ~-2 ~-4 $(block) strict
+$setblock ~-5 ~-2 ~-3 $(block) strict
+$setblock ~-5 ~-2 ~-2 $(block) strict
+$setblock ~-5 ~-2 ~-1 $(block) strict
+$setblock ~-5 ~-2 ~ $(block) strict
+$setblock ~-5 ~-2 ~1 $(block) strict
+$setblock ~-5 ~-2 ~2 $(block) strict
+$setblock ~-5 ~-2 ~3 $(block) strict
+$setblock ~-5 ~-2 ~4 $(block) strict
+$setblock ~-5 ~-1 ~-4 $(block) strict
+$setblock ~-5 ~-1 ~-3 $(block) strict
+$setblock ~-5 ~-1 ~-2 $(block) strict
+$setblock ~-5 ~-1 ~-1 $(block) strict
+$setblock ~-5 ~-1 ~ $(block) strict
+$setblock ~-5 ~-1 ~1 $(block) strict
+$setblock ~-5 ~-1 ~2 $(block) strict
+$setblock ~-5 ~-1 ~3 $(block) strict
+$setblock ~-5 ~-1 ~4 $(block) strict
+$setblock ~-5 ~ ~-4 $(block) strict
+$setblock ~-5 ~ ~-3 $(block) strict
+$setblock ~-5 ~ ~-2 $(block) strict
+$setblock ~-5 ~ ~-1 $(block) strict
+$setblock ~-5 ~ ~ $(block) strict
+$setblock ~-5 ~ ~1 $(block) strict
+$setblock ~-5 ~ ~2 $(block) strict
+$setblock ~-5 ~ ~3 $(block) strict
+$setblock ~-5 ~ ~4 $(block) strict
+$setblock ~-5 ~1 ~-4 $(block) strict
+$setblock ~-5 ~1 ~-3 $(block) strict
+$setblock ~-5 ~1 ~-2 $(block) strict
+$setblock ~-5 ~1 ~-1 $(block) strict
+$setblock ~-5 ~1 ~ $(block) strict
+$setblock ~-5 ~1 ~1 $(block) strict
+$setblock ~-5 ~1 ~2 $(block) strict
+$setblock ~-5 ~1 ~3 $(block) strict
+$setblock ~-5 ~1 ~4 $(block) strict
+$setblock ~-5 ~2 ~-4 $(block) strict
+$setblock ~-5 ~2 ~-3 $(block) strict
+$setblock ~-5 ~2 ~-2 $(block) strict
+$setblock ~-5 ~2 ~-1 $(block) strict
+$setblock ~-5 ~2 ~ $(block) strict
+$setblock ~-5 ~2 ~1 $(block) strict
+$setblock ~-5 ~2 ~2 $(block) strict
+$setblock ~-5 ~2 ~3 $(block) strict
+$setblock ~-5 ~2 ~4 $(block) strict
+$setblock ~-5 ~3 ~-3 $(block) strict
+$setblock ~-5 ~3 ~-2 $(block) strict
+$setblock ~-5 ~3 ~-1 $(block) strict
+$setblock ~-5 ~3 ~ $(block) strict
+$setblock ~-5 ~3 ~1 $(block) strict
+$setblock ~-5 ~3 ~2 $(block) strict
+$setblock ~-5 ~3 ~3 $(block) strict
+$setblock ~-5 ~4 ~-2 $(block) strict
+$setblock ~-5 ~4 ~-1 $(block) strict
+$setblock ~-5 ~4 ~ $(block) strict
+$setblock ~-5 ~4 ~1 $(block) strict
+$setblock ~-5 ~4 ~2 $(block) strict
+$setblock ~-4 ~-5 ~-2 $(block) strict
+$setblock ~-4 ~-5 ~-1 $(block) strict
+$setblock ~-4 ~-5 ~ $(block) strict
+$setblock ~-4 ~-5 ~1 $(block) strict
+$setblock ~-4 ~-5 ~2 $(block) strict
+$setblock ~-4 ~-4 ~-4 $(block) strict
+$setblock ~-4 ~-4 ~-3 $(block) strict
+$setblock ~-4 ~-4 ~-2 $(block) strict
+$setblock ~-4 ~-4 ~-1 $(block) strict
+$setblock ~-4 ~-4 ~ $(block) strict
+$setblock ~-4 ~-4 ~1 $(block) strict
+$setblock ~-4 ~-4 ~2 $(block) strict
+$setblock ~-4 ~-4 ~3 $(block) strict
+$setblock ~-4 ~-4 ~4 $(block) strict
+$setblock ~-4 ~-3 ~-4 $(block) strict
+$setblock ~-4 ~-3 ~-3 $(block) strict
+$setblock ~-4 ~-3 ~-2 $(block) strict
+$setblock ~-4 ~-3 ~-1 $(block) strict
+$setblock ~-4 ~-3 ~ $(block) strict
+$setblock ~-4 ~-3 ~1 $(block) strict
+$setblock ~-4 ~-3 ~2 $(block) strict
+$setblock ~-4 ~-3 ~3 $(block) strict
+$setblock ~-4 ~-3 ~4 $(block) strict
+$setblock ~-4 ~-2 ~-5 $(block) strict
+$setblock ~-4 ~-2 ~-4 $(block) strict
+$setblock ~-4 ~-2 ~-3 $(block) strict
+$setblock ~-4 ~-2 ~-2 $(block) strict
+$setblock ~-4 ~-2 ~-1 $(block) strict
+$setblock ~-4 ~-2 ~ $(block) strict
+$setblock ~-4 ~-2 ~1 $(block) strict
+$setblock ~-4 ~-2 ~2 $(block) strict
+$setblock ~-4 ~-2 ~3 $(block) strict
+$setblock ~-4 ~-2 ~4 $(block) strict
+$setblock ~-4 ~-2 ~5 $(block) strict
+$setblock ~-4 ~-1 ~-5 $(block) strict
+$setblock ~-4 ~-1 ~-4 $(block) strict
+$setblock ~-4 ~-1 ~-3 $(block) strict
+$setblock ~-4 ~-1 ~-2 $(block) strict
+$setblock ~-4 ~-1 ~-1 $(block) strict
+$setblock ~-4 ~-1 ~ $(block) strict
+$setblock ~-4 ~-1 ~1 $(block) strict
+$setblock ~-4 ~-1 ~2 $(block) strict
+$setblock ~-4 ~-1 ~3 $(block) strict
+$setblock ~-4 ~-1 ~4 $(block) strict
+$setblock ~-4 ~-1 ~5 $(block) strict
+$setblock ~-4 ~ ~-5 $(block) strict
+$setblock ~-4 ~ ~-4 $(block) strict
+$setblock ~-4 ~ ~-3 $(block) strict
+$setblock ~-4 ~ ~-2 $(block) strict
+$setblock ~-4 ~ ~-1 $(block) strict
+$setblock ~-4 ~ ~ $(block) strict
+$setblock ~-4 ~ ~1 $(block) strict
+$setblock ~-4 ~ ~2 $(block) strict
+$setblock ~-4 ~ ~3 $(block) strict
+$setblock ~-4 ~ ~4 $(block) strict
+$setblock ~-4 ~ ~5 $(block) strict
+$setblock ~-4 ~1 ~-5 $(block) strict
+$setblock ~-4 ~1 ~-4 $(block) strict
+$setblock ~-4 ~1 ~-3 $(block) strict
+$setblock ~-4 ~1 ~-2 $(block) strict
+$setblock ~-4 ~1 ~-1 $(block) strict
+$setblock ~-4 ~1 ~ $(block) strict
+$setblock ~-4 ~1 ~1 $(block) strict
+$setblock ~-4 ~1 ~2 $(block) strict
+$setblock ~-4 ~1 ~3 $(block) strict
+$setblock ~-4 ~1 ~4 $(block) strict
+$setblock ~-4 ~1 ~5 $(block) strict
+$setblock ~-4 ~2 ~-5 $(block) strict
+$setblock ~-4 ~2 ~-4 $(block) strict
+$setblock ~-4 ~2 ~-3 $(block) strict
+$setblock ~-4 ~2 ~-2 $(block) strict
+$setblock ~-4 ~2 ~-1 $(block) strict
+$setblock ~-4 ~2 ~ $(block) strict
+$setblock ~-4 ~2 ~1 $(block) strict
+$setblock ~-4 ~2 ~2 $(block) strict
+$setblock ~-4 ~2 ~3 $(block) strict
+$setblock ~-4 ~2 ~4 $(block) strict
+$setblock ~-4 ~2 ~5 $(block) strict
+$setblock ~-4 ~3 ~-4 $(block) strict
+$setblock ~-4 ~3 ~-3 $(block) strict
+$setblock ~-4 ~3 ~-2 $(block) strict
+$setblock ~-4 ~3 ~-1 $(block) strict
+$setblock ~-4 ~3 ~ $(block) strict
+$setblock ~-4 ~3 ~1 $(block) strict
+$setblock ~-4 ~3 ~2 $(block) strict
+$setblock ~-4 ~3 ~3 $(block) strict
+$setblock ~-4 ~3 ~4 $(block) strict
+$setblock ~-4 ~4 ~-4 $(block) strict
+$setblock ~-4 ~4 ~-3 $(block) strict
+$setblock ~-4 ~4 ~-2 $(block) strict
+$setblock ~-4 ~4 ~-1 $(block) strict
+$setblock ~-4 ~4 ~ $(block) strict
+$setblock ~-4 ~4 ~1 $(block) strict
+$setblock ~-4 ~4 ~2 $(block) strict
+$setblock ~-4 ~4 ~3 $(block) strict
+$setblock ~-4 ~4 ~4 $(block) strict
+$setblock ~-4 ~5 ~-2 $(block) strict
+$setblock ~-4 ~5 ~-1 $(block) strict
+$setblock ~-4 ~5 ~ $(block) strict
+$setblock ~-4 ~5 ~1 $(block) strict
+$setblock ~-4 ~5 ~2 $(block) strict
+$setblock ~-3 ~-6 ~-2 $(block) strict
+$setblock ~-3 ~-6 ~-1 $(block) strict
+$setblock ~-3 ~-6 ~ $(block) strict
+$setblock ~-3 ~-6 ~1 $(block) strict
+$setblock ~-3 ~-6 ~2 $(block) strict
+$setblock ~-3 ~-5 ~-3 $(block) strict
+$setblock ~-3 ~-5 ~-2 $(block) strict
+$setblock ~-3 ~-5 ~-1 $(block) strict
+$setblock ~-3 ~-5 ~ $(block) strict
+$setblock ~-3 ~-5 ~1 $(block) strict
+$setblock ~-3 ~-5 ~2 $(block) strict
+$setblock ~-3 ~-5 ~3 $(block) strict
+$setblock ~-3 ~-4 ~-4 $(block) strict
+$setblock ~-3 ~-4 ~-3 $(block) strict
+$setblock ~-3 ~-4 ~-2 $(block) strict
+$setblock ~-3 ~-4 ~-1 $(block) strict
+$setblock ~-3 ~-4 ~ $(block) strict
+$setblock ~-3 ~-4 ~1 $(block) strict
+$setblock ~-3 ~-4 ~2 $(block) strict
+$setblock ~-3 ~-4 ~3 $(block) strict
+$setblock ~-3 ~-4 ~4 $(block) strict
+$setblock ~-3 ~-3 ~-5 $(block) strict
+$setblock ~-3 ~-3 ~-4 $(block) strict
+$setblock ~-3 ~-3 ~-3 $(block) strict
+$setblock ~-3 ~-3 ~-2 $(block) strict
+$setblock ~-3 ~-3 ~-1 $(block) strict
+$setblock ~-3 ~-3 ~ $(block) strict
+$setblock ~-3 ~-3 ~1 $(block) strict
+$setblock ~-3 ~-3 ~2 $(block) strict
+$setblock ~-3 ~-3 ~3 $(block) strict
+$setblock ~-3 ~-3 ~4 $(block) strict
+$setblock ~-3 ~-3 ~5 $(block) strict
+$setblock ~-3 ~-2 ~-6 $(block) strict
+$setblock ~-3 ~-2 ~-5 $(block) strict
+$setblock ~-3 ~-2 ~-4 $(block) strict
+$setblock ~-3 ~-2 ~-3 $(block) strict
+$setblock ~-3 ~-2 ~-2 $(block) strict
+$setblock ~-3 ~-2 ~-1 $(block) strict
+$setblock ~-3 ~-2 ~ $(block) strict
+$setblock ~-3 ~-2 ~1 $(block) strict
+$setblock ~-3 ~-2 ~2 $(block) strict
+$setblock ~-3 ~-2 ~3 $(block) strict
+$setblock ~-3 ~-2 ~4 $(block) strict
+$setblock ~-3 ~-2 ~5 $(block) strict
+$setblock ~-3 ~-2 ~6 $(block) strict
+$setblock ~-3 ~-1 ~-6 $(block) strict
+$setblock ~-3 ~-1 ~-5 $(block) strict
+$setblock ~-3 ~-1 ~-4 $(block) strict
+$setblock ~-3 ~-1 ~-3 $(block) strict
+$setblock ~-3 ~-1 ~-2 $(block) strict
+$setblock ~-3 ~-1 ~-1 $(block) strict
+$setblock ~-3 ~-1 ~ $(block) strict
+$setblock ~-3 ~-1 ~1 $(block) strict
+$setblock ~-3 ~-1 ~2 $(block) strict
+$setblock ~-3 ~-1 ~3 $(block) strict
+$setblock ~-3 ~-1 ~4 $(block) strict
+$setblock ~-3 ~-1 ~5 $(block) strict
+$setblock ~-3 ~-1 ~6 $(block) strict
+$setblock ~-3 ~ ~-6 $(block) strict
+$setblock ~-3 ~ ~-5 $(block) strict
+$setblock ~-3 ~ ~-4 $(block) strict
+$setblock ~-3 ~ ~-3 $(block) strict
+$setblock ~-3 ~ ~-2 $(block) strict
+$setblock ~-3 ~ ~-1 $(block) strict
+$setblock ~-3 ~ ~ $(block) strict
+$setblock ~-3 ~ ~1 $(block) strict
+$setblock ~-3 ~ ~2 $(block) strict
+$setblock ~-3 ~ ~3 $(block) strict
+$setblock ~-3 ~ ~4 $(block) strict
+$setblock ~-3 ~ ~5 $(block) strict
+$setblock ~-3 ~ ~6 $(block) strict
+$setblock ~-3 ~1 ~-6 $(block) strict
+$setblock ~-3 ~1 ~-5 $(block) strict
+$setblock ~-3 ~1 ~-4 $(block) strict
+$setblock ~-3 ~1 ~-3 $(block) strict
+$setblock ~-3 ~1 ~-2 $(block) strict
+$setblock ~-3 ~1 ~-1 $(block) strict
+$setblock ~-3 ~1 ~ $(block) strict
+$setblock ~-3 ~1 ~1 $(block) strict
+$setblock ~-3 ~1 ~2 $(block) strict
+$setblock ~-3 ~1 ~3 $(block) strict
+$setblock ~-3 ~1 ~4 $(block) strict
+$setblock ~-3 ~1 ~5 $(block) strict
+$setblock ~-3 ~1 ~6 $(block) strict
+$setblock ~-3 ~2 ~-6 $(block) strict
+$setblock ~-3 ~2 ~-5 $(block) strict
+$setblock ~-3 ~2 ~-4 $(block) strict
+$setblock ~-3 ~2 ~-3 $(block) strict
+$setblock ~-3 ~2 ~-2 $(block) strict
+$setblock ~-3 ~2 ~-1 $(block) strict
+$setblock ~-3 ~2 ~ $(block) strict
+$setblock ~-3 ~2 ~1 $(block) strict
+$setblock ~-3 ~2 ~2 $(block) strict
+$setblock ~-3 ~2 ~3 $(block) strict
+$setblock ~-3 ~2 ~4 $(block) strict
+$setblock ~-3 ~2 ~5 $(block) strict
+$setblock ~-3 ~2 ~6 $(block) strict
+$setblock ~-3 ~3 ~-5 $(block) strict
+$setblock ~-3 ~3 ~-4 $(block) strict
+$setblock ~-3 ~3 ~-3 $(block) strict
+$setblock ~-3 ~3 ~-2 $(block) strict
+$setblock ~-3 ~3 ~-1 $(block) strict
+$setblock ~-3 ~3 ~ $(block) strict
+$setblock ~-3 ~3 ~1 $(block) strict
+$setblock ~-3 ~3 ~2 $(block) strict
+$setblock ~-3 ~3 ~3 $(block) strict
+$setblock ~-3 ~3 ~4 $(block) strict
+$setblock ~-3 ~3 ~5 $(block) strict
+$setblock ~-3 ~4 ~-4 $(block) strict
+$setblock ~-3 ~4 ~-3 $(block) strict
+$setblock ~-3 ~4 ~-2 $(block) strict
+$setblock ~-3 ~4 ~-1 $(block) strict
+$setblock ~-3 ~4 ~ $(block) strict
+$setblock ~-3 ~4 ~1 $(block) strict
+$setblock ~-3 ~4 ~2 $(block) strict
+$setblock ~-3 ~4 ~3 $(block) strict
+$setblock ~-3 ~4 ~4 $(block) strict
+$setblock ~-3 ~5 ~-3 $(block) strict
+$setblock ~-3 ~5 ~-2 $(block) strict
+$setblock ~-3 ~5 ~-1 $(block) strict
+$setblock ~-3 ~5 ~ $(block) strict
+$setblock ~-3 ~5 ~1 $(block) strict
+$setblock ~-3 ~5 ~2 $(block) strict
+$setblock ~-3 ~5 ~3 $(block) strict
+$setblock ~-3 ~6 ~-2 $(block) strict
+$setblock ~-3 ~6 ~-1 $(block) strict
+$setblock ~-3 ~6 ~ $(block) strict
+$setblock ~-3 ~6 ~1 $(block) strict
+$setblock ~-3 ~6 ~2 $(block) strict
+$setblock ~-2 ~-6 ~-3 $(block) strict
+$setblock ~-2 ~-6 ~-2 $(block) strict
+$setblock ~-2 ~-6 ~-1 $(block) strict
+$setblock ~-2 ~-6 ~ $(block) strict
+$setblock ~-2 ~-6 ~1 $(block) strict
+$setblock ~-2 ~-6 ~2 $(block) strict
+$setblock ~-2 ~-6 ~3 $(block) strict
+$setblock ~-2 ~-5 ~-4 $(block) strict
+$setblock ~-2 ~-5 ~-3 $(block) strict
+$setblock ~-2 ~-5 ~-2 $(block) strict
+$setblock ~-2 ~-5 ~-1 $(block) strict
+$setblock ~-2 ~-5 ~ $(block) strict
+$setblock ~-2 ~-5 ~1 $(block) strict
+$setblock ~-2 ~-5 ~2 $(block) strict
+$setblock ~-2 ~-5 ~3 $(block) strict
+$setblock ~-2 ~-5 ~4 $(block) strict
+$setblock ~-2 ~-4 ~-5 $(block) strict
+$setblock ~-2 ~-4 ~-4 $(block) strict
+$setblock ~-2 ~-4 ~-3 $(block) strict
+$setblock ~-2 ~-4 ~-2 $(block) strict
+$setblock ~-2 ~-4 ~-1 $(block) strict
+$setblock ~-2 ~-4 ~ $(block) strict
+$setblock ~-2 ~-4 ~1 $(block) strict
+$setblock ~-2 ~-4 ~2 $(block) strict
+$setblock ~-2 ~-4 ~3 $(block) strict
+$setblock ~-2 ~-4 ~4 $(block) strict
+$setblock ~-2 ~-4 ~5 $(block) strict
+$setblock ~-2 ~-3 ~-6 $(block) strict
+$setblock ~-2 ~-3 ~-5 $(block) strict
+$setblock ~-2 ~-3 ~-4 $(block) strict
+$setblock ~-2 ~-3 ~-3 $(block) strict
+$setblock ~-2 ~-3 ~-2 $(block) strict
+$setblock ~-2 ~-3 ~-1 $(block) strict
+$setblock ~-2 ~-3 ~ $(block) strict
+$setblock ~-2 ~-3 ~1 $(block) strict
+$setblock ~-2 ~-3 ~2 $(block) strict
+$setblock ~-2 ~-3 ~3 $(block) strict
+$setblock ~-2 ~-3 ~4 $(block) strict
+$setblock ~-2 ~-3 ~5 $(block) strict
+$setblock ~-2 ~-3 ~6 $(block) strict
+$setblock ~-2 ~-2 ~-6 $(block) strict
+$setblock ~-2 ~-2 ~-5 $(block) strict
+$setblock ~-2 ~-2 ~-4 $(block) strict
+$setblock ~-2 ~-2 ~-3 $(block) strict
+$setblock ~-2 ~-2 ~-2 $(block) strict
+$setblock ~-2 ~-2 ~-1 $(block) strict
+$setblock ~-2 ~-2 ~ $(block) strict
+$setblock ~-2 ~-2 ~1 $(block) strict
+$setblock ~-2 ~-2 ~2 $(block) strict
+$setblock ~-2 ~-2 ~3 $(block) strict
+$setblock ~-2 ~-2 ~4 $(block) strict
+$setblock ~-2 ~-2 ~5 $(block) strict
+$setblock ~-2 ~-2 ~6 $(block) strict
+$setblock ~-2 ~-1 ~-6 $(block) strict
+$setblock ~-2 ~-1 ~-5 $(block) strict
+$setblock ~-2 ~-1 ~-4 $(block) strict
+$setblock ~-2 ~-1 ~-3 $(block) strict
+$setblock ~-2 ~-1 ~-2 $(block) strict
+$setblock ~-2 ~-1 ~-1 $(block) strict
+$setblock ~-2 ~-1 ~ $(block) strict
+$setblock ~-2 ~-1 ~1 $(block) strict
+$setblock ~-2 ~-1 ~2 $(block) strict
+$setblock ~-2 ~-1 ~3 $(block) strict
+$setblock ~-2 ~-1 ~4 $(block) strict
+$setblock ~-2 ~-1 ~5 $(block) strict
+$setblock ~-2 ~-1 ~6 $(block) strict
+$setblock ~-2 ~ ~-6 $(block) strict
+$setblock ~-2 ~ ~-5 $(block) strict
+$setblock ~-2 ~ ~-4 $(block) strict
+$setblock ~-2 ~ ~-3 $(block) strict
+$setblock ~-2 ~ ~-2 $(block) strict
+$setblock ~-2 ~ ~-1 $(block) strict
+$setblock ~-2 ~ ~ $(block) strict
+$setblock ~-2 ~ ~1 $(block) strict
+$setblock ~-2 ~ ~2 $(block) strict
+$setblock ~-2 ~ ~3 $(block) strict
+$setblock ~-2 ~ ~4 $(block) strict
+$setblock ~-2 ~ ~5 $(block) strict
+$setblock ~-2 ~ ~6 $(block) strict
+$setblock ~-2 ~1 ~-6 $(block) strict
+$setblock ~-2 ~1 ~-5 $(block) strict
+$setblock ~-2 ~1 ~-4 $(block) strict
+$setblock ~-2 ~1 ~-3 $(block) strict
+$setblock ~-2 ~1 ~-2 $(block) strict
+$setblock ~-2 ~1 ~-1 $(block) strict
+$setblock ~-2 ~1 ~ $(block) strict
+$setblock ~-2 ~1 ~1 $(block) strict
+$setblock ~-2 ~1 ~2 $(block) strict
+$setblock ~-2 ~1 ~3 $(block) strict
+$setblock ~-2 ~1 ~4 $(block) strict
+$setblock ~-2 ~1 ~5 $(block) strict
+$setblock ~-2 ~1 ~6 $(block) strict
+$setblock ~-2 ~2 ~-6 $(block) strict
+$setblock ~-2 ~2 ~-5 $(block) strict
+$setblock ~-2 ~2 ~-4 $(block) strict
+$setblock ~-2 ~2 ~-3 $(block) strict
+$setblock ~-2 ~2 ~-2 $(block) strict
+$setblock ~-2 ~2 ~-1 $(block) strict
+$setblock ~-2 ~2 ~ $(block) strict
+$setblock ~-2 ~2 ~1 $(block) strict
+$setblock ~-2 ~2 ~2 $(block) strict
+$setblock ~-2 ~2 ~3 $(block) strict
+$setblock ~-2 ~2 ~4 $(block) strict
+$setblock ~-2 ~2 ~5 $(block) strict
+$setblock ~-2 ~2 ~6 $(block) strict
+$setblock ~-2 ~3 ~-6 $(block) strict
+$setblock ~-2 ~3 ~-5 $(block) strict
+$setblock ~-2 ~3 ~-4 $(block) strict
+$setblock ~-2 ~3 ~-3 $(block) strict
+$setblock ~-2 ~3 ~-2 $(block) strict
+$setblock ~-2 ~3 ~-1 $(block) strict
+$setblock ~-2 ~3 ~ $(block) strict
+$setblock ~-2 ~3 ~1 $(block) strict
+$setblock ~-2 ~3 ~2 $(block) strict
+$setblock ~-2 ~3 ~3 $(block) strict
+$setblock ~-2 ~3 ~4 $(block) strict
+$setblock ~-2 ~3 ~5 $(block) strict
+$setblock ~-2 ~3 ~6 $(block) strict
+$setblock ~-2 ~4 ~-5 $(block) strict
+$setblock ~-2 ~4 ~-4 $(block) strict
+$setblock ~-2 ~4 ~-3 $(block) strict
+$setblock ~-2 ~4 ~-2 $(block) strict
+$setblock ~-2 ~4 ~-1 $(block) strict
+$setblock ~-2 ~4 ~ $(block) strict
+$setblock ~-2 ~4 ~1 $(block) strict
+$setblock ~-2 ~4 ~2 $(block) strict
+$setblock ~-2 ~4 ~3 $(block) strict
+$setblock ~-2 ~4 ~4 $(block) strict
+$setblock ~-2 ~4 ~5 $(block) strict
+$setblock ~-2 ~5 ~-4 $(block) strict
+$setblock ~-2 ~5 ~-3 $(block) strict
+$setblock ~-2 ~5 ~-2 $(block) strict
+$setblock ~-2 ~5 ~-1 $(block) strict
+$setblock ~-2 ~5 ~ $(block) strict
+$setblock ~-2 ~5 ~1 $(block) strict
+$setblock ~-2 ~5 ~2 $(block) strict
+$setblock ~-2 ~5 ~3 $(block) strict
+$setblock ~-2 ~5 ~4 $(block) strict
+$setblock ~-2 ~6 ~-3 $(block) strict
+$setblock ~-2 ~6 ~-2 $(block) strict
+$setblock ~-2 ~6 ~-1 $(block) strict
+$setblock ~-2 ~6 ~ $(block) strict
+$setblock ~-2 ~6 ~1 $(block) strict
+$setblock ~-2 ~6 ~2 $(block) strict
+$setblock ~-2 ~6 ~3 $(block) strict
+$setblock ~-1 ~-6 ~-3 $(block) strict
+$setblock ~-1 ~-6 ~-2 $(block) strict
+$setblock ~-1 ~-6 ~-1 $(block) strict
+$setblock ~-1 ~-6 ~ $(block) strict
+$setblock ~-1 ~-6 ~1 $(block) strict
+$setblock ~-1 ~-6 ~2 $(block) strict
+$setblock ~-1 ~-6 ~3 $(block) strict
+$setblock ~-1 ~-5 ~-4 $(block) strict
+$setblock ~-1 ~-5 ~-3 $(block) strict
+$setblock ~-1 ~-5 ~-2 $(block) strict
+$setblock ~-1 ~-5 ~-1 $(block) strict
+$setblock ~-1 ~-5 ~ $(block) strict
+$setblock ~-1 ~-5 ~1 $(block) strict
+$setblock ~-1 ~-5 ~2 $(block) strict
+$setblock ~-1 ~-5 ~3 $(block) strict
+$setblock ~-1 ~-5 ~4 $(block) strict
+$setblock ~-1 ~-4 ~-5 $(block) strict
+$setblock ~-1 ~-4 ~-4 $(block) strict
+$setblock ~-1 ~-4 ~-3 $(block) strict
+$setblock ~-1 ~-4 ~-2 $(block) strict
+$setblock ~-1 ~-4 ~-1 $(block) strict
+$setblock ~-1 ~-4 ~ $(block) strict
+$setblock ~-1 ~-4 ~1 $(block) strict
+$setblock ~-1 ~-4 ~2 $(block) strict
+$setblock ~-1 ~-4 ~3 $(block) strict
+$setblock ~-1 ~-4 ~4 $(block) strict
+$setblock ~-1 ~-4 ~5 $(block) strict
+$setblock ~-1 ~-3 ~-6 $(block) strict
+$setblock ~-1 ~-3 ~-5 $(block) strict
+$setblock ~-1 ~-3 ~-4 $(block) strict
+$setblock ~-1 ~-3 ~-3 $(block) strict
+$setblock ~-1 ~-3 ~-2 $(block) strict
+$setblock ~-1 ~-3 ~-1 $(block) strict
+$setblock ~-1 ~-3 ~ $(block) strict
+$setblock ~-1 ~-3 ~1 $(block) strict
+$setblock ~-1 ~-3 ~2 $(block) strict
+$setblock ~-1 ~-3 ~3 $(block) strict
+$setblock ~-1 ~-3 ~4 $(block) strict
+$setblock ~-1 ~-3 ~5 $(block) strict
+$setblock ~-1 ~-3 ~6 $(block) strict
+$setblock ~-1 ~-2 ~-6 $(block) strict
+$setblock ~-1 ~-2 ~-5 $(block) strict
+$setblock ~-1 ~-2 ~-4 $(block) strict
+$setblock ~-1 ~-2 ~-3 $(block) strict
+$setblock ~-1 ~-2 ~-2 $(block) strict
+$setblock ~-1 ~-2 ~-1 $(block) strict
+$setblock ~-1 ~-2 ~ $(block) strict
+$setblock ~-1 ~-2 ~1 $(block) strict
+$setblock ~-1 ~-2 ~2 $(block) strict
+$setblock ~-1 ~-2 ~3 $(block) strict
+$setblock ~-1 ~-2 ~4 $(block) strict
+$setblock ~-1 ~-2 ~5 $(block) strict
+$setblock ~-1 ~-2 ~6 $(block) strict
+$setblock ~-1 ~-1 ~-6 $(block) strict
+$setblock ~-1 ~-1 ~-5 $(block) strict
+$setblock ~-1 ~-1 ~-4 $(block) strict
+$setblock ~-1 ~-1 ~-3 $(block) strict
+$setblock ~-1 ~-1 ~-2 $(block) strict
+$setblock ~-1 ~-1 ~-1 $(block) strict
+$setblock ~-1 ~-1 ~ $(block) strict
+$setblock ~-1 ~-1 ~1 $(block) strict
+$setblock ~-1 ~-1 ~2 $(block) strict
+$setblock ~-1 ~-1 ~3 $(block) strict
+$setblock ~-1 ~-1 ~4 $(block) strict
+$setblock ~-1 ~-1 ~5 $(block) strict
+$setblock ~-1 ~-1 ~6 $(block) strict
+$setblock ~-1 ~ ~-6 $(block) strict
+$setblock ~-1 ~ ~-5 $(block) strict
+$setblock ~-1 ~ ~-4 $(block) strict
+$setblock ~-1 ~ ~-3 $(block) strict
+$setblock ~-1 ~ ~-2 $(block) strict
+$setblock ~-1 ~ ~-1 $(block) strict
+$setblock ~-1 ~ ~ $(block) strict
+$setblock ~-1 ~ ~1 $(block) strict
+$setblock ~-1 ~ ~2 $(block) strict
+$setblock ~-1 ~ ~3 $(block) strict
+$setblock ~-1 ~ ~4 $(block) strict
+$setblock ~-1 ~ ~5 $(block) strict
+$setblock ~-1 ~ ~6 $(block) strict
+$setblock ~-1 ~1 ~-6 $(block) strict
+$setblock ~-1 ~1 ~-5 $(block) strict
+$setblock ~-1 ~1 ~-4 $(block) strict
+$setblock ~-1 ~1 ~-3 $(block) strict
+$setblock ~-1 ~1 ~-2 $(block) strict
+$setblock ~-1 ~1 ~-1 $(block) strict
+$setblock ~-1 ~1 ~ $(block) strict
+$setblock ~-1 ~1 ~1 $(block) strict
+$setblock ~-1 ~1 ~2 $(block) strict
+$setblock ~-1 ~1 ~3 $(block) strict
+$setblock ~-1 ~1 ~4 $(block) strict
+$setblock ~-1 ~1 ~5 $(block) strict
+$setblock ~-1 ~1 ~6 $(block) strict
+$setblock ~-1 ~2 ~-6 $(block) strict
+$setblock ~-1 ~2 ~-5 $(block) strict
+$setblock ~-1 ~2 ~-4 $(block) strict
+$setblock ~-1 ~2 ~-3 $(block) strict
+$setblock ~-1 ~2 ~-2 $(block) strict
+$setblock ~-1 ~2 ~-1 $(block) strict
+$setblock ~-1 ~2 ~ $(block) strict
+$setblock ~-1 ~2 ~1 $(block) strict
+$setblock ~-1 ~2 ~2 $(block) strict
+$setblock ~-1 ~2 ~3 $(block) strict
+$setblock ~-1 ~2 ~4 $(block) strict
+$setblock ~-1 ~2 ~5 $(block) strict
+$setblock ~-1 ~2 ~6 $(block) strict
+$setblock ~-1 ~3 ~-6 $(block) strict
+$setblock ~-1 ~3 ~-5 $(block) strict
+$setblock ~-1 ~3 ~-4 $(block) strict
+$setblock ~-1 ~3 ~-3 $(block) strict
+$setblock ~-1 ~3 ~-2 $(block) strict
+$setblock ~-1 ~3 ~-1 $(block) strict
+$setblock ~-1 ~3 ~ $(block) strict
+$setblock ~-1 ~3 ~1 $(block) strict
+$setblock ~-1 ~3 ~2 $(block) strict
+$setblock ~-1 ~3 ~3 $(block) strict
+$setblock ~-1 ~3 ~4 $(block) strict
+$setblock ~-1 ~3 ~5 $(block) strict
+$setblock ~-1 ~3 ~6 $(block) strict
+$setblock ~-1 ~4 ~-5 $(block) strict
+$setblock ~-1 ~4 ~-4 $(block) strict
+$setblock ~-1 ~4 ~-3 $(block) strict
+$setblock ~-1 ~4 ~-2 $(block) strict
+$setblock ~-1 ~4 ~-1 $(block) strict
+$setblock ~-1 ~4 ~ $(block) strict
+$setblock ~-1 ~4 ~1 $(block) strict
+$setblock ~-1 ~4 ~2 $(block) strict
+$setblock ~-1 ~4 ~3 $(block) strict
+$setblock ~-1 ~4 ~4 $(block) strict
+$setblock ~-1 ~4 ~5 $(block) strict
+$setblock ~-1 ~5 ~-4 $(block) strict
+$setblock ~-1 ~5 ~-3 $(block) strict
+$setblock ~-1 ~5 ~-2 $(block) strict
+$setblock ~-1 ~5 ~-1 $(block) strict
+$setblock ~-1 ~5 ~ $(block) strict
+$setblock ~-1 ~5 ~1 $(block) strict
+$setblock ~-1 ~5 ~2 $(block) strict
+$setblock ~-1 ~5 ~3 $(block) strict
+$setblock ~-1 ~5 ~4 $(block) strict
+$setblock ~-1 ~6 ~-3 $(block) strict
+$setblock ~-1 ~6 ~-2 $(block) strict
+$setblock ~-1 ~6 ~-1 $(block) strict
+$setblock ~-1 ~6 ~ $(block) strict
+$setblock ~-1 ~6 ~1 $(block) strict
+$setblock ~-1 ~6 ~2 $(block) strict
+$setblock ~-1 ~6 ~3 $(block) strict
+$setblock ~ ~-7 ~ $(block) strict
+$setblock ~ ~-6 ~-3 $(block) strict
+$setblock ~ ~-6 ~-2 $(block) strict
+$setblock ~ ~-6 ~-1 $(block) strict
+$setblock ~ ~-6 ~ $(block) strict
+$setblock ~ ~-6 ~1 $(block) strict
+$setblock ~ ~-6 ~2 $(block) strict
+$setblock ~ ~-6 ~3 $(block) strict
+$setblock ~ ~-5 ~-4 $(block) strict
+$setblock ~ ~-5 ~-3 $(block) strict
+$setblock ~ ~-5 ~-2 $(block) strict
+$setblock ~ ~-5 ~-1 $(block) strict
+$setblock ~ ~-5 ~ $(block) strict
+$setblock ~ ~-5 ~1 $(block) strict
+$setblock ~ ~-5 ~2 $(block) strict
+$setblock ~ ~-5 ~3 $(block) strict
+$setblock ~ ~-5 ~4 $(block) strict
+$setblock ~ ~-4 ~-5 $(block) strict
+$setblock ~ ~-4 ~-4 $(block) strict
+$setblock ~ ~-4 ~-3 $(block) strict
+$setblock ~ ~-4 ~-2 $(block) strict
+$setblock ~ ~-4 ~-1 $(block) strict
+$setblock ~ ~-4 ~ $(block) strict
+$setblock ~ ~-4 ~1 $(block) strict
+$setblock ~ ~-4 ~2 $(block) strict
+$setblock ~ ~-4 ~3 $(block) strict
+$setblock ~ ~-4 ~4 $(block) strict
+$setblock ~ ~-4 ~5 $(block) strict
+$setblock ~ ~-3 ~-6 $(block) strict
+$setblock ~ ~-3 ~-5 $(block) strict
+$setblock ~ ~-3 ~-4 $(block) strict
+$setblock ~ ~-3 ~-3 $(block) strict
+$setblock ~ ~-3 ~-2 $(block) strict
+$setblock ~ ~-3 ~-1 $(block) strict
+$setblock ~ ~-3 ~ $(block) strict
+$setblock ~ ~-3 ~1 $(block) strict
+$setblock ~ ~-3 ~2 $(block) strict
+$setblock ~ ~-3 ~3 $(block) strict
+$setblock ~ ~-3 ~4 $(block) strict
+$setblock ~ ~-3 ~5 $(block) strict
+$setblock ~ ~-3 ~6 $(block) strict
+$setblock ~ ~-2 ~-6 $(block) strict
+$setblock ~ ~-2 ~-5 $(block) strict
+$setblock ~ ~-2 ~-4 $(block) strict
+$setblock ~ ~-2 ~-3 $(block) strict
+$setblock ~ ~-2 ~-2 $(block) strict
+$setblock ~ ~-2 ~-1 $(block) strict
+$setblock ~ ~-2 ~ $(block) strict
+$setblock ~ ~-2 ~1 $(block) strict
+$setblock ~ ~-2 ~2 $(block) strict
+$setblock ~ ~-2 ~3 $(block) strict
+$setblock ~ ~-2 ~4 $(block) strict
+$setblock ~ ~-2 ~5 $(block) strict
+$setblock ~ ~-2 ~6 $(block) strict
+$setblock ~ ~-1 ~-6 $(block) strict
+$setblock ~ ~-1 ~-5 $(block) strict
+$setblock ~ ~-1 ~-4 $(block) strict
+$setblock ~ ~-1 ~-3 $(block) strict
+$setblock ~ ~-1 ~-2 $(block) strict
+$setblock ~ ~-1 ~-1 $(block) strict
+$setblock ~ ~-1 ~ $(block) strict
+$setblock ~ ~-1 ~1 $(block) strict
+$setblock ~ ~-1 ~2 $(block) strict
+$setblock ~ ~-1 ~3 $(block) strict
+$setblock ~ ~-1 ~4 $(block) strict
+$setblock ~ ~-1 ~5 $(block) strict
+$setblock ~ ~-1 ~6 $(block) strict
+$setblock ~ ~ ~-7 $(block) strict
+$setblock ~ ~ ~-6 $(block) strict
+$setblock ~ ~ ~-5 $(block) strict
+$setblock ~ ~ ~-4 $(block) strict
+$setblock ~ ~ ~-3 $(block) strict
+$setblock ~ ~ ~-2 $(block) strict
+$setblock ~ ~ ~-1 $(block) strict
+$setblock ~ ~ ~ $(block) strict
+$setblock ~ ~ ~1 $(block) strict
+$setblock ~ ~ ~2 $(block) strict
+$setblock ~ ~ ~3 $(block) strict
+$setblock ~ ~ ~4 $(block) strict
+$setblock ~ ~ ~5 $(block) strict
+$setblock ~ ~ ~6 $(block) strict
+$setblock ~ ~ ~7 $(block) strict
+$setblock ~ ~1 ~-6 $(block) strict
+$setblock ~ ~1 ~-5 $(block) strict
+$setblock ~ ~1 ~-4 $(block) strict
+$setblock ~ ~1 ~-3 $(block) strict
+$setblock ~ ~1 ~-2 $(block) strict
+$setblock ~ ~1 ~-1 $(block) strict
+$setblock ~ ~1 ~ $(block) strict
+$setblock ~ ~1 ~1 $(block) strict
+$setblock ~ ~1 ~2 $(block) strict
+$setblock ~ ~1 ~3 $(block) strict
+$setblock ~ ~1 ~4 $(block) strict
+$setblock ~ ~1 ~5 $(block) strict
+$setblock ~ ~1 ~6 $(block) strict
+$setblock ~ ~2 ~-6 $(block) strict
+$setblock ~ ~2 ~-5 $(block) strict
+$setblock ~ ~2 ~-4 $(block) strict
+$setblock ~ ~2 ~-3 $(block) strict
+$setblock ~ ~2 ~-2 $(block) strict
+$setblock ~ ~2 ~-1 $(block) strict
+$setblock ~ ~2 ~ $(block) strict
+$setblock ~ ~2 ~1 $(block) strict
+$setblock ~ ~2 ~2 $(block) strict
+$setblock ~ ~2 ~3 $(block) strict
+$setblock ~ ~2 ~4 $(block) strict
+$setblock ~ ~2 ~5 $(block) strict
+$setblock ~ ~2 ~6 $(block) strict
+$setblock ~ ~3 ~-6 $(block) strict
+$setblock ~ ~3 ~-5 $(block) strict
+$setblock ~ ~3 ~-4 $(block) strict
+$setblock ~ ~3 ~-3 $(block) strict
+$setblock ~ ~3 ~-2 $(block) strict
+$setblock ~ ~3 ~-1 $(block) strict
+$setblock ~ ~3 ~ $(block) strict
+$setblock ~ ~3 ~1 $(block) strict
+$setblock ~ ~3 ~2 $(block) strict
+$setblock ~ ~3 ~3 $(block) strict
+$setblock ~ ~3 ~4 $(block) strict
+$setblock ~ ~3 ~5 $(block) strict
+$setblock ~ ~3 ~6 $(block) strict
+$setblock ~ ~4 ~-5 $(block) strict
+$setblock ~ ~4 ~-4 $(block) strict
+$setblock ~ ~4 ~-3 $(block) strict
+$setblock ~ ~4 ~-2 $(block) strict
+$setblock ~ ~4 ~-1 $(block) strict
+$setblock ~ ~4 ~ $(block) strict
+$setblock ~ ~4 ~1 $(block) strict
+$setblock ~ ~4 ~2 $(block) strict
+$setblock ~ ~4 ~3 $(block) strict
+$setblock ~ ~4 ~4 $(block) strict
+$setblock ~ ~4 ~5 $(block) strict
+$setblock ~ ~5 ~-4 $(block) strict
+$setblock ~ ~5 ~-3 $(block) strict
+$setblock ~ ~5 ~-2 $(block) strict
+$setblock ~ ~5 ~-1 $(block) strict
+$setblock ~ ~5 ~ $(block) strict
+$setblock ~ ~5 ~1 $(block) strict
+$setblock ~ ~5 ~2 $(block) strict
+$setblock ~ ~5 ~3 $(block) strict
+$setblock ~ ~5 ~4 $(block) strict
+$setblock ~ ~6 ~-3 $(block) strict
+$setblock ~ ~6 ~-2 $(block) strict
+$setblock ~ ~6 ~-1 $(block) strict
+$setblock ~ ~6 ~ $(block) strict
+$setblock ~ ~6 ~1 $(block) strict
+$setblock ~ ~6 ~2 $(block) strict
+$setblock ~ ~6 ~3 $(block) strict
+$setblock ~ ~7 ~ $(block) strict
+$setblock ~1 ~-6 ~-3 $(block) strict
+$setblock ~1 ~-6 ~-2 $(block) strict
+$setblock ~1 ~-6 ~-1 $(block) strict
+$setblock ~1 ~-6 ~ $(block) strict
+$setblock ~1 ~-6 ~1 $(block) strict
+$setblock ~1 ~-6 ~2 $(block) strict
+$setblock ~1 ~-6 ~3 $(block) strict
+$setblock ~1 ~-5 ~-4 $(block) strict
+$setblock ~1 ~-5 ~-3 $(block) strict
+$setblock ~1 ~-5 ~-2 $(block) strict
+$setblock ~1 ~-5 ~-1 $(block) strict
+$setblock ~1 ~-5 ~ $(block) strict
+$setblock ~1 ~-5 ~1 $(block) strict
+$setblock ~1 ~-5 ~2 $(block) strict
+$setblock ~1 ~-5 ~3 $(block) strict
+$setblock ~1 ~-5 ~4 $(block) strict
+$setblock ~1 ~-4 ~-5 $(block) strict
+$setblock ~1 ~-4 ~-4 $(block) strict
+$setblock ~1 ~-4 ~-3 $(block) strict
+$setblock ~1 ~-4 ~-2 $(block) strict
+$setblock ~1 ~-4 ~-1 $(block) strict
+$setblock ~1 ~-4 ~ $(block) strict
+$setblock ~1 ~-4 ~1 $(block) strict
+$setblock ~1 ~-4 ~2 $(block) strict
+$setblock ~1 ~-4 ~3 $(block) strict
+$setblock ~1 ~-4 ~4 $(block) strict
+$setblock ~1 ~-4 ~5 $(block) strict
+$setblock ~1 ~-3 ~-6 $(block) strict
+$setblock ~1 ~-3 ~-5 $(block) strict
+$setblock ~1 ~-3 ~-4 $(block) strict
+$setblock ~1 ~-3 ~-3 $(block) strict
+$setblock ~1 ~-3 ~-2 $(block) strict
+$setblock ~1 ~-3 ~-1 $(block) strict
+$setblock ~1 ~-3 ~ $(block) strict
+$setblock ~1 ~-3 ~1 $(block) strict
+$setblock ~1 ~-3 ~2 $(block) strict
+$setblock ~1 ~-3 ~3 $(block) strict
+$setblock ~1 ~-3 ~4 $(block) strict
+$setblock ~1 ~-3 ~5 $(block) strict
+$setblock ~1 ~-3 ~6 $(block) strict
+$setblock ~1 ~-2 ~-6 $(block) strict
+$setblock ~1 ~-2 ~-5 $(block) strict
+$setblock ~1 ~-2 ~-4 $(block) strict
+$setblock ~1 ~-2 ~-3 $(block) strict
+$setblock ~1 ~-2 ~-2 $(block) strict
+$setblock ~1 ~-2 ~-1 $(block) strict
+$setblock ~1 ~-2 ~ $(block) strict
+$setblock ~1 ~-2 ~1 $(block) strict
+$setblock ~1 ~-2 ~2 $(block) strict
+$setblock ~1 ~-2 ~3 $(block) strict
+$setblock ~1 ~-2 ~4 $(block) strict
+$setblock ~1 ~-2 ~5 $(block) strict
+$setblock ~1 ~-2 ~6 $(block) strict
+$setblock ~1 ~-1 ~-6 $(block) strict
+$setblock ~1 ~-1 ~-5 $(block) strict
+$setblock ~1 ~-1 ~-4 $(block) strict
+$setblock ~1 ~-1 ~-3 $(block) strict
+$setblock ~1 ~-1 ~-2 $(block) strict
+$setblock ~1 ~-1 ~-1 $(block) strict
+$setblock ~1 ~-1 ~ $(block) strict
+$setblock ~1 ~-1 ~1 $(block) strict
+$setblock ~1 ~-1 ~2 $(block) strict
+$setblock ~1 ~-1 ~3 $(block) strict
+$setblock ~1 ~-1 ~4 $(block) strict
+$setblock ~1 ~-1 ~5 $(block) strict
+$setblock ~1 ~-1 ~6 $(block) strict
+$setblock ~1 ~ ~-6 $(block) strict
+$setblock ~1 ~ ~-5 $(block) strict
+$setblock ~1 ~ ~-4 $(block) strict
+$setblock ~1 ~ ~-3 $(block) strict
+$setblock ~1 ~ ~-2 $(block) strict
+$setblock ~1 ~ ~-1 $(block) strict
+$setblock ~1 ~ ~ $(block) strict
+$setblock ~1 ~ ~1 $(block) strict
+$setblock ~1 ~ ~2 $(block) strict
+$setblock ~1 ~ ~3 $(block) strict
+$setblock ~1 ~ ~4 $(block) strict
+$setblock ~1 ~ ~5 $(block) strict
+$setblock ~1 ~ ~6 $(block) strict
+$setblock ~1 ~1 ~-6 $(block) strict
+$setblock ~1 ~1 ~-5 $(block) strict
+$setblock ~1 ~1 ~-4 $(block) strict
+$setblock ~1 ~1 ~-3 $(block) strict
+$setblock ~1 ~1 ~-2 $(block) strict
+$setblock ~1 ~1 ~-1 $(block) strict
+$setblock ~1 ~1 ~ $(block) strict
+$setblock ~1 ~1 ~1 $(block) strict
+$setblock ~1 ~1 ~2 $(block) strict
+$setblock ~1 ~1 ~3 $(block) strict
+$setblock ~1 ~1 ~4 $(block) strict
+$setblock ~1 ~1 ~5 $(block) strict
+$setblock ~1 ~1 ~6 $(block) strict
+$setblock ~1 ~2 ~-6 $(block) strict
+$setblock ~1 ~2 ~-5 $(block) strict
+$setblock ~1 ~2 ~-4 $(block) strict
+$setblock ~1 ~2 ~-3 $(block) strict
+$setblock ~1 ~2 ~-2 $(block) strict
+$setblock ~1 ~2 ~-1 $(block) strict
+$setblock ~1 ~2 ~ $(block) strict
+$setblock ~1 ~2 ~1 $(block) strict
+$setblock ~1 ~2 ~2 $(block) strict
+$setblock ~1 ~2 ~3 $(block) strict
+$setblock ~1 ~2 ~4 $(block) strict
+$setblock ~1 ~2 ~5 $(block) strict
+$setblock ~1 ~2 ~6 $(block) strict
+$setblock ~1 ~3 ~-6 $(block) strict
+$setblock ~1 ~3 ~-5 $(block) strict
+$setblock ~1 ~3 ~-4 $(block) strict
+$setblock ~1 ~3 ~-3 $(block) strict
+$setblock ~1 ~3 ~-2 $(block) strict
+$setblock ~1 ~3 ~-1 $(block) strict
+$setblock ~1 ~3 ~ $(block) strict
+$setblock ~1 ~3 ~1 $(block) strict
+$setblock ~1 ~3 ~2 $(block) strict
+$setblock ~1 ~3 ~3 $(block) strict
+$setblock ~1 ~3 ~4 $(block) strict
+$setblock ~1 ~3 ~5 $(block) strict
+$setblock ~1 ~3 ~6 $(block) strict
+$setblock ~1 ~4 ~-5 $(block) strict
+$setblock ~1 ~4 ~-4 $(block) strict
+$setblock ~1 ~4 ~-3 $(block) strict
+$setblock ~1 ~4 ~-2 $(block) strict
+$setblock ~1 ~4 ~-1 $(block) strict
+$setblock ~1 ~4 ~ $(block) strict
+$setblock ~1 ~4 ~1 $(block) strict
+$setblock ~1 ~4 ~2 $(block) strict
+$setblock ~1 ~4 ~3 $(block) strict
+$setblock ~1 ~4 ~4 $(block) strict
+$setblock ~1 ~4 ~5 $(block) strict
+$setblock ~1 ~5 ~-4 $(block) strict
+$setblock ~1 ~5 ~-3 $(block) strict
+$setblock ~1 ~5 ~-2 $(block) strict
+$setblock ~1 ~5 ~-1 $(block) strict
+$setblock ~1 ~5 ~ $(block) strict
+$setblock ~1 ~5 ~1 $(block) strict
+$setblock ~1 ~5 ~2 $(block) strict
+$setblock ~1 ~5 ~3 $(block) strict
+$setblock ~1 ~5 ~4 $(block) strict
+$setblock ~1 ~6 ~-3 $(block) strict
+$setblock ~1 ~6 ~-2 $(block) strict
+$setblock ~1 ~6 ~-1 $(block) strict
+$setblock ~1 ~6 ~ $(block) strict
+$setblock ~1 ~6 ~1 $(block) strict
+$setblock ~1 ~6 ~2 $(block) strict
+$setblock ~1 ~6 ~3 $(block) strict
+$setblock ~2 ~-6 ~-3 $(block) strict
+$setblock ~2 ~-6 ~-2 $(block) strict
+$setblock ~2 ~-6 ~-1 $(block) strict
+$setblock ~2 ~-6 ~ $(block) strict
+$setblock ~2 ~-6 ~1 $(block) strict
+$setblock ~2 ~-6 ~2 $(block) strict
+$setblock ~2 ~-6 ~3 $(block) strict
+$setblock ~2 ~-5 ~-4 $(block) strict
+$setblock ~2 ~-5 ~-3 $(block) strict
+$setblock ~2 ~-5 ~-2 $(block) strict
+$setblock ~2 ~-5 ~-1 $(block) strict
+$setblock ~2 ~-5 ~ $(block) strict
+$setblock ~2 ~-5 ~1 $(block) strict
+$setblock ~2 ~-5 ~2 $(block) strict
+$setblock ~2 ~-5 ~3 $(block) strict
+$setblock ~2 ~-5 ~4 $(block) strict
+$setblock ~2 ~-4 ~-5 $(block) strict
+$setblock ~2 ~-4 ~-4 $(block) strict
+$setblock ~2 ~-4 ~-3 $(block) strict
+$setblock ~2 ~-4 ~-2 $(block) strict
+$setblock ~2 ~-4 ~-1 $(block) strict
+$setblock ~2 ~-4 ~ $(block) strict
+$setblock ~2 ~-4 ~1 $(block) strict
+$setblock ~2 ~-4 ~2 $(block) strict
+$setblock ~2 ~-4 ~3 $(block) strict
+$setblock ~2 ~-4 ~4 $(block) strict
+$setblock ~2 ~-4 ~5 $(block) strict
+$setblock ~2 ~-3 ~-6 $(block) strict
+$setblock ~2 ~-3 ~-5 $(block) strict
+$setblock ~2 ~-3 ~-4 $(block) strict
+$setblock ~2 ~-3 ~-3 $(block) strict
+$setblock ~2 ~-3 ~-2 $(block) strict
+$setblock ~2 ~-3 ~-1 $(block) strict
+$setblock ~2 ~-3 ~ $(block) strict
+$setblock ~2 ~-3 ~1 $(block) strict
+$setblock ~2 ~-3 ~2 $(block) strict
+$setblock ~2 ~-3 ~3 $(block) strict
+$setblock ~2 ~-3 ~4 $(block) strict
+$setblock ~2 ~-3 ~5 $(block) strict
+$setblock ~2 ~-3 ~6 $(block) strict
+$setblock ~2 ~-2 ~-6 $(block) strict
+$setblock ~2 ~-2 ~-5 $(block) strict
+$setblock ~2 ~-2 ~-4 $(block) strict
+$setblock ~2 ~-2 ~-3 $(block) strict
+$setblock ~2 ~-2 ~-2 $(block) strict
+$setblock ~2 ~-2 ~-1 $(block) strict
+$setblock ~2 ~-2 ~ $(block) strict
+$setblock ~2 ~-2 ~1 $(block) strict
+$setblock ~2 ~-2 ~2 $(block) strict
+$setblock ~2 ~-2 ~3 $(block) strict
+$setblock ~2 ~-2 ~4 $(block) strict
+$setblock ~2 ~-2 ~5 $(block) strict
+$setblock ~2 ~-2 ~6 $(block) strict
+$setblock ~2 ~-1 ~-6 $(block) strict
+$setblock ~2 ~-1 ~-5 $(block) strict
+$setblock ~2 ~-1 ~-4 $(block) strict
+$setblock ~2 ~-1 ~-3 $(block) strict
+$setblock ~2 ~-1 ~-2 $(block) strict
+$setblock ~2 ~-1 ~-1 $(block) strict
+$setblock ~2 ~-1 ~ $(block) strict
+$setblock ~2 ~-1 ~1 $(block) strict
+$setblock ~2 ~-1 ~2 $(block) strict
+$setblock ~2 ~-1 ~3 $(block) strict
+$setblock ~2 ~-1 ~4 $(block) strict
+$setblock ~2 ~-1 ~5 $(block) strict
+$setblock ~2 ~-1 ~6 $(block) strict
+$setblock ~2 ~ ~-6 $(block) strict
+$setblock ~2 ~ ~-5 $(block) strict
+$setblock ~2 ~ ~-4 $(block) strict
+$setblock ~2 ~ ~-3 $(block) strict
+$setblock ~2 ~ ~-2 $(block) strict
+$setblock ~2 ~ ~-1 $(block) strict
+$setblock ~2 ~ ~ $(block) strict
+$setblock ~2 ~ ~1 $(block) strict
+$setblock ~2 ~ ~2 $(block) strict
+$setblock ~2 ~ ~3 $(block) strict
+$setblock ~2 ~ ~4 $(block) strict
+$setblock ~2 ~ ~5 $(block) strict
+$setblock ~2 ~ ~6 $(block) strict
+$setblock ~2 ~1 ~-6 $(block) strict
+$setblock ~2 ~1 ~-5 $(block) strict
+$setblock ~2 ~1 ~-4 $(block) strict
+$setblock ~2 ~1 ~-3 $(block) strict
+$setblock ~2 ~1 ~-2 $(block) strict
+$setblock ~2 ~1 ~-1 $(block) strict
+$setblock ~2 ~1 ~ $(block) strict
+$setblock ~2 ~1 ~1 $(block) strict
+$setblock ~2 ~1 ~2 $(block) strict
+$setblock ~2 ~1 ~3 $(block) strict
+$setblock ~2 ~1 ~4 $(block) strict
+$setblock ~2 ~1 ~5 $(block) strict
+$setblock ~2 ~1 ~6 $(block) strict
+$setblock ~2 ~2 ~-6 $(block) strict
+$setblock ~2 ~2 ~-5 $(block) strict
+$setblock ~2 ~2 ~-4 $(block) strict
+$setblock ~2 ~2 ~-3 $(block) strict
+$setblock ~2 ~2 ~-2 $(block) strict
+$setblock ~2 ~2 ~-1 $(block) strict
+$setblock ~2 ~2 ~ $(block) strict
+$setblock ~2 ~2 ~1 $(block) strict
+$setblock ~2 ~2 ~2 $(block) strict
+$setblock ~2 ~2 ~3 $(block) strict
+$setblock ~2 ~2 ~4 $(block) strict
+$setblock ~2 ~2 ~5 $(block) strict
+$setblock ~2 ~2 ~6 $(block) strict
+$setblock ~2 ~3 ~-6 $(block) strict
+$setblock ~2 ~3 ~-5 $(block) strict
+$setblock ~2 ~3 ~-4 $(block) strict
+$setblock ~2 ~3 ~-3 $(block) strict
+$setblock ~2 ~3 ~-2 $(block) strict
+$setblock ~2 ~3 ~-1 $(block) strict
+$setblock ~2 ~3 ~ $(block) strict
+$setblock ~2 ~3 ~1 $(block) strict
+$setblock ~2 ~3 ~2 $(block) strict
+$setblock ~2 ~3 ~3 $(block) strict
+$setblock ~2 ~3 ~4 $(block) strict
+$setblock ~2 ~3 ~5 $(block) strict
+$setblock ~2 ~3 ~6 $(block) strict
+$setblock ~2 ~4 ~-5 $(block) strict
+$setblock ~2 ~4 ~-4 $(block) strict
+$setblock ~2 ~4 ~-3 $(block) strict
+$setblock ~2 ~4 ~-2 $(block) strict
+$setblock ~2 ~4 ~-1 $(block) strict
+$setblock ~2 ~4 ~ $(block) strict
+$setblock ~2 ~4 ~1 $(block) strict
+$setblock ~2 ~4 ~2 $(block) strict
+$setblock ~2 ~4 ~3 $(block) strict
+$setblock ~2 ~4 ~4 $(block) strict
+$setblock ~2 ~4 ~5 $(block) strict
+$setblock ~2 ~5 ~-4 $(block) strict
+$setblock ~2 ~5 ~-3 $(block) strict
+$setblock ~2 ~5 ~-2 $(block) strict
+$setblock ~2 ~5 ~-1 $(block) strict
+$setblock ~2 ~5 ~ $(block) strict
+$setblock ~2 ~5 ~1 $(block) strict
+$setblock ~2 ~5 ~2 $(block) strict
+$setblock ~2 ~5 ~3 $(block) strict
+$setblock ~2 ~5 ~4 $(block) strict
+$setblock ~2 ~6 ~-3 $(block) strict
+$setblock ~2 ~6 ~-2 $(block) strict
+$setblock ~2 ~6 ~-1 $(block) strict
+$setblock ~2 ~6 ~ $(block) strict
+$setblock ~2 ~6 ~1 $(block) strict
+$setblock ~2 ~6 ~2 $(block) strict
+$setblock ~2 ~6 ~3 $(block) strict
+$setblock ~3 ~-6 ~-2 $(block) strict
+$setblock ~3 ~-6 ~-1 $(block) strict
+$setblock ~3 ~-6 ~ $(block) strict
+$setblock ~3 ~-6 ~1 $(block) strict
+$setblock ~3 ~-6 ~2 $(block) strict
+$setblock ~3 ~-5 ~-3 $(block) strict
+$setblock ~3 ~-5 ~-2 $(block) strict
+$setblock ~3 ~-5 ~-1 $(block) strict
+$setblock ~3 ~-5 ~ $(block) strict
+$setblock ~3 ~-5 ~1 $(block) strict
+$setblock ~3 ~-5 ~2 $(block) strict
+$setblock ~3 ~-5 ~3 $(block) strict
+$setblock ~3 ~-4 ~-4 $(block) strict
+$setblock ~3 ~-4 ~-3 $(block) strict
+$setblock ~3 ~-4 ~-2 $(block) strict
+$setblock ~3 ~-4 ~-1 $(block) strict
+$setblock ~3 ~-4 ~ $(block) strict
+$setblock ~3 ~-4 ~1 $(block) strict
+$setblock ~3 ~-4 ~2 $(block) strict
+$setblock ~3 ~-4 ~3 $(block) strict
+$setblock ~3 ~-4 ~4 $(block) strict
+$setblock ~3 ~-3 ~-5 $(block) strict
+$setblock ~3 ~-3 ~-4 $(block) strict
+$setblock ~3 ~-3 ~-3 $(block) strict
+$setblock ~3 ~-3 ~-2 $(block) strict
+$setblock ~3 ~-3 ~-1 $(block) strict
+$setblock ~3 ~-3 ~ $(block) strict
+$setblock ~3 ~-3 ~1 $(block) strict
+$setblock ~3 ~-3 ~2 $(block) strict
+$setblock ~3 ~-3 ~3 $(block) strict
+$setblock ~3 ~-3 ~4 $(block) strict
+$setblock ~3 ~-3 ~5 $(block) strict
+$setblock ~3 ~-2 ~-6 $(block) strict
+$setblock ~3 ~-2 ~-5 $(block) strict
+$setblock ~3 ~-2 ~-4 $(block) strict
+$setblock ~3 ~-2 ~-3 $(block) strict
+$setblock ~3 ~-2 ~-2 $(block) strict
+$setblock ~3 ~-2 ~-1 $(block) strict
+$setblock ~3 ~-2 ~ $(block) strict
+$setblock ~3 ~-2 ~1 $(block) strict
+$setblock ~3 ~-2 ~2 $(block) strict
+$setblock ~3 ~-2 ~3 $(block) strict
+$setblock ~3 ~-2 ~4 $(block) strict
+$setblock ~3 ~-2 ~5 $(block) strict
+$setblock ~3 ~-2 ~6 $(block) strict
+$setblock ~3 ~-1 ~-6 $(block) strict
+$setblock ~3 ~-1 ~-5 $(block) strict
+$setblock ~3 ~-1 ~-4 $(block) strict
+$setblock ~3 ~-1 ~-3 $(block) strict
+$setblock ~3 ~-1 ~-2 $(block) strict
+$setblock ~3 ~-1 ~-1 $(block) strict
+$setblock ~3 ~-1 ~ $(block) strict
+$setblock ~3 ~-1 ~1 $(block) strict
+$setblock ~3 ~-1 ~2 $(block) strict
+$setblock ~3 ~-1 ~3 $(block) strict
+$setblock ~3 ~-1 ~4 $(block) strict
+$setblock ~3 ~-1 ~5 $(block) strict
+$setblock ~3 ~-1 ~6 $(block) strict
+$setblock ~3 ~ ~-6 $(block) strict
+$setblock ~3 ~ ~-5 $(block) strict
+$setblock ~3 ~ ~-4 $(block) strict
+$setblock ~3 ~ ~-3 $(block) strict
+$setblock ~3 ~ ~-2 $(block) strict
+$setblock ~3 ~ ~-1 $(block) strict
+$setblock ~3 ~ ~ $(block) strict
+$setblock ~3 ~ ~1 $(block) strict
+$setblock ~3 ~ ~2 $(block) strict
+$setblock ~3 ~ ~3 $(block) strict
+$setblock ~3 ~ ~4 $(block) strict
+$setblock ~3 ~ ~5 $(block) strict
+$setblock ~3 ~ ~6 $(block) strict
+$setblock ~3 ~1 ~-6 $(block) strict
+$setblock ~3 ~1 ~-5 $(block) strict
+$setblock ~3 ~1 ~-4 $(block) strict
+$setblock ~3 ~1 ~-3 $(block) strict
+$setblock ~3 ~1 ~-2 $(block) strict
+$setblock ~3 ~1 ~-1 $(block) strict
+$setblock ~3 ~1 ~ $(block) strict
+$setblock ~3 ~1 ~1 $(block) strict
+$setblock ~3 ~1 ~2 $(block) strict
+$setblock ~3 ~1 ~3 $(block) strict
+$setblock ~3 ~1 ~4 $(block) strict
+$setblock ~3 ~1 ~5 $(block) strict
+$setblock ~3 ~1 ~6 $(block) strict
+$setblock ~3 ~2 ~-6 $(block) strict
+$setblock ~3 ~2 ~-5 $(block) strict
+$setblock ~3 ~2 ~-4 $(block) strict
+$setblock ~3 ~2 ~-3 $(block) strict
+$setblock ~3 ~2 ~-2 $(block) strict
+$setblock ~3 ~2 ~-1 $(block) strict
+$setblock ~3 ~2 ~ $(block) strict
+$setblock ~3 ~2 ~1 $(block) strict
+$setblock ~3 ~2 ~2 $(block) strict
+$setblock ~3 ~2 ~3 $(block) strict
+$setblock ~3 ~2 ~4 $(block) strict
+$setblock ~3 ~2 ~5 $(block) strict
+$setblock ~3 ~2 ~6 $(block) strict
+$setblock ~3 ~3 ~-5 $(block) strict
+$setblock ~3 ~3 ~-4 $(block) strict
+$setblock ~3 ~3 ~-3 $(block) strict
+$setblock ~3 ~3 ~-2 $(block) strict
+$setblock ~3 ~3 ~-1 $(block) strict
+$setblock ~3 ~3 ~ $(block) strict
+$setblock ~3 ~3 ~1 $(block) strict
+$setblock ~3 ~3 ~2 $(block) strict
+$setblock ~3 ~3 ~3 $(block) strict
+$setblock ~3 ~3 ~4 $(block) strict
+$setblock ~3 ~3 ~5 $(block) strict
+$setblock ~3 ~4 ~-4 $(block) strict
+$setblock ~3 ~4 ~-3 $(block) strict
+$setblock ~3 ~4 ~-2 $(block) strict
+$setblock ~3 ~4 ~-1 $(block) strict
+$setblock ~3 ~4 ~ $(block) strict
+$setblock ~3 ~4 ~1 $(block) strict
+$setblock ~3 ~4 ~2 $(block) strict
+$setblock ~3 ~4 ~3 $(block) strict
+$setblock ~3 ~4 ~4 $(block) strict
+$setblock ~3 ~5 ~-3 $(block) strict
+$setblock ~3 ~5 ~-2 $(block) strict
+$setblock ~3 ~5 ~-1 $(block) strict
+$setblock ~3 ~5 ~ $(block) strict
+$setblock ~3 ~5 ~1 $(block) strict
+$setblock ~3 ~5 ~2 $(block) strict
+$setblock ~3 ~5 ~3 $(block) strict
+$setblock ~3 ~6 ~-2 $(block) strict
+$setblock ~3 ~6 ~-1 $(block) strict
+$setblock ~3 ~6 ~ $(block) strict
+$setblock ~3 ~6 ~1 $(block) strict
+$setblock ~3 ~6 ~2 $(block) strict
+$setblock ~4 ~-5 ~-2 $(block) strict
+$setblock ~4 ~-5 ~-1 $(block) strict
+$setblock ~4 ~-5 ~ $(block) strict
+$setblock ~4 ~-5 ~1 $(block) strict
+$setblock ~4 ~-5 ~2 $(block) strict
+$setblock ~4 ~-4 ~-4 $(block) strict
+$setblock ~4 ~-4 ~-3 $(block) strict
+$setblock ~4 ~-4 ~-2 $(block) strict
+$setblock ~4 ~-4 ~-1 $(block) strict
+$setblock ~4 ~-4 ~ $(block) strict
+$setblock ~4 ~-4 ~1 $(block) strict
+$setblock ~4 ~-4 ~2 $(block) strict
+$setblock ~4 ~-4 ~3 $(block) strict
+$setblock ~4 ~-4 ~4 $(block) strict
+$setblock ~4 ~-3 ~-4 $(block) strict
+$setblock ~4 ~-3 ~-3 $(block) strict
+$setblock ~4 ~-3 ~-2 $(block) strict
+$setblock ~4 ~-3 ~-1 $(block) strict
+$setblock ~4 ~-3 ~ $(block) strict
+$setblock ~4 ~-3 ~1 $(block) strict
+$setblock ~4 ~-3 ~2 $(block) strict
+$setblock ~4 ~-3 ~3 $(block) strict
+$setblock ~4 ~-3 ~4 $(block) strict
+$setblock ~4 ~-2 ~-5 $(block) strict
+$setblock ~4 ~-2 ~-4 $(block) strict
+$setblock ~4 ~-2 ~-3 $(block) strict
+$setblock ~4 ~-2 ~-2 $(block) strict
+$setblock ~4 ~-2 ~-1 $(block) strict
+$setblock ~4 ~-2 ~ $(block) strict
+$setblock ~4 ~-2 ~1 $(block) strict
+$setblock ~4 ~-2 ~2 $(block) strict
+$setblock ~4 ~-2 ~3 $(block) strict
+$setblock ~4 ~-2 ~4 $(block) strict
+$setblock ~4 ~-2 ~5 $(block) strict
+$setblock ~4 ~-1 ~-5 $(block) strict
+$setblock ~4 ~-1 ~-4 $(block) strict
+$setblock ~4 ~-1 ~-3 $(block) strict
+$setblock ~4 ~-1 ~-2 $(block) strict
+$setblock ~4 ~-1 ~-1 $(block) strict
+$setblock ~4 ~-1 ~ $(block) strict
+$setblock ~4 ~-1 ~1 $(block) strict
+$setblock ~4 ~-1 ~2 $(block) strict
+$setblock ~4 ~-1 ~3 $(block) strict
+$setblock ~4 ~-1 ~4 $(block) strict
+$setblock ~4 ~-1 ~5 $(block) strict
+$setblock ~4 ~ ~-5 $(block) strict
+$setblock ~4 ~ ~-4 $(block) strict
+$setblock ~4 ~ ~-3 $(block) strict
+$setblock ~4 ~ ~-2 $(block) strict
+$setblock ~4 ~ ~-1 $(block) strict
+$setblock ~4 ~ ~ $(block) strict
+$setblock ~4 ~ ~1 $(block) strict
+$setblock ~4 ~ ~2 $(block) strict
+$setblock ~4 ~ ~3 $(block) strict
+$setblock ~4 ~ ~4 $(block) strict
+$setblock ~4 ~ ~5 $(block) strict
+$setblock ~4 ~1 ~-5 $(block) strict
+$setblock ~4 ~1 ~-4 $(block) strict
+$setblock ~4 ~1 ~-3 $(block) strict
+$setblock ~4 ~1 ~-2 $(block) strict
+$setblock ~4 ~1 ~-1 $(block) strict
+$setblock ~4 ~1 ~ $(block) strict
+$setblock ~4 ~1 ~1 $(block) strict
+$setblock ~4 ~1 ~2 $(block) strict
+$setblock ~4 ~1 ~3 $(block) strict
+$setblock ~4 ~1 ~4 $(block) strict
+$setblock ~4 ~1 ~5 $(block) strict
+$setblock ~4 ~2 ~-5 $(block) strict
+$setblock ~4 ~2 ~-4 $(block) strict
+$setblock ~4 ~2 ~-3 $(block) strict
+$setblock ~4 ~2 ~-2 $(block) strict
+$setblock ~4 ~2 ~-1 $(block) strict
+$setblock ~4 ~2 ~ $(block) strict
+$setblock ~4 ~2 ~1 $(block) strict
+$setblock ~4 ~2 ~2 $(block) strict
+$setblock ~4 ~2 ~3 $(block) strict
+$setblock ~4 ~2 ~4 $(block) strict
+$setblock ~4 ~2 ~5 $(block) strict
+$setblock ~4 ~3 ~-4 $(block) strict
+$setblock ~4 ~3 ~-3 $(block) strict
+$setblock ~4 ~3 ~-2 $(block) strict
+$setblock ~4 ~3 ~-1 $(block) strict
+$setblock ~4 ~3 ~ $(block) strict
+$setblock ~4 ~3 ~1 $(block) strict
+$setblock ~4 ~3 ~2 $(block) strict
+$setblock ~4 ~3 ~3 $(block) strict
+$setblock ~4 ~3 ~4 $(block) strict
+$setblock ~4 ~4 ~-4 $(block) strict
+$setblock ~4 ~4 ~-3 $(block) strict
+$setblock ~4 ~4 ~-2 $(block) strict
+$setblock ~4 ~4 ~-1 $(block) strict
+$setblock ~4 ~4 ~ $(block) strict
+$setblock ~4 ~4 ~1 $(block) strict
+$setblock ~4 ~4 ~2 $(block) strict
+$setblock ~4 ~4 ~3 $(block) strict
+$setblock ~4 ~4 ~4 $(block) strict
+$setblock ~4 ~5 ~-2 $(block) strict
+$setblock ~4 ~5 ~-1 $(block) strict
+$setblock ~4 ~5 ~ $(block) strict
+$setblock ~4 ~5 ~1 $(block) strict
+$setblock ~4 ~5 ~2 $(block) strict
+$setblock ~5 ~-4 ~-2 $(block) strict
+$setblock ~5 ~-4 ~-1 $(block) strict
+$setblock ~5 ~-4 ~ $(block) strict
+$setblock ~5 ~-4 ~1 $(block) strict
+$setblock ~5 ~-4 ~2 $(block) strict
+$setblock ~5 ~-3 ~-3 $(block) strict
+$setblock ~5 ~-3 ~-2 $(block) strict
+$setblock ~5 ~-3 ~-1 $(block) strict
+$setblock ~5 ~-3 ~ $(block) strict
+$setblock ~5 ~-3 ~1 $(block) strict
+$setblock ~5 ~-3 ~2 $(block) strict
+$setblock ~5 ~-3 ~3 $(block) strict
+$setblock ~5 ~-2 ~-4 $(block) strict
+$setblock ~5 ~-2 ~-3 $(block) strict
+$setblock ~5 ~-2 ~-2 $(block) strict
+$setblock ~5 ~-2 ~-1 $(block) strict
+$setblock ~5 ~-2 ~ $(block) strict
+$setblock ~5 ~-2 ~1 $(block) strict
+$setblock ~5 ~-2 ~2 $(block) strict
+$setblock ~5 ~-2 ~3 $(block) strict
+$setblock ~5 ~-2 ~4 $(block) strict
+$setblock ~5 ~-1 ~-4 $(block) strict
+$setblock ~5 ~-1 ~-3 $(block) strict
+$setblock ~5 ~-1 ~-2 $(block) strict
+$setblock ~5 ~-1 ~-1 $(block) strict
+$setblock ~5 ~-1 ~ $(block) strict
+$setblock ~5 ~-1 ~1 $(block) strict
+$setblock ~5 ~-1 ~2 $(block) strict
+$setblock ~5 ~-1 ~3 $(block) strict
+$setblock ~5 ~-1 ~4 $(block) strict
+$setblock ~5 ~ ~-4 $(block) strict
+$setblock ~5 ~ ~-3 $(block) strict
+$setblock ~5 ~ ~-2 $(block) strict
+$setblock ~5 ~ ~-1 $(block) strict
+$setblock ~5 ~ ~ $(block) strict
+$setblock ~5 ~ ~1 $(block) strict
+$setblock ~5 ~ ~2 $(block) strict
+$setblock ~5 ~ ~3 $(block) strict
+$setblock ~5 ~ ~4 $(block) strict
+$setblock ~5 ~1 ~-4 $(block) strict
+$setblock ~5 ~1 ~-3 $(block) strict
+$setblock ~5 ~1 ~-2 $(block) strict
+$setblock ~5 ~1 ~-1 $(block) strict
+$setblock ~5 ~1 ~ $(block) strict
+$setblock ~5 ~1 ~1 $(block) strict
+$setblock ~5 ~1 ~2 $(block) strict
+$setblock ~5 ~1 ~3 $(block) strict
+$setblock ~5 ~1 ~4 $(block) strict
+$setblock ~5 ~2 ~-4 $(block) strict
+$setblock ~5 ~2 ~-3 $(block) strict
+$setblock ~5 ~2 ~-2 $(block) strict
+$setblock ~5 ~2 ~-1 $(block) strict
+$setblock ~5 ~2 ~ $(block) strict
+$setblock ~5 ~2 ~1 $(block) strict
+$setblock ~5 ~2 ~2 $(block) strict
+$setblock ~5 ~2 ~3 $(block) strict
+$setblock ~5 ~2 ~4 $(block) strict
+$setblock ~5 ~3 ~-3 $(block) strict
+$setblock ~5 ~3 ~-2 $(block) strict
+$setblock ~5 ~3 ~-1 $(block) strict
+$setblock ~5 ~3 ~ $(block) strict
+$setblock ~5 ~3 ~1 $(block) strict
+$setblock ~5 ~3 ~2 $(block) strict
+$setblock ~5 ~3 ~3 $(block) strict
+$setblock ~5 ~4 ~-2 $(block) strict
+$setblock ~5 ~4 ~-1 $(block) strict
+$setblock ~5 ~4 ~ $(block) strict
+$setblock ~5 ~4 ~1 $(block) strict
+$setblock ~5 ~4 ~2 $(block) strict
+$setblock ~6 ~-3 ~-2 $(block) strict
+$setblock ~6 ~-3 ~-1 $(block) strict
+$setblock ~6 ~-3 ~ $(block) strict
+$setblock ~6 ~-3 ~1 $(block) strict
+$setblock ~6 ~-3 ~2 $(block) strict
+$setblock ~6 ~-2 ~-3 $(block) strict
+$setblock ~6 ~-2 ~-2 $(block) strict
+$setblock ~6 ~-2 ~-1 $(block) strict
+$setblock ~6 ~-2 ~ $(block) strict
+$setblock ~6 ~-2 ~1 $(block) strict
+$setblock ~6 ~-2 ~2 $(block) strict
+$setblock ~6 ~-2 ~3 $(block) strict
+$setblock ~6 ~-1 ~-3 $(block) strict
+$setblock ~6 ~-1 ~-2 $(block) strict
+$setblock ~6 ~-1 ~-1 $(block) strict
+$setblock ~6 ~-1 ~ $(block) strict
+$setblock ~6 ~-1 ~1 $(block) strict
+$setblock ~6 ~-1 ~2 $(block) strict
+$setblock ~6 ~-1 ~3 $(block) strict
+$setblock ~6 ~ ~-3 $(block) strict
+$setblock ~6 ~ ~-2 $(block) strict
+$setblock ~6 ~ ~-1 $(block) strict
+$setblock ~6 ~ ~ $(block) strict
+$setblock ~6 ~ ~1 $(block) strict
+$setblock ~6 ~ ~2 $(block) strict
+$setblock ~6 ~ ~3 $(block) strict
+$setblock ~6 ~1 ~-3 $(block) strict
+$setblock ~6 ~1 ~-2 $(block) strict
+$setblock ~6 ~1 ~-1 $(block) strict
+$setblock ~6 ~1 ~ $(block) strict
+$setblock ~6 ~1 ~1 $(block) strict
+$setblock ~6 ~1 ~2 $(block) strict
+$setblock ~6 ~1 ~3 $(block) strict
+$setblock ~6 ~2 ~-3 $(block) strict
+$setblock ~6 ~2 ~-2 $(block) strict
+$setblock ~6 ~2 ~-1 $(block) strict
+$setblock ~6 ~2 ~ $(block) strict
+$setblock ~6 ~2 ~1 $(block) strict
+$setblock ~6 ~2 ~2 $(block) strict
+$setblock ~6 ~2 ~3 $(block) strict
+$setblock ~6 ~3 ~-2 $(block) strict
+$setblock ~6 ~3 ~-1 $(block) strict
+$setblock ~6 ~3 ~ $(block) strict
+$setblock ~6 ~3 ~1 $(block) strict
+$setblock ~6 ~3 ~2 $(block) strict
+$setblock ~7 ~ ~ $(block) strict

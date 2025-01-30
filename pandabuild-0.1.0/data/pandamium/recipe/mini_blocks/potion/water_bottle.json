@@ -11,7 +11,7 @@
 				"has_consume_particles": false,
 				"sound": "minecraft:entity.generic.drink"
 			},
-			"minecraft:custom_data": "{pandamium:{id:'mini_block_with_warning',mini_block:{item:'potion',type:'water_bottle',version:0},version:1}}",
+			"minecraft:custom_data": "{pandamium:{id:'mini_block',mini_block:{item:'potion',type:'water_bottle',version:0},version:1}}",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0.0,
@@ -28,26 +28,6 @@
 					}
 				]
 			},
-			"minecraft:lore": [
-				{
-					"text": "WARNING!",
-					"color": "red",
-					"italic": false,
-					"bold": true
-				},
-				{
-					"text": "The effect of this potion will be ",
-					"color": "red",
-					"italic": false,
-					"extra": [
-						{
-							"text": "lost",
-							"bold": true
-						},
-						"!"
-					]
-				}
-			],
 			"minecraft:profile": {
 				"id": [
 					-1066432250,

@@ -15,7 +15,7 @@ scoreboard objectives setdisplay list tablist_value
 function pandabuild:startup/setup_dictionary
 
 # gamerules
-gamerule commandBlockOutput true
+gamerule commandBlockOutput false
 gamerule disableElytraMovementCheck true
 gamerule disableRaids true
 gamerule doDaylightCycle false

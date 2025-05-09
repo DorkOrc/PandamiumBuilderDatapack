@@ -54,3 +54,6 @@ scoreboard objectives add spawn.snapshot.christmas.overworld trigger
 scoreboard objectives add spawn.snapshot.christmas.the_nether trigger
 scoreboard objectives add spawn.snapshot.halloween.overworld trigger
 scoreboard objectives add spawn.snapshot.halloween.the_nether trigger
+
+# forceload storage chunk
+execute in pandabuild:storage run forceload add 0 0

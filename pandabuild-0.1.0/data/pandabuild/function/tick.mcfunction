@@ -9,6 +9,9 @@ scoreboard players set @e[type=player] dead 0
 execute as @a[scores={dead=1,previously_dead=0}] at @s run function pandabuild:detect/die/main
 execute as @e[type=player,scores={previously_dead=1}] at @s run function pandabuild:detect/respawn/main
 
+# handle replacement_block
+execute as @e[type=marker,predicate=pandabuild:is_replacement_block_marker] at @s run function pandabuild:impl/replacement_block/main
+
 # handling triggers
 execute as @a[scores={spawn.snapshot.original.overworld=1..}] at @s run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.original.overworld"}
 execute as @a[scores={spawn.snapshot.original.the_nether=1..}] at @s run function pandabuild:triggers/spawn/shortcut {trigger:"spawn.snapshot.original.the_nether"}

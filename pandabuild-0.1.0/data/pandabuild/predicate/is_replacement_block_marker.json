@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:marker",
+        "predicates": {
+            "minecraft:custom_data": {
+                "pandabuild": {
+                    "id": "replacement_block"
+                }
+            }
+        }
+    }
+}

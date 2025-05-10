@@ -2,7 +2,11 @@
 	"type": "minecraft:stonecutting",
 	"category": "building",
 	"group": "mini_blocks",
-	"ingredient": "#pandamium:command_blocks",
+	"ingredient": [
+		"minecraft:chain_command_block",
+		"minecraft:command_block",
+		"minecraft:repeating_command_block"
+	],
 	"result": {
 		"id": "minecraft:player_head",
 		"components": {

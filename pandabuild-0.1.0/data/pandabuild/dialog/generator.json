@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:dialog_list",
+	"title": "Generators",
+	"can_close_with_escape": true,
+	"dialogs": [
+		"pandabuild:generator/replacement_block"
+	]
+}

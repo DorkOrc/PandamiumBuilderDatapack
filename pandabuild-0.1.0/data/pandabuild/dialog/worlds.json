@@ -1,0 +1,83 @@
+{
+	"type": "minecraft:dialog_list",
+	"title": "Pandamium Build Server",
+	"external_title": {"text":"Builder World","bold":true},
+	"can_close_with_escape": true,
+	"columns": 1,
+	"button_width": 200,
+	"dialogs": [
+		{
+			"type": "minecraft:multi_action",
+			"title": "Snapshot: Normal",
+			"can_close_with_escape": true,
+			"columns": 2,
+			"actions": [
+				{
+					"label": "Overworld",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.original.overworld"
+					}
+				},
+				{
+					"label": "The Nether",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.original.the_nether"
+					}
+				},
+				{
+					"label": "Sandbox",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.sandbox"
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:multi_action",
+			"title": "Snapshot: Halloween",
+			"can_close_with_escape": true,
+			"columns": 2,
+			"actions": [
+				{
+					"label": "Overworld",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.halloween.overworld"
+					}
+				},
+				{
+					"label": "The Nether",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.halloween.the_nether"
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:multi_action",
+			"title": "Snapshot: Christmas",
+			"can_close_with_escape": true,
+			"columns": 2,
+			"actions": [
+				{
+					"label": "Overworld",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.christmas.overworld"
+					}
+				},
+				{
+					"label": "The Nether",
+					"on_click": {
+						"action": "run_command",
+						"command": "trigger spawn.snapshot.christmas.the_nether"
+					}
+				}
+			]
+		}
+	]
+}

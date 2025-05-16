@@ -23,8 +23,15 @@
 		{
 			"type": "minecraft:text",
 			"key": "block",
-			"initial": "pink_petals[flower_amount=4]",
-			"label": "Enter the block state here:",
+			"initial": "pink_petals",
+			"label": "Enter the block ID here:",
+			"label_visible": true
+		},
+		{
+			"type": "minecraft:text",
+			"key": "state",
+			"initial": "flower_amount=4",
+			"label": "Enter the state here:",
 			"label_visible": true
 		}
 	],
@@ -33,7 +40,7 @@
 		"id": "test_submission",
 		"on_submit": {
 			"type": "minecraft:command_template",
-			"template": "function pandabuild:give/replacement_block {block:\"$(block)\"}"
+			"template": "function pandabuild:give/replacement_block {block:\"$(block)[$(state)]\"}"
 		}
 	}
 }

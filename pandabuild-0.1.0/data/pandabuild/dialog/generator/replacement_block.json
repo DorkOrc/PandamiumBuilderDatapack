@@ -1,39 +1,43 @@
 {
-    "type": "minecraft:notice",
-    "title": [
-        "Generator: ",
-        {
-            "text": "replacement_block",
-            "color": "green"
-        }
-    ],
-    "external_title": {
-        "text": "replacement_block",
-        "color": "green"
-    },
-    "can_close_with_escape": true,
-    "body": [
-        {
-            "type": "minecraft:plain_message",
-            "contents": "Give yourself a block-placing item",
-            "width": 400
-        }
-    ],
-    "inputs": [
-        {
-            "type": "minecraft:text",
-            "key": "block_state",
-            "initial": "pink_petals[flower_amount=4]",
-            "label": "Enter the state here:",
-            "label_visible": true,
-            "max_length": 202
-        }
-    ],
-    "action": {
-        "label": ">> Generate Item <<",
-        "action": {
-            "type": "dynamic/run_command",
-            "template": "function pandabuild:give/replacement_block {block:\"$(block_state)\"}"
-        }
-    }
+	"type": "minecraft:confirmation",
+	"title": [
+		"Generator: ",
+		{
+			"text": "replacement_block",
+			"color": "green"
+		}
+	],
+	"external_title": {
+		"text": "replacement_block",
+		"color": "green"
+	},
+	"can_close_with_escape": true,
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": "Give yourself a block-placing item",
+			"width": 400
+		}
+	],
+	"inputs": [
+		{
+			"type": "minecraft:text",
+			"key": "block_state",
+			"width": 300,
+			"initial": "pink_petals[flower_amount=4]",
+			"label": "Enter the state here:",
+			"label_visible": true,
+			"max_length": 202
+		}
+	],
+	"yes": {
+		"label": ">> Generate Item <<",
+		"action": {
+			"type": "dynamic/run_command",
+			"template": "function pandabuild:give/replacement_block {block:\"$(block_state)\"}"
+		}
+	},
+	"no": {
+		"label": "Cancel"
+	}
 }
